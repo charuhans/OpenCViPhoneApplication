@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'OpenCViPhoneApplication1' target in the 'OpenCViPhoneApplication1' project
+//
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+

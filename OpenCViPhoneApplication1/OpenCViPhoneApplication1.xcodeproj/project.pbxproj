@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56298A715753E1E00D98ABC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56298A615753E1E00D98ABC /* UIKit.framework */; };
+		B56298A915753E1E00D98ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56298A815753E1E00D98ABC /* Foundation.framework */; };
+		B56298AB15753E1E00D98ABC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56298AA15753E1E00D98ABC /* CoreGraphics.framework */; };
+		B56298B115753E1E00D98ABC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56298AF15753E1E00D98ABC /* InfoPlist.strings */; };
+		B56298B415753E1E00D98ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56298B315753E1E00D98ABC /* main.m */; };
+		B56298B715753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B56298B615753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm */; };
+		B56298BA15753E1E00D98ABC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56298B815753E1E00D98ABC /* MainWindow.xib */; };
+		B56298BD15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B56298BC15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm */; };
+		B56298C015753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56298BE15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib */; };
+		B577D9C71577C3540072EE47 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */; };
+		B577DA081577D5CE0072EE47 /* fruits.png in Resources */ = {isa = PBXBuildFile; fileRef = B577DA071577D5CE0072EE47 /* fruits.png */; };
+		B577DA221577F59B0072EE47 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577DA211577F59B0072EE47 /* ImageIO.framework */; };
+		B577DA251577F5A10072EE47 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577DA241577F5A10072EE47 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B56298A215753E1E00D98ABC /* OpenCViPhoneApplication1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCViPhoneApplication1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56298A615753E1E00D98ABC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B56298A815753E1E00D98ABC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B56298AA15753E1E00D98ABC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B56298AE15753E1E00D98ABC /* OpenCViPhoneApplication1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCViPhoneApplication1-Info.plist"; sourceTree = "<group>"; };
+		B56298B015753E1E00D98ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B56298B215753E1E00D98ABC /* OpenCViPhoneApplication1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCViPhoneApplication1-Prefix.pch"; sourceTree = "<group>"; };
+		B56298B315753E1E00D98ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B56298B515753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCViPhoneApplication1AppDelegate.h; sourceTree = "<group>"; };
+		B56298B615753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCViPhoneApplication1AppDelegate.mm; sourceTree = "<group>"; };
+		B56298B915753E1E00D98ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B56298BB15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCViPhoneApplication1ViewController.h; path = OpenCViPhoneApplication1/OpenCViPhoneApplication1ViewController.h; sourceTree = "<group>"; };
+		B56298BC15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCViPhoneApplication1ViewController.mm; path = OpenCViPhoneApplication1/OpenCViPhoneApplication1ViewController.mm; sourceTree = "<group>"; };
+		B56298BF15753E1E00D98ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenCViPhoneApplication1ViewController.xib; sourceTree = "<group>"; };
+		B577D9C51577C3540072EE47 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = OpenCViPhoneApplication1.xcodeproj/UIImageCVMatConverter.h; sourceTree = SOURCE_ROOT; };
+		B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIImageCVMatConverter.mm; path = OpenCViPhoneApplication1.xcodeproj/UIImageCVMatConverter.mm; sourceTree = SOURCE_ROOT; };
+		B577DA071577D5CE0072EE47 /* fruits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fruits.png; path = OpenCViPhoneApplication1/fruits.png; sourceTree = "<group>"; };
+		B577DA211577F59B0072EE47 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B577DA241577F5A10072EE47 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B562989F15753E1E00D98ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B577DA251577F5A10072EE47 /* Accelerate.framework in Frameworks */,
+				B577DA221577F59B0072EE47 /* ImageIO.framework in Frameworks */,
+				B56298A715753E1E00D98ABC /* UIKit.framework in Frameworks */,
+				B56298A915753E1E00D98ABC /* Foundation.framework in Frameworks */,
+				B56298AB15753E1E00D98ABC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B562989715753E1E00D98ABC = {
+			isa = PBXGroup;
+			children = (
+				B577DADE15792C380072EE47 /* Images */,
+				B56298D6157557D900D98ABC /* View Controllers */,
+				B56298AC15753E1E00D98ABC /* OpenCViPhoneApplication1 */,
+				B56298A515753E1E00D98ABC /* Frameworks */,
+				B56298A315753E1E00D98ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56298A315753E1E00D98ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56298A215753E1E00D98ABC /* OpenCViPhoneApplication1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56298A515753E1E00D98ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B577DA211577F59B0072EE47 /* ImageIO.framework */,
+				B577DA241577F5A10072EE47 /* Accelerate.framework */,
+				B56298A615753E1E00D98ABC /* UIKit.framework */,
+				B56298A815753E1E00D98ABC /* Foundation.framework */,
+				B56298AA15753E1E00D98ABC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B56298AC15753E1E00D98ABC /* OpenCViPhoneApplication1 */ = {
+			isa = PBXGroup;
+			children = (
+				B56298B515753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.h */,
+				B56298B615753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm */,
+				B56298AD15753E1E00D98ABC /* Supporting Files */,
+			);
+			path = OpenCViPhoneApplication1;
+			sourceTree = "<group>";
+		};
+		B56298AD15753E1E00D98ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56298AF15753E1E00D98ABC /* InfoPlist.strings */,
+				B56298B215753E1E00D98ABC /* OpenCViPhoneApplication1-Prefix.pch */,
+				B56298B815753E1E00D98ABC /* MainWindow.xib */,
+				B577D9C51577C3540072EE47 /* UIImageCVMatConverter.h */,
+				B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */,
+				B56298BE15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib */,
+				B56298B315753E1E00D98ABC /* main.m */,
+				B56298AE15753E1E00D98ABC /* OpenCViPhoneApplication1-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56298D6157557D900D98ABC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B56298BB15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.h */,
+				B56298BC15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B577DADE15792C380072EE47 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B577DA071577D5CE0072EE47 /* fruits.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56298A115753E1E00D98ABC /* OpenCViPhoneApplication1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56298C315753E1E00D98ABC /* Build configuration list for PBXNativeTarget "OpenCViPhoneApplication1" */;
+			buildPhases = (
+				B562989E15753E1E00D98ABC /* Sources */,
+				B562989F15753E1E00D98ABC /* Frameworks */,
+				B56298A015753E1E00D98ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCViPhoneApplication1;
+			productName = OpenCViPhoneApplication1;
+			productReference = B56298A215753E1E00D98ABC /* OpenCViPhoneApplication1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B562989915753E1E00D98ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Houston - Main Campus";
+			};
+			buildConfigurationList = B562989C15753E1E00D98ABC /* Build configuration list for PBXProject "OpenCViPhoneApplication1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B562989715753E1E00D98ABC;
+			productRefGroup = B56298A315753E1E00D98ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56298A115753E1E00D98ABC /* OpenCViPhoneApplication1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56298A015753E1E00D98ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56298B115753E1E00D98ABC /* InfoPlist.strings in Resources */,
+				B56298BA15753E1E00D98ABC /* MainWindow.xib in Resources */,
+				B56298C015753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib in Resources */,
+				B577DA081577D5CE0072EE47 /* fruits.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B562989E15753E1E00D98ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56298B415753E1E00D98ABC /* main.m in Sources */,
+				B56298B715753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm in Sources */,
+				B56298BD15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm in Sources */,
+				B577D9C71577C3540072EE47 /* UIImageCVMatConverter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B56298AF15753E1E00D98ABC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56298B015753E1E00D98ABC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B56298B815753E1E00D98ABC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56298B915753E1E00D98ABC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B56298BE15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56298BF15753E1E00D98ABC /* en */,
+			);
+			name = OpenCViPhoneApplication1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56298C115753E1E00D98ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B56298C215753E1E00D98ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B56298C415753E1E00D98ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
+				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lopencv_core",
+					"-lopencv_legacy",
+					"-lopencv_contrib",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B56298C515753E1E00D98ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
+				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
+				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lopencv_core",
+					"-lopencv_legacy",
+					"-lopencv_contrib",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B562989C15753E1E00D98ABC /* Build configuration list for PBXProject "OpenCViPhoneApplication1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56298C115753E1E00D98ABC /* Debug */,
+				B56298C215753E1E00D98ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56298C315753E1E00D98ABC /* Build configuration list for PBXNativeTarget "OpenCViPhoneApplication1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56298C415753E1E00D98ABC /* Debug */,
+				B56298C515753E1E00D98ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B562989915753E1E00D98ABC /* Project object */;
+}
