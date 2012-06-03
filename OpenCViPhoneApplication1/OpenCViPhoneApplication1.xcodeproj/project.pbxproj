@@ -16,10 +16,10 @@
 		B56298BA15753E1E00D98ABC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56298B815753E1E00D98ABC /* MainWindow.xib */; };
 		B56298BD15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B56298BC15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm */; };
 		B56298C015753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56298BE15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib */; };
-		B577D9C71577C3540072EE47 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */; };
 		B577DA081577D5CE0072EE47 /* fruits.png in Resources */ = {isa = PBXBuildFile; fileRef = B577DA071577D5CE0072EE47 /* fruits.png */; };
 		B577DA221577F59B0072EE47 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577DA211577F59B0072EE47 /* ImageIO.framework */; };
 		B577DA251577F5A10072EE47 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577DA241577F5A10072EE47 /* Accelerate.framework */; };
+		B5902E1E157C16D300250513 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5902E1D157C16D300250513 /* UIImageCVMatConverter.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +37,11 @@
 		B56298BB15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenCViPhoneApplication1ViewController.h; path = OpenCViPhoneApplication1/OpenCViPhoneApplication1ViewController.h; sourceTree = "<group>"; };
 		B56298BC15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCViPhoneApplication1ViewController.mm; path = OpenCViPhoneApplication1/OpenCViPhoneApplication1ViewController.mm; sourceTree = "<group>"; };
 		B56298BF15753E1E00D98ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenCViPhoneApplication1ViewController.xib; sourceTree = "<group>"; };
-		B577D9C51577C3540072EE47 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = OpenCViPhoneApplication1.xcodeproj/UIImageCVMatConverter.h; sourceTree = SOURCE_ROOT; };
-		B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIImageCVMatConverter.mm; path = OpenCViPhoneApplication1.xcodeproj/UIImageCVMatConverter.mm; sourceTree = SOURCE_ROOT; };
 		B577DA071577D5CE0072EE47 /* fruits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fruits.png; path = OpenCViPhoneApplication1/fruits.png; sourceTree = "<group>"; };
 		B577DA211577F59B0072EE47 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		B577DA241577F5A10072EE47 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B5902E1C157C16D300250513 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		B5902E1D157C16D300250513 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 				B56298AF15753E1E00D98ABC /* InfoPlist.strings */,
 				B56298B215753E1E00D98ABC /* OpenCViPhoneApplication1-Prefix.pch */,
 				B56298B815753E1E00D98ABC /* MainWindow.xib */,
-				B577D9C51577C3540072EE47 /* UIImageCVMatConverter.h */,
-				B577D9C61577C3540072EE47 /* UIImageCVMatConverter.mm */,
+				B5902E1C157C16D300250513 /* UIImageCVMatConverter.h */,
+				B5902E1D157C16D300250513 /* UIImageCVMatConverter.mm */,
 				B56298BE15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.xib */,
 				B56298B315753E1E00D98ABC /* main.m */,
 				B56298AE15753E1E00D98ABC /* OpenCViPhoneApplication1-Info.plist */,
@@ -201,7 +201,7 @@
 				B56298B415753E1E00D98ABC /* main.m in Sources */,
 				B56298B715753E1E00D98ABC /* OpenCViPhoneApplication1AppDelegate.mm in Sources */,
 				B56298BD15753E1E00D98ABC /* OpenCViPhoneApplication1ViewController.mm in Sources */,
-				B577D9C71577C3540072EE47 /* UIImageCVMatConverter.mm in Sources */,
+				B5902E1E157C16D300250513 /* UIImageCVMatConverter.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

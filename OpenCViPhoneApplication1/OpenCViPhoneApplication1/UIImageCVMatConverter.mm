@@ -23,7 +23,7 @@
     CGContextRef context;
     CGColorSpaceRef colorSpace;
     uchar* bitmapData = NULL;
-       if( bitsPerPixel == 1 ) {
+    if( bitsPerPixel == 1 ) {
         colorSpace = CGColorSpaceCreateDeviceGray();
     }
     else if( bitsPerPixel == 4 ) {
@@ -77,7 +77,7 @@
     CGImageRef imageRef = CGBitmapContextCreateImage( context );
     CGContextRelease( context );    
     UIImage* image = [[UIImage alloc] initWithCGImage:imageRef];
-  
+    
     CGImageRelease( imageRef );
     free( bitmapData );
     return [image autorelease];  
