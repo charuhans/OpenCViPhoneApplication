@@ -21,9 +21,9 @@
 
 @synthesize fileName, cvImage;
 
-- (void) loadImageFromFile:(NSString *) theFileName
+- (void) loadImageFromFile:(NSString *) fName
 {
-    cvImage = cv::imread([theFileName fileSystemRepresentation]);
+    cvImage = cv::imread([fName fileSystemRepresentation]);
 }
 
 -(IBAction)loadImageAction:(id)sender;

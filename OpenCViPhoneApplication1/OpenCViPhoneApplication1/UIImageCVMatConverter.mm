@@ -16,7 +16,7 @@
     int numChannels = cvImage.channels();
     uchar* data = cvImage.data;
     int step = cvImage.step;
-    // Determine the Bytes Per Pixel
+    //Bytes Per Pixel
     int bitsPerPixel = (numChannels == 1) ? 1 : 4;
     
     // Write the data into a bitmap context
@@ -31,7 +31,6 @@
     }
     
     bitmapData = (uchar*)malloc( bitsPerPixel * height * width );
-    
     
     context = CGBitmapContextCreate( bitmapData,
                                     width,
@@ -73,7 +72,7 @@
 			memcpy (bitmapData + y * width, data + y * step, width);
     }
     
-    // Turn the bitmap context into an imageRef
+    // bitmap context into an imageRef
     CGImageRef imageRef = CGBitmapContextCreateImage( context );
     CGContextRelease( context );    
     UIImage* image = [[UIImage alloc] initWithCGImage:imageRef];
