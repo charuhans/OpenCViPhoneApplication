@@ -159,6 +159,7 @@
 		B562989915753E1E00D98ABC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "University of Houston - Main Campus";
 			};
 			buildConfigurationList = B562989C15753E1E00D98ABC /* Build configuration list for PBXProject "OpenCViPhoneApplication1" */;
@@ -274,6 +275,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
 				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
 				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
@@ -297,6 +299,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
 				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
 				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;

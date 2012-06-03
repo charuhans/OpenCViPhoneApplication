@@ -2,9 +2,6 @@
 //  UIImageCVMatConverter.m
 //  OpenCViPhoneApplication1
 //
-//  Created by MOHAMMED ALSHAIR on 5/31/12.
-//  Copyright 2012 University of Houston - Main Campus. All rights reserved.
-//
 
 
 
@@ -13,7 +10,7 @@
 
 @implementation UIImageCVMatConverter
 
-+(UIImage *)UIImageFromCVMat:(cv::Mat)cvImage{
++(UIImage *)UIImageFromCVMat:(const cv::Mat&)cvImage{
     int width = cvImage.cols;
     int height = cvImage.rows;
     int numChannels = cvImage.channels();
