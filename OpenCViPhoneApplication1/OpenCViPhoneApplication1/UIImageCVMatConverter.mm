@@ -10,77 +10,87 @@
 
 @implementation UIImageCVMatConverter
 
-+(UIImage *)UIImageFromCVMat:(const cv::Mat&)cvImage{
-    int width = cvImage.cols;
-    int height = cvImage.rows;
-    int numChannels = cvImage.channels();
-    uchar* data = cvImage.data;
-    int step = cvImage.step;
-    //Bytes Per Pixel
-    int bitsPerPixel = (numChannels == 1) ? 1 : 4;
++(UIImage *)UIImageFromCVMat:(cv::Mat)cvImage{
+    NSData *data = [NSData dataWithBytes:cvImage.data length:cvImage.elemSize()*cvImage.total()];
     
-    // Write the data into a bitmap context
-    CGContextRef context;
     CGColorSpaceRef colorSpace;
-    uchar* bitmapData = NULL;
-    if( bitsPerPixel == 1 ) {
+    
+    if (cvImage.elemSize() == 1) {
         colorSpace = CGColorSpaceCreateDeviceGray();
-    }
-    else if( bitsPerPixel == 4 ) {
+    } else {
         colorSpace = CGColorSpaceCreateDeviceRGB();
     }
     
-    bitmapData = (uchar*)malloc( bitsPerPixel * height * width );
+    CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);
     
-    context = CGBitmapContextCreate( bitmapData,
-                                    width,
-                                    height,
-                                    8,
-                                    bitsPerPixel * width,
-                                    colorSpace,
-                                    (bitsPerPixel == 1) ? kCGImageAlphaNone :
-                                    kCGImageAlphaNoneSkipLast );
-    CGColorSpaceRelease( colorSpace );
+    // Creating CGImage from cv::Mat
+    CGImageRef imageRef = CGImageCreate(cvImage.cols,                                 //width
+                                        cvImage.rows,                                 //height
+                                        8,                                          //bits per component
+                                        8 * cvImage.elemSize(),                       //bits per pixel
+                                        cvImage.step[0],                            //bytesPerRow
+                                        colorSpace,                                 //colorspace
+                                        kCGImageAlphaNone|kCGBitmapByteOrderDefault,// bitmap info
+                                        provider,                                   //CGDataProviderRef
+                                        NULL,                                       //decode
+                                        false,                                      //should interpolate
+                                        kCGRenderingIntentDefault                   //intent
+                                        );
     
-    // Copy pixel information from data into bitmapData
-    if (bitsPerPixel == 4)
-    {
-        int bitmapIndex = 0;
-		uchar*  base  = data;
-        
-		for (int y = 0; y < height; y++)
-		{
-			const uchar * line = base + y * step;
-            
-		    for (int x = 0; x < width; x++)
-		    {
-				// Blue channel
-                bitmapData[bitmapIndex + 2] = line[0];
-				// Green channel
-				bitmapData[bitmapIndex + 1] = line[1];
-				// Red channel
-				bitmapData[bitmapIndex + 0] = line[2];
-                
-				line        += 3;
-				bitmapIndex += bitsPerPixel;
-			}
-		}
-    }
-    else if (bitsPerPixel == 1)
-    {
-		for (int y = 0; y < height; y++)
-			memcpy (bitmapData + y * width, data + y * step, width);
-    }
     
-    // bitmap context into an imageRef
-    CGImageRef imageRef = CGBitmapContextCreateImage( context );
-    CGContextRelease( context );    
-    UIImage* image = [[UIImage alloc] initWithCGImage:imageRef];
+    // Getting UIImage from CGImage
+    UIImage *finalImage = [UIImage imageWithCGImage:imageRef];
+    CGImageRelease(imageRef);
+    CGDataProviderRelease(provider);
+    CGColorSpaceRelease(colorSpace);
     
-    CGImageRelease( imageRef );
-    free( bitmapData );
-    return [image autorelease];  
+   return finalImage; 
 }
-
++ (cv::Mat)cvMatFromUIImage:(UIImage *)image
+{
+    CGColorSpaceRef colorSpace = CGImageGetColorSpace(image.CGImage);
+    CGFloat cols = image.size.width;
+    CGFloat rows = image.size.height;
+    
+    cv::Mat cvMat(rows, cols, CV_8UC4); // 8 bits per component, 4 channels
+    
+    CGContextRef contextRef = CGBitmapContextCreate(cvMat.data,                 // Pointer to  data
+                                                    cols,                       // Width of bitmap
+                                                    rows,                       // Height of bitmap
+                                                    8,                          // Bits per component
+                                                    cvMat.step[0],              // Bytes per row
+                                                    colorSpace,                 // Colorspace
+                                                    kCGImageAlphaNoneSkipLast |
+                                                    kCGBitmapByteOrderDefault); // Bitmap info flags
+    
+    CGContextDrawImage(contextRef, CGRectMake(0, 0, cols, rows), image.CGImage);
+    CGContextRelease(contextRef);
+    CGColorSpaceRelease(colorSpace);
+    
+    return cvMat;
+}
++ (cv::Mat)cvMatGrayFromUIImage:(UIImage *)image
+{
+    CGColorSpaceRef colorSpace = CGImageGetColorSpace(image.CGImage);
+    CGFloat cols = image.size.width;
+    CGFloat rows = image.size.height;
+    
+    cv::Mat cvMat(rows, cols, CV_8UC1); // 8 bits per component, 1 channels
+    
+    CGContextRef contextRef = CGBitmapContextCreate(cvMat.data,                 // Pointer to data
+                                                    cols,                       // Width of bitmap
+                                                    rows,                       // Height of bitmap
+                                                    8,                          // Bits per component
+                                                    cvMat.step[0],              // Bytes per row
+                                                    colorSpace,                 // Colorspace
+                                                    kCGImageAlphaNoneSkipLast |
+                                                    kCGBitmapByteOrderDefault); // Bitmap info flags
+    
+    CGContextDrawImage(contextRef, CGRectMake(0, 0, cols, rows), image.CGImage);
+    CGContextRelease(contextRef);
+    CGColorSpaceRelease(colorSpace);
+    
+    return cvMat;
+}
 
 @end

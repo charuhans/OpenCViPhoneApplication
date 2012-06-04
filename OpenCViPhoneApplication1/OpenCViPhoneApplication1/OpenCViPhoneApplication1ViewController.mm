@@ -21,32 +21,28 @@
 
 @synthesize fileName, cvImage;
 
-- (void) loadImageFromFile:(NSString *) fName
-{
-    cvImage = cv::imread([fName fileSystemRepresentation]);
-}
 
 -(IBAction)loadImageAction:(id)sender;
 {
     fileName = [[NSBundle mainBundle] pathForResource:@"fruits" ofType:@"png"];
-    [self loadImageFromFile:fileName];
-    
-    UIImage *image = [UIImageCVMatConverter UIImageFromCVMat:cvImage];
-    if (image != nil) {
-        imageView.image = image;
+    UIImage *loadImage = [UIImage imageWithContentsOfFile:fileName];
+    // convert UIImage to cvMat
+    cvImage =[UIImageCVMatConverter cvMatFromUIImage:loadImage];
+    if (loadImage != nil) {
+        imageView.image = loadImage;
     } 
     hsvButton.enabled = YES;
     grayButton.enabled = YES;
     binaryButton.enabled = YES;
     thresholdSlider.hidden = YES;
-
-   
+  
 }
 -(IBAction)hsvImageAction:(id)sender
 {
     thresholdSlider.hidden = YES;
     cv::Mat hsv_image;
     cv::cvtColor (cvImage, hsv_image, CV_BGR2HSV); 
+    // convert cvMat to UIImage
     imageView.image = [UIImageCVMatConverter UIImageFromCVMat:hsv_image];
     hsv_image.release();
 
@@ -56,7 +52,8 @@
     thresholdSlider.hidden = YES;
     cv::Mat greyMat;
     cv::cvtColor(cvImage, greyMat, CV_BGR2GRAY);
-    imageView.image = [UIImageCVMatConverter UIImageFromCVMat:greyMat];
+    // convert cvMat to UIImage
+    self.imageView.image = [UIImageCVMatConverter UIImageFromCVMat:greyMat];
     greyMat.release();
 }
 -(IBAction)binaryImageAction:(id)sender
@@ -68,6 +65,7 @@
     cv::cvtColor(cvImage, greyMat, CV_BGR2GRAY);
     cv::threshold(greyMat,binaryMat,threshold,255,cv::THRESH_BINARY);
     greyMat.release();
+    // convert cvMat to UIImage
     imageView.image = [UIImageCVMatConverter UIImageFromCVMat:binaryMat];
     binaryMat.release();
     

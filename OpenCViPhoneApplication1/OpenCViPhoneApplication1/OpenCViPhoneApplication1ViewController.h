@@ -31,8 +31,6 @@
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *grayButton;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *binaryButton;
 
-- (void)loadImageFromFile:(NSString *) theFileName;
-
 -(IBAction)loadImageAction:(id)sender;
 -(IBAction)hsvImageAction:(id)sender;
 -(IBAction)grayImageAction:(id)sender;
