@@ -17,6 +17,8 @@
 		B553DE991581157500855F6F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B553DE981581157500855F6F /* ViewController.mm */; };
 		B553DEA5158116FA00855F6F /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B553DEA4158116FA00855F6F /* UIImageCVMatConverter.mm */; };
 		B553DEAB15811B1900855F6F /* fruits.png in Resources */ = {isa = PBXBuildFile; fileRef = B553DEAA15811B1900855F6F /* fruits.png */; };
+		B5627A7F1581326600FA156A /* opencv-logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = B5627A7D1581326600FA156A /* opencv-logo57.png */; };
+		B5627A801581326600FA156A /* opencv-logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = B5627A7E1581326600FA156A /* opencv-logo114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B553DEA3158116FA00855F6F /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
 		B553DEA4158116FA00855F6F /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
 		B553DEAA15811B1900855F6F /* fruits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruits.png; sourceTree = "<group>"; };
+		B5627A7D1581326600FA156A /* opencv-logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo57.png"; sourceTree = "<group>"; };
+		B5627A7E1581326600FA156A /* opencv-logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "opencv-logo114.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		B553DE881581157500855F6F /* OpenCViPhoneApplication1 */ = {
 			isa = PBXGroup;
 			children = (
+				B5627A7D1581326600FA156A /* opencv-logo57.png */,
+				B5627A7E1581326600FA156A /* opencv-logo114.png */,
 				B553DE911581157500855F6F /* AppDelegate.h */,
 				B553DE921581157500855F6F /* AppDelegate.m */,
 				B553DE971581157500855F6F /* ViewController.h */,
@@ -160,6 +166,8 @@
 				B553DE8D1581157500855F6F /* InfoPlist.strings in Resources */,
 				B553DE961581157500855F6F /* MainStoryboard.storyboard in Resources */,
 				B553DEAB15811B1900855F6F /* fruits.png in Resources */,
+				B5627A7F1581326600FA156A /* opencv-logo57.png in Resources */,
+				B5627A801581326600FA156A /* opencv-logo114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +257,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
+				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
 				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
+				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lopencv_core",
@@ -270,9 +278,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
+				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/include;
 				INFOPLIST_FILE = "OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
+				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/OpenCViPhoneApplication/OpenCViPhoneApplication1/external/OpenCV_iPhoneSimulator/lib;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lopencv_core",
@@ -305,6 +313,7 @@
 				B553DE9E1581157500855F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
