@@ -1,21 +1,20 @@
 //
 //  UIImageCVMatConverter.m
-//  OpenCViPhoneApplication1
+//  OpenCViOS
 //
-
-
+//  Created by MOHAMMED ALSHAIR on 6/6/12.
+//  Copyright (c) 2012 University of Houston - Main Campus. All rights reserved.
+//
 
 #import "UIImageCVMatConverter.h"
 
 
 @implementation UIImageCVMatConverter
-
-+(UIImage *)UIImageFromCVMat:(cv::Mat)cvImage{
-    NSData *data = [NSData dataWithBytes:cvImage.data length:cvImage.elemSize()*cvImage.total()];
-    
++(UIImage *)UIImageFromCVMat:(cv::Mat)cvMat{
+    NSData *data = [NSData dataWithBytes:cvMat.data length:cvMat.elemSize()*cvMat.total()];
     CGColorSpaceRef colorSpace;
     
-    if (cvImage.elemSize() == 1) {
+    if (cvMat.elemSize() == 1) {
         colorSpace = CGColorSpaceCreateDeviceGray();
     } else {
         colorSpace = CGColorSpaceCreateDeviceRGB();
@@ -24,11 +23,11 @@
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);
     
     // Creating CGImage from cv::Mat
-    CGImageRef imageRef = CGImageCreate(cvImage.cols,                                 //width
-                                        cvImage.rows,                                 //height
+    CGImageRef imageRef = CGImageCreate(cvMat.cols,                                 //width
+                                        cvMat.rows,                                 //height
                                         8,                                          //bits per component
-                                        8 * cvImage.elemSize(),                       //bits per pixel
-                                        cvImage.step[0],                            //bytesPerRow
+                                        8 * cvMat.elemSize(),                       //bits per pixel
+                                        cvMat.step[0],                            //bytesPerRow
                                         colorSpace,                                 //colorspace
                                         kCGImageAlphaNone|kCGBitmapByteOrderDefault,// bitmap info
                                         provider,                                   //CGDataProviderRef
@@ -44,7 +43,7 @@
     CGDataProviderRelease(provider);
     CGColorSpaceRelease(colorSpace);
     
-   return finalImage; 
+    return finalImage; 
 }
 + (cv::Mat)cvMatFromUIImage:(UIImage *)image
 {
@@ -92,5 +91,6 @@
     
     return cvMat;
 }
+
 
 @end
