@@ -86,8 +86,6 @@
 		B553DE881581157500855F6F /* OpenCViPhoneApplication1 */ = {
 			isa = PBXGroup;
 			children = (
-				B5627A7D1581326600FA156A /* opencv-logo57.png */,
-				B5627A7E1581326600FA156A /* opencv-logo114.png */,
 				B553DE911581157500855F6F /* AppDelegate.h */,
 				B553DE921581157500855F6F /* AppDelegate.m */,
 				B553DE971581157500855F6F /* ViewController.h */,
@@ -102,7 +100,9 @@
 			children = (
 				B553DE8A1581157500855F6F /* OpenCViPhoneApplication1-Info.plist */,
 				B553DEA3158116FA00855F6F /* UIImageCVMatConverter.h */,
+				B5627A7D1581326600FA156A /* opencv-logo57.png */,
 				B553DEA4158116FA00855F6F /* UIImageCVMatConverter.mm */,
+				B5627A7E1581326600FA156A /* opencv-logo114.png */,
 				B553DE941581157500855F6F /* MainStoryboard.storyboard */,
 				B553DE8B1581157500855F6F /* InfoPlist.strings */,
 				B553DEAA15811B1900855F6F /* fruits.png */,
