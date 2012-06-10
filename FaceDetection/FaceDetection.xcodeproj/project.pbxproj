@@ -17,7 +17,6 @@
 		B55AA2CE15825CB7000F65A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55AA2CD15825CB7000F65A4 /* AppDelegate.m */; };
 		B55AA2D115825CB7000F65A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55AA2CF15825CB7000F65A4 /* MainStoryboard.storyboard */; };
 		B55AA2D415825CB7000F65A4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B55AA2D315825CB7000F65A4 /* ViewController.mm */; };
-		B55AA2E3158260BB000F65A4 /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B55AA2E2158260BB000F65A4 /* lena.jpg */; };
 		B55AA2E6158260EB000F65A4 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B55AA2E5158260EB000F65A4 /* UIImageCVMatConverter.mm */; };
 		B55AA2EF1582B402000F65A4 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = B55AA2EE1582B402000F65A4 /* haarcascade_frontalface_default.xml */; };
 /* End PBXBuildFile section */
@@ -38,7 +37,6 @@
 		B55AA2D015825CB7000F65A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B55AA2D215825CB7000F65A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B55AA2D315825CB7000F65A4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		B55AA2E2158260BB000F65A4 /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lena.jpg; path = ../../OpenCVTest/lena.jpg; sourceTree = "<group>"; };
 		B55AA2E4158260EB000F65A4 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
 		B55AA2E5158260EB000F65A4 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
 		B55AA2EE1582B402000F65A4 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				B55AA2C515825CB7000F65A4 /* FaceDetection-Info.plist */,
-				B55AA2E2158260BB000F65A4 /* lena.jpg */,
 				B55AA2C615825CB7000F65A4 /* InfoPlist.strings */,
 				B55AA2E5158260EB000F65A4 /* UIImageCVMatConverter.mm */,
 				B55AA2EE1582B402000F65A4 /* haarcascade_frontalface_default.xml */,
@@ -168,7 +165,6 @@
 			files = (
 				B55AA2C815825CB7000F65A4 /* InfoPlist.strings in Resources */,
 				B55AA2D115825CB7000F65A4 /* MainStoryboard.storyboard in Resources */,
-				B55AA2E3158260BB000F65A4 /* lena.jpg in Resources */,
 				B55AA2EF1582B402000F65A4 /* haarcascade_frontalface_default.xml in Resources */,
 				B555CE8315831A8700E0348A /* sample.jpg in Resources */,
 				B555CE8615831C8100E0348A /* haarcascade_frontalface_alt2.xml in Resources */,
