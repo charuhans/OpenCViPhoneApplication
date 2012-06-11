@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              EAC6468D3164412CBA53CC24 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AD8D9ED8C478432AA561C065 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            8F67DACEB3E744B6AAE228EC /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F2CF3CF111FF4CA7ADE810C8 /* PBXTargetDependency */,
+                            CB432A6D2A904E5F9C7CDED1 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D7F5D118CBCE4464B206D677 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E6E72D3A02434731803F43B4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            BC4B52F7ECB74EE1946A0560 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              8FF0C32AD9C64F8E88741277 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 992777C7DAD646A7A8324B24 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            989F7850EC314E13BB295A86 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            15A8B7B65FC8423A92F3C1A5 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+DDAE6152CBA545319559E549 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp */ = {isa = PBXBuildFile; fileRef = B8DF76E7B5B14409BFD73177 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6EC36050A6AA40FBA856D6FE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp */ = {isa = PBXBuildFile; fileRef = 7DDFE6779B0A4028B6F7182F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A88C403582FE429687A774F6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp */ = {isa = PBXBuildFile; fileRef = B0E0DB9B30264F379CEE87CF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A23EA5977D7A4B82A64AA1D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix.cpp */ = {isa = PBXBuildFile; fileRef = E2F9A772B70B44828BE0C79D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B9EA380672A3475785287C31 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix2.cpp */ = {isa = PBXBuildFile; fileRef = B4C4DD1681AA4ACA9919C956 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix2.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5322F7AFCDB14173A56D171B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/camshift.cpp */ = {isa = PBXBuildFile; fileRef = 5546CC250FEB4F51AE75B6FE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/camshift.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4A529B34776841A4A122F742 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/kalman.cpp */ = {isa = PBXBuildFile; fileRef = 3A7555E15C114749A1DD7B65 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/kalman.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3AC94BE56FBE426E813955C7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.cpp */ = {isa = PBXBuildFile; fileRef = 79284193FD76400887CEC7D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7EE9FAAE3A2F420AA56D4E38 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/motempl.cpp */ = {isa = PBXBuildFile; fileRef = CA4A73C9AA5D4292A57A9F01 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/motempl.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7208459862684D12BAA40B3E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/optflowgf.cpp */ = {isa = PBXBuildFile; fileRef = 27F594AAC9054E4B9A68536D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/optflowgf.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0E03BEF06171470E951EEFF3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = DBC4ECA98BC9488EAEBA617B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BAAC566CE3054FCABDDC90B0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/video_init.cpp */ = {isa = PBXBuildFile; fileRef = B5659B95A37E42E78AB34EE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/video_init.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D43EE6163BC9416EB18EBBB2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.hpp */ = {isa = PBXBuildFile; fileRef = DBA405FD26394BC18B749F5A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3E284B7236CB4B19B59F8B35 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = FB2FE5C4B2C2467785DF8DDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1E01AA0DE5C34D779F0B6BEA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0CD0EBD61D404498AC32E803 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              28CE6CD5C50E46D18D70F27B /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              0C498B79DD92465891BACD11 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              9CDD3EEFA0134D31A0C78CE0 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              3097C1BD59BC4E7AB511BA9E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7A8DEF456A8B45838F6EAF43 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D7F5D118CBCE4464B206D677;
+                     remoteInfo = ZERO_CHECK;
+              };
+              036A28C702784F5F8CFBF271 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7A8DEF456A8B45838F6EAF43 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 182AD92092C54511BD7040E6;
+                     remoteInfo = opencv_video;
+              };
+              71879AA472BF4CAB962E5054 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 7A8DEF456A8B45838F6EAF43 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EAC6468D3164412CBA53CC24;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+0CD0EBD61D404498AC32E803 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B8DF76E7B5B14409BFD73177 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "background_segm.hpp"; path = "include/opencv2/video/background_segm.hpp"; sourceTree = SOURCE_ROOT; };
+7DDFE6779B0A4028B6F7182F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "tracking.hpp"; path = "include/opencv2/video/tracking.hpp"; sourceTree = SOURCE_ROOT; };
+B0E0DB9B30264F379CEE87CF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "video.hpp"; path = "include/opencv2/video/video.hpp"; sourceTree = SOURCE_ROOT; };
+E2F9A772B70B44828BE0C79D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_gaussmix.cpp"; path = "src/bgfg_gaussmix.cpp"; sourceTree = SOURCE_ROOT; };
+B4C4DD1681AA4ACA9919C956 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_gaussmix2.cpp"; path = "src/bgfg_gaussmix2.cpp"; sourceTree = SOURCE_ROOT; };
+5546CC250FEB4F51AE75B6FE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/camshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "camshift.cpp"; path = "src/camshift.cpp"; sourceTree = SOURCE_ROOT; };
+3A7555E15C114749A1DD7B65 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/kalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "kalman.cpp"; path = "src/kalman.cpp"; sourceTree = SOURCE_ROOT; };
+79284193FD76400887CEC7D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lkpyramid.cpp"; path = "src/lkpyramid.cpp"; sourceTree = SOURCE_ROOT; };
+CA4A73C9AA5D4292A57A9F01 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/motempl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "motempl.cpp"; path = "src/motempl.cpp"; sourceTree = SOURCE_ROOT; };
+27F594AAC9054E4B9A68536D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/optflowgf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowgf.cpp"; path = "src/optflowgf.cpp"; sourceTree = SOURCE_ROOT; };
+DBC4ECA98BC9488EAEBA617B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+B5659B95A37E42E78AB34EE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/video_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "video_init.cpp"; path = "src/video_init.cpp"; sourceTree = SOURCE_ROOT; };
+DBA405FD26394BC18B749F5A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "lkpyramid.hpp"; path = "src/lkpyramid.hpp"; sourceTree = SOURCE_ROOT; };
+FB2FE5C4B2C2467785DF8DDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+8D5D5C68ACC54E6197C4D946 /* opencv_video */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_video.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              D408BE74C28347AF98EFDC47  = {
+                     isa = PBXGroup;
+                     children = (
+                            DFE1E28772BB4E09A1D5DD54 /* Sources */,
+                            526B934DDC7240D1B4777535 /* Resources */,
+                            9FBECF9229C04251B9C884A7 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              DFE1E28772BB4E09A1D5DD54 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C07A1793D6B14D4C94A81533 /* ALL_BUILD */,
+                            9BFFE7BD11624C8EBB2D9A35 /* ZERO_CHECK */,
+                            7AB4DA9028A745D99529B39F /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              526B934DDC7240D1B4777535 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              C07A1793D6B14D4C94A81533 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3ECD6EBFC2484D87B330EE7A /* CMake Rules */,
+                            0CD0EBD61D404498AC32E803 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              3ECD6EBFC2484D87B330EE7A /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              9BFFE7BD11624C8EBB2D9A35 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F14182C3C59B4037ABB9EDE9 /* CMake Rules */,
+                            0CD0EBD61D404498AC32E803 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              F14182C3C59B4037ABB9EDE9 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              7AB4DA9028A745D99529B39F /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2152B303660444729373FB74 /* opencv_video */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              2152B303660444729373FB74 /* opencv_video */ = {
+                     isa = PBXGroup;
+                     children = (
+                            29DB4AC04B8A4B2D8C253528 /* Include */,
+                            6C3FBF6B184549D7842A249E /* Src */,
+                            0CD0EBD61D404498AC32E803 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/CMakeLists.txt */,
+                     );
+                     name = opencv_video;
+                     sourceTree = "<group>";
+              };
+              29DB4AC04B8A4B2D8C253528 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B8DF76E7B5B14409BFD73177 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp */,
+                            7DDFE6779B0A4028B6F7182F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp */,
+                            B0E0DB9B30264F379CEE87CF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              6C3FBF6B184549D7842A249E /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E2F9A772B70B44828BE0C79D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix.cpp */,
+                            B4C4DD1681AA4ACA9919C956 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix2.cpp */,
+                            5546CC250FEB4F51AE75B6FE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/camshift.cpp */,
+                            3A7555E15C114749A1DD7B65 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/kalman.cpp */,
+                            79284193FD76400887CEC7D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.cpp */,
+                            CA4A73C9AA5D4292A57A9F01 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/motempl.cpp */,
+                            27F594AAC9054E4B9A68536D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/optflowgf.cpp */,
+                            DBC4ECA98BC9488EAEBA617B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.cpp */,
+                            B5659B95A37E42E78AB34EE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/video_init.cpp */,
+                            DBA405FD26394BC18B749F5A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.hpp */,
+                            FB2FE5C4B2C2467785DF8DDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              9FBECF9229C04251B9C884A7 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8D5D5C68ACC54E6197C4D946 /* opencv_video */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              182AD92092C54511BD7040E6 /* opencv_video */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = CA370DA662484D5EBC346238 /* Build configuration list for PBXNativeTarget "opencv_video" */;
+                     buildPhases = (
+                            B998B63317104D989E7313A9 /* Sources */,
+                            958391566D7643668EC98CC9 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F2CF3CF111FF4CA7ADE810C8 /* PBXTargetDependency */,
+                     );
+                     name = opencv_video;
+                     productName = opencv_video;
+                     productReference = 8D5D5C68ACC54E6197C4D946 /* opencv_video */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              7A8DEF456A8B45838F6EAF43 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 62FF8F1EA99A4559AFC0D60A /* Build configuration list for PBXProject  "opencv_video" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            0C498B79DD92465891BACD11 /* Debug */,
+                            9CDD3EEFA0134D31A0C78CE0 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = D408BE74C28347AF98EFDC47;
+                     projectDirPath = /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video;
+                     projectRoot = "";
+                     targets = (
+                            EAC6468D3164412CBA53CC24 /* ALL_BUILD */,
+                            D7F5D118CBCE4464B206D677 /* ZERO_CHECK */,
+                            8FF0C32AD9C64F8E88741277 /* install */,
+                            182AD92092C54511BD7040E6 /* opencv_video */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              2E4635F7793C48309C6E5D89 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8F67DACEB3E744B6AAE228EC /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              3260144034ED4914B8554F7D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              BC4B52F7ECB74EE1946A0560 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FED246E4D3FE4E2D842390A7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              989F7850EC314E13BB295A86 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              958391566D7643668EC98CC9 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/CMakeScripts/opencv_video_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              B998B63317104D989E7313A9 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            A23EA5977D7A4B82A64AA1D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix.cpp */,
+                            B9EA380672A3475785287C31 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/bgfg_gaussmix2.cpp */,
+                            5322F7AFCDB14173A56D171B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/camshift.cpp */,
+                            4A529B34776841A4A122F742 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/kalman.cpp */,
+                            3AC94BE56FBE426E813955C7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/lkpyramid.cpp */,
+                            7EE9FAAE3A2F420AA56D4E38 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/motempl.cpp */,
+                            7208459862684D12BAA40B3E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/optflowgf.cpp */,
+                            0E03BEF06171470E951EEFF3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/precomp.cpp */,
+                            BAAC566CE3054FCABDDC90B0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src/video_init.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F2CF3CF111FF4CA7ADE810C8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D7F5D118CBCE4464B206D677 /* ZERO_CHECK */;
+                     targetProxy = 3097C1BD59BC4E7AB511BA9E /* PBXContainerItemProxy */;
+              };
+              CB432A6D2A904E5F9C7CDED1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 182AD92092C54511BD7040E6 /* opencv_video */;
+                     targetProxy = 036A28C702784F5F8CFBF271 /* PBXContainerItemProxy */;
+              };
+              15A8B7B65FC8423A92F3C1A5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EAC6468D3164412CBA53CC24 /* ALL_BUILD */;
+                     targetProxy = 71879AA472BF4CAB962E5054 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              EFD957992112450FBC9B4187 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/build;
+                     };
+                     name = Debug;
+              };
+              8C4C5C6D58754A46AA68FDE5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video/build;
+                     };
+                     name = Release;
+              };
+              04F0173343FD433E8A1E617D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              2E975958B783495EAC738E35 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              97D6221069C64F61935ECFDA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              36CFA8959ED34C2291C96B59 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2C381C687CA4467DB28C10EA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6E7612D5554D44F493EFABC8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2778369A806241D2B1623319 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_video;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              00DDBC52D76246D5AEEFCAF5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_video;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/video;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              62FF8F1EA99A4559AFC0D60A /* Build configuration list for PBXProject  "opencv_video" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            EFD957992112450FBC9B4187 /* Debug */,
+                            8C4C5C6D58754A46AA68FDE5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AD8D9ED8C478432AA561C065 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            04F0173343FD433E8A1E617D /* Debug */,
+                            2E975958B783495EAC738E35 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E6E72D3A02434731803F43B4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            97D6221069C64F61935ECFDA /* Debug */,
+                            36CFA8959ED34C2291C96B59 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              992777C7DAD646A7A8324B24 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2C381C687CA4467DB28C10EA /* Debug */,
+                            6E7612D5554D44F493EFABC8 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CA370DA662484D5EBC346238 /* Build configuration list for PBXNativeTarget "opencv_video" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2778369A806241D2B1623319 /* Debug */,
+                            00DDBC52D76246D5AEEFCAF5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 7A8DEF456A8B45838F6EAF43;
+}

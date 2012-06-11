@@ -1,0 +1,228 @@
+Topencv_photo
+v5
+r1
+cCheck dependencies
+cSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh
+cStrip /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+cSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+cSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/cvconfig.h
+c000000004FD55412000000000000137B
+t1339380754
+s4987
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a
+t1339380785
+s48640
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o
+t1339380785
+s46072
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/opencv_photo.LinkFileList
+c000000004FD5542F0000000000000148
+t1339380783
+s328
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o
+t1339380784
+s152
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh
+c000000004FD5542F00000000000000F1
+t1339380783
+s241
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004FD550EC000000000002BA75
+t1339379948
+s178805
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004FD550EC00000000000132EB
+t1339379948
+s78571
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004FD550EC00000000000138D4
+t1339379948
+s80084
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004FD550EC000000000001E88E
+t1339379948
+s125070
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004FD550EC000000000000E09A
+t1339379948
+s57498
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004FD550EC00000000000009EA
+t1339379948
+s2538
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004FD550FE000000000000CEAD
+t1339379966
+s52909
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004FD550FE0000000000007683
+t1339379966
+s30339
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004FD550FE0000000000003741
+t1339379966
+s14145
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include/opencv2/photo/photo.hpp
+c000000004FD550F10000000000000B24
+t1339379953
+s2852
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include/opencv2/photo/photo_c.h
+c000000004FD550F10000000000000A9C
+t1339379953
+s2716
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp
+c000000004FD550F100000000000081F2
+t1339379953
+s33266
+i"precomp.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp
+c000000004FD550F10000000000000852
+t1339379953
+s2130
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.hpp
+c000000004FD550F10000000000000973
+t1339379953
+s2419
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9a9866f68b85b541^82e366f68b85b541^---0#1#0#--18"Check dependencies36"40886FDC-38E1-4459-8D07-CB75C46CEA0F-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073583.245633
+e361073585.281902
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cppf2073faf8b85b541^026448b18b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp0000000000000000^3279"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o modules/photo/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/inpaint.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o36"007B6941-3920-46F4-98E4-EBB4342EBE77-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073583.245622
+e361073584.920409
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cppb4023faf8b85b541^bf9eebb08b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp0000000000000000^3279"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o modules/photo/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/src/precomp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o36"481B851C-5217-4582-B965-A0626B07B304-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a normal i386
+s361073585.439215
+e361073585.449309
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a normal i386588e70b18b85b541^fb0573b18b85b541^-281"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o has no symbols-0#0#0#--1065"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a normal i386    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/opencv_photo.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a36"D73B9CEF-91D5-43EC-ADE2-285B40930AFB-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a normal i386
+s361073654.423796
+e361073654.430648
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a normal i38621936cf68b85b541^85446ef68b85b541^-281"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o has no symbols-0#0#0#--1109"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a normal i386    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/opencv_photo.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a36"830CE7F8-3F35-4C58-9948-2BBDDCD93020-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh
+s361073654.454928
+e361073654.494386
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'115776f68b85b541^f38f7ef68b85b541^-836"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Releasemake[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Releasemake[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073654#0#30#-0#-----2@23"Depend check for xcode-361073654#30#23#-0#-----2@278"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Release-361073654#53#278#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.-361073654#331#66#-0#-----2@30"echo "Depend check for xcode"-361073654#397#30#-0#-----2@23"Depend check for xcode-361073654#427#23#-0#-----2@320"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_photo.Release-361073654#450#320#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_photo.Release'.-361073654#770#66#-0#-----0#0#0#--450"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Script-BAE521577C2A4DBB85CF81D1.sh36"91C89876-8B11-4BD4-8788-5E1E16B35A32-
+
+CSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+s361073654.549642
+e361073654.554432
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.ac9c98cf68b85b541^20ef8df68b85b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a0000000000000000^581"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a36"E87FE2EE-1957-438A-ACDA-D90215548773-
+
+CSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+s361073654.527998
+e361073654.541565
+r1
+xSetOwnerAndGroup
+xMSAlshair:staff
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"SetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a113589f68b85b541^58ab8af68b85b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a0000000000000000^603"SetOwnerAndGroup "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a36"F2E5A16A-C3C2-4532-B5E6-2A81103E48EC-
+
+CStrip /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+s361073654.502823
+e361073654.511764
+r1
+xStrip
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a(precomp.o)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Strip /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a56d480f68b85b541^3a0383f68b85b541^-249"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a0000000000000000^632"Strip /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a36"976D112B-2ABB-4537-9E40-286E92A0877A-
+
+CSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+s361073654.404708
+e361073654.409015
+r1
+xSymLink
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a11ab67f68b85b541^67b568f68b85b541^---0#0#0#--738"SymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a36"21EFC6A9-CECA-44B2-A75C-0A71C5EFD722-
+

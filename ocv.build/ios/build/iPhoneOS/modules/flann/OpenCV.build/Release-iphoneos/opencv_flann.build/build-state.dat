@@ -1,0 +1,389 @@
+Topencv_flann
+v5
+r1
+cCheck dependencies
+cSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh
+cStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+cSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+cSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h
+c000000004FD553A8000000000000137B
+t1339380648
+s4987
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a
+t1339380670
+s1144312
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o
+t1339380662
+s1996
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o
+t1339380670
+s893092
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/opencv_flann.LinkFileList
+c000000004FD553B400000000000001C5
+t1339380660
+s453
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o
+t1339380662
+s1140
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh
+c000000004FD553B400000000000000E3
+t1339380660
+s227
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004FD550EC000000000002BA75
+t1339379948
+s178805
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004FD550EC00000000000083BE
+t1339379948
+s33726
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004FD550EC00000000000138D4
+t1339379948
+s80084
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004FD550EC000000000001E88E
+t1339379948
+s125070
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004FD550EC000000000000E09A
+t1339379948
+s57498
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004FD550EC00000000000009EA
+t1339379948
+s2538
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/all_indices.h
+c000000004FD550FA0000000000001743
+t1339379962
+s5955
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/allocator.h
+c000000004FD550FA00000000000017B1
+t1339379962
+s6065
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/any.h
+c000000004FD550FA0000000000001BB5
+t1339379962
+s7093
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/autotuned_index.h
+c000000004FD550FA000000000000507F
+t1339379962
+s20607
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/composite_index.h
+c000000004FD550FA0000000000001764
+t1339379962
+s5988
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004FD550FA00000000000006FD
+t1339379962
+s1789
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004FD550FA0000000000001226
+t1339379962
+s4646
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/dist.h
+c000000004FD550FA0000000000005BB0
+t1339379962
+s23472
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/dummy.h
+c000000004FD550FA00000000000000FB
+t1339379962
+s251
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h
+c000000004FD550FA00000000000011EE
+t1339379962
+s4590
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/flann.hpp
+c000000004FD550FA0000000000004486
+t1339379962
+s17542
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/flann_base.hpp
+c000000004FD550FA00000000000022B2
+t1339379962
+s8882
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/general.h
+c000000004FD550FA00000000000007F4
+t1339379962
+s2036
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/ground_truth.h
+c000000004FD550FA0000000000000D1F
+t1339379962
+s3359
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/heap.h
+c000000004FD550FA000000000000100F
+t1339379962
+s4111
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h
+c000000004FD550FA0000000000005432
+t1339379962
+s21554
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/index_testing.h
+c000000004FD550FA0000000000002A39
+t1339379962
+s10809
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/kdtree_index.h
+c000000004FD550FA0000000000004CE6
+t1339379962
+s19686
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h
+c000000004FD550FA0000000000004EAC
+t1339379962
+s20140
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/kmeans_index.h
+c000000004FD550FA00000000000086DE
+t1339379962
+s34526
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/linear_index.h
+c000000004FD550FA0000000000000E75
+t1339379962
+s3701
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/logger.h
+c000000004FD550FA0000000000000E85
+t1339379962
+s3717
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/lsh_index.h
+c000000004FD550FA0000000000003C26
+t1339379962
+s15398
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/lsh_table.h
+c000000004FD550FA0000000000004381
+t1339379962
+s17281
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/matrix.h
+c000000004FD550FA0000000000000CD6
+t1339379962
+s3286
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004FD550FA00000000000016BE
+t1339379962
+s5822
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/nn_index.h
+c000000004FD550FA00000000000017BB
+t1339379962
+s6075
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/params.h
+c000000004FD550FA0000000000000C60
+t1339379962
+s3168
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/random.h
+c000000004FD550FA0000000000000E6E
+t1339379962
+s3694
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/result_set.h
+c000000004FD550FA0000000000003A63
+t1339379962
+s14947
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/sampling.h
+c000000004FD550FA0000000000000B21
+t1339379962
+s2849
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/saving.h
+c000000004FD550FA0000000000001692
+t1339379962
+s5778
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/timer.h
+c000000004FD550FA0000000000000989
+t1339379962
+s2441
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp
+c000000004FD550FA0000000000000A94
+t1339379962
+s2708
+i"precomp.hpp"
+i"opencv2/flann/flann.hpp"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp
+c000000004FD550FA0000000000006543
+t1339379962
+s25923
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp
+c000000004FD550FA0000000000000017
+t1339379962
+s23
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.hpp
+c000000004FD550FA00000000000002B2
+t1339379962
+s690
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6cc06898b85b541^a41907898b85b541^---0#1#0#--18"Check dependencies36"913239DB-C176-4751-B249-4C74E863309C-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073460.251157
+e361073462.176308
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cppcc7b40348b85b541^643d2d368b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp0000000000000000^3005"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o modules/flann/src/flann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/flann.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o36"7664FF00-75FF-4E5E-9E48-C9654F37A3EF-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073460.251223
+e361073470.280271
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp817940348b85b541^a9be473e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp0000000000000000^3029"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o modules/flann/src/miniflann.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/miniflann.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o36"CD3D6C82-5D25-4A13-9872-A050CBFBC802-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073460.251601
+e361073462.168666
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp168a40348b85b541^965e2b368b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp0000000000000000^3017"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o modules/flann/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/src/precomp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o36"752FD0CC-51C4-4221-8D98-F6A807DBCC1A-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a normal armv7
+s361073470.595356
+e361073470.621250
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a normal armv7d788983e8b85b541^7b139f3e8b85b541^---0#0#0#--1013"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/opencv_flann.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a36"4349625B-310D-4649-86BF-316746F07BF7-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a normal armv7
+s361073545.052018
+e361073545.070904
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a normal armv711730d898b85b541^242812898b85b541^---0#0#0#--1057"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/opencv_flann.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a36"4822A753-2A8A-4F63-9AA8-05389D562FC8-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh
+s361073545.079025
+e361073545.115793
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'3fab14898b85b541^ada41d898b85b541^-794"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073545#0#30#-0#-----2@23"Depend check for xcode-361073545#30#23#-0#-----2@257"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-361073545#53#257#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-361073545#310#66#-0#-----2@30"echo "Depend check for xcode"-361073545#376#30#-0#-----2@23"Depend check for xcode-361073545#406#23#-0#-----2@299"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-361073545#429#299#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-361073545#728#66#-0#-----0#0#0#--422"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-475FCD2845A24A81A6C76650.sh36"5BE1CE56-C437-4BFA-9D1F-376A69BB4308-
+
+CSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+s361073545.180316
+e361073545.184374
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.ac5392e898b85b541^12332f898b85b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a0000000000000000^560"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a36"9156ACEA-6D3A-417C-B040-49DE21470868-
+
+CSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+s361073545.166355
+e361073545.171608
+r1
+xSetOwnerAndGroup
+xMSAlshair:staff
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"SetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a71a92a898b85b541^91ee2b898b85b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a0000000000000000^582"SetOwnerAndGroup "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a36"531370AE-84C1-447C-BB4D-D1B7F80AB8A3-
+
+CStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+s361073545.124941
+e361073545.157406
+r1
+xStripping
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.ae71820898b85b541^b54e28898b85b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a0000000000000000^615"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a36"BA0DBD0C-B2D2-4D4C-9AB2-4F0291CAE76A-
+
+CSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+s361073545.031233
+e361073545.036382
+r1
+xSymLink
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Process /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a011308898b85b541^985009898b85b541^---0#0#0#--703"SymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/flann/UninstalledProducts/libopencv_flann.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_flann.a36"FD10C797-AD5B-45F3-8FEA-FB12ED349A8B-
+

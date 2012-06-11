@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh
+c000000004FD5541300000000000000D9
+t1339380755
+s217
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6fd555938b85b541^c2685a938b85b541^---0#1#0#--18"Check dependencies36"E066BB70-2C46-4721-9732-6730CCD798E0-
+
+CPhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh
+s361073555.541067
+e361073555.707770
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh
+oecho ""
+o
+omake -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'81218b938b85b541^e42fb5938b85b541^-165"echo ""make -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361073555#0#8#-0#-----2@101"make -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/ReRunCMake.make-361073555#9#101#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361073555#110#55#-0#-----0#0#0#--408"PhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-5AE1A5D4B64D430FA987E33E.sh36"ED7A74A4-050C-44DE-B418-939DCBAEEE2A-
+

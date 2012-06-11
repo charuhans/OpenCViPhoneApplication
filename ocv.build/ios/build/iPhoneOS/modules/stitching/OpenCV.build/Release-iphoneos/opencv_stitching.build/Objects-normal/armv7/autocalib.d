@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/src/autocalib.cpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/src/precomp.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/opencv2/opencv_modules.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/internal.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/stitcher.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/stitching/src/../../imgproc/src/gcgraph.hpp

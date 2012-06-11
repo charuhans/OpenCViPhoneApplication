@@ -1,0 +1,4 @@
+1d457777da814c9a4da40862abfcbc7a 205a7552025a857211eea7d8fb0b1d95 ffffffffffffffffffffffffffffffff 0 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/UninstalledProducts/libopencv_photo.a
+00000000000000000000000000000000 c556880e5f63338da9eb09b339bb394e ffffffffffffffffffffffffffffffff 48640 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_photo.a
+000000004fd550f10000000000000852 9f9f27237da595eb5e1829130c5a8ac8 ffffffffffffffffffffffffffffffff 152 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/precomp.o
+000000004fd550fe000000000000fe02 82da5054a7b4b47713bc2171a7a64121 ffffffffffffffffffffffffffffffff 46072 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/photo/OpenCV.build/Release-iphonesimulator/opencv_photo.build/Objects-normal/i386/inpaint.o

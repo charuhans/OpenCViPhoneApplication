@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              0F15293ACE25411497479DF6 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 81963F88916A4C21B0E401D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            5DE7958585384D338C406516 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            9FCDC6050CF24E40B55CAE63 /* PBXTargetDependency */,
+                            881F0CB297824D70A609DF00 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              0AD0108976EF4ED5B707220E /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 420D08A55E684E11843A405D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            61C91264C1F14405880F0649 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              F5FF561F66C246E8AA24C6C7 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = DD3CF76BD4434B458FB7EDA1 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            645C7332FB4B4E79977FBE9E /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            B5769B7B22B049B09257EE13 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+D1C26EA88D234010BBFA4546 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = DD57552A26C4415F92FC0B90 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c */; settings = { COMPILER_FLAGS = ""; }; };
+E8433ECB9ADA4F95AA6092FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = A4700B8AB2BB48C4BAD6E9E7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c */; settings = { COMPILER_FLAGS = ""; }; };
+CF2EE5A245BB40BFBA68B2F7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 093BA088BF2F4691AD8FEC73 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c */; settings = { COMPILER_FLAGS = ""; }; };
+058742CFF15347558AD9454B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = 47E5E45288934EDAA7D5913B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+00E469F8A769434E8889D642 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = EC393E6FFEED4AC7946E5501 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c */; settings = { COMPILER_FLAGS = ""; }; };
+B874C6DE5A11488F94BA82D0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 51EF400CCA8044B9A6CEF720 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+B729C483282747B3A3A56BC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = ABEB7FACDF97472E99D6767E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c */; settings = { COMPILER_FLAGS = ""; }; };
+92F094C816834F5AB81DE085 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = 8582FA4D943B48EBBBAB9D42 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+9B84C8E671774ED5B30B3E52 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = DC79CE28E1C341D4B28DAB78 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+573E9E2857B54E2985B6C5D3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = EA86860E641A42A683794B92 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c */; settings = { COMPILER_FLAGS = ""; }; };
+6941F53F51E24B42A43F47E5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = 517EE00BAA25407AB9543D00 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c */; settings = { COMPILER_FLAGS = ""; }; };
+5385F37B75C64C7CA033636A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 312BB8A1F5854ED3BC3B7DF2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c */; settings = { COMPILER_FLAGS = ""; }; };
+2EACD652505C4122892130D8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 94D44DF06B5647D88B886180 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c */; settings = { COMPILER_FLAGS = ""; }; };
+4E83EFA395F643AAB8B09A96 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = CC4667CEB0EC46F8AFF01EED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c */; settings = { COMPILER_FLAGS = ""; }; };
+26E9DC4B93B94267854F644F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = 101109D73B834E47A30AE9D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+6E2CBA202FD04D93A393CC8D /* /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 758077D01476462C9BDF019A /* /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/zconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+DC863783A31349109B7CB66C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = 142330ACF2D24DDE9CA681AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zlib.h */; settings = { COMPILER_FLAGS = ""; }; };
+F48901B8A51E4B18A2F408A4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 587E39A203124C82B726784B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.h */; settings = { COMPILER_FLAGS = ""; }; };
+4A180571F3B04163B4202B2F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 959BBFC21219476DB32FA111 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+F3D7388C31724ECC89B1FE73 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = AA4C810391634FE5BADEBBA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzguts.h */; settings = { COMPILER_FLAGS = ""; }; };
+C829DA740ADC4A97945D6556 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = E067D9A85CAD44AF9C593A81 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.h */; settings = { COMPILER_FLAGS = ""; }; };
+2E1AF440D4174301963E6298 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = CB062676A7D24738AE37F51C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffixed.h */; settings = { COMPILER_FLAGS = ""; }; };
+FDC257F1CF364C6DB28213F2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 93D04969D5FC41F3A31B8FD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+BE5C40CDD6684EBEA8F3FFE3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = 29351BC8E5844E86B81536ED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.h */; settings = { COMPILER_FLAGS = ""; }; };
+35F1E13DEA834670BFD4AC7C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = 5FCED6467A524624806C51FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.h */; settings = { COMPILER_FLAGS = ""; }; };
+BB81B21B4B414DA5BBC0B837 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = D010908A0D034E188AB746EE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.h */; settings = { COMPILER_FLAGS = ""; }; };
+EC9F5C15111443FB9D14429E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA6FDE8D9E36447194D41DC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              ADC1684F3BD54F64A8589CA4 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              8C85CE38A01B4AE980B85CA5 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              F385FF88D77341A49FD44D80 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              862C59980EE74530BDA49E06 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 87147AEB5F1A4151A74FAEC9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0AD0108976EF4ED5B707220E;
+                     remoteInfo = ZERO_CHECK;
+              };
+              C08D92844C304D178ADE7862 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 87147AEB5F1A4151A74FAEC9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FA7CBAA89A5D4A3EA6359486;
+                     remoteInfo = zlib;
+              };
+              B29EA8CD52AD4D56A19E4B5E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 87147AEB5F1A4151A74FAEC9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0F15293ACE25411497479DF6;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+BA6FDE8D9E36447194D41DC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+DD57552A26C4415F92FC0B90 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "adler32.c"; path = "adler32.c"; sourceTree = SOURCE_ROOT; };
+A4700B8AB2BB48C4BAD6E9E7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "compress.c"; path = "compress.c"; sourceTree = SOURCE_ROOT; };
+093BA088BF2F4691AD8FEC73 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "crc32.c"; path = "crc32.c"; sourceTree = SOURCE_ROOT; };
+47E5E45288934EDAA7D5913B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "deflate.c"; path = "deflate.c"; sourceTree = SOURCE_ROOT; };
+EC393E6FFEED4AC7946E5501 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzclose.c"; path = "gzclose.c"; sourceTree = SOURCE_ROOT; };
+51EF400CCA8044B9A6CEF720 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzlib.c"; path = "gzlib.c"; sourceTree = SOURCE_ROOT; };
+ABEB7FACDF97472E99D6767E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzread.c"; path = "gzread.c"; sourceTree = SOURCE_ROOT; };
+8582FA4D943B48EBBBAB9D42 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzwrite.c"; path = "gzwrite.c"; sourceTree = SOURCE_ROOT; };
+DC79CE28E1C341D4B28DAB78 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inflate.c"; path = "inflate.c"; sourceTree = SOURCE_ROOT; };
+EA86860E641A42A683794B92 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "infback.c"; path = "infback.c"; sourceTree = SOURCE_ROOT; };
+517EE00BAA25407AB9543D00 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inftrees.c"; path = "inftrees.c"; sourceTree = SOURCE_ROOT; };
+312BB8A1F5854ED3BC3B7DF2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inffast.c"; path = "inffast.c"; sourceTree = SOURCE_ROOT; };
+94D44DF06B5647D88B886180 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "trees.c"; path = "trees.c"; sourceTree = SOURCE_ROOT; };
+CC4667CEB0EC46F8AFF01EED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "uncompr.c"; path = "uncompr.c"; sourceTree = SOURCE_ROOT; };
+101109D73B834E47A30AE9D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "zutil.c"; path = "zutil.c"; sourceTree = SOURCE_ROOT; };
+758077D01476462C9BDF019A /* /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zconf.h"; path = "../../../ios/build/iPhoneOS/3rdparty/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
+142330ACF2D24DDE9CA681AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zlib.h"; path = "zlib.h"; sourceTree = SOURCE_ROOT; };
+587E39A203124C82B726784B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "crc32.h"; path = "crc32.h"; sourceTree = SOURCE_ROOT; };
+959BBFC21219476DB32FA111 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "deflate.h"; path = "deflate.h"; sourceTree = SOURCE_ROOT; };
+AA4C810391634FE5BADEBBA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "gzguts.h"; path = "gzguts.h"; sourceTree = SOURCE_ROOT; };
+E067D9A85CAD44AF9C593A81 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffast.h"; path = "inffast.h"; sourceTree = SOURCE_ROOT; };
+CB062676A7D24738AE37F51C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffixed.h"; path = "inffixed.h"; sourceTree = SOURCE_ROOT; };
+93D04969D5FC41F3A31B8FD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inflate.h"; path = "inflate.h"; sourceTree = SOURCE_ROOT; };
+29351BC8E5844E86B81536ED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inftrees.h"; path = "inftrees.h"; sourceTree = SOURCE_ROOT; };
+5FCED6467A524624806C51FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "trees.h"; path = "trees.h"; sourceTree = SOURCE_ROOT; };
+D010908A0D034E188AB746EE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zutil.h"; path = "zutil.h"; sourceTree = SOURCE_ROOT; };
+531F40F3EE344CE38D94B32A /* zlib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libzlib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              447A01695B314FA9811AA941  = {
+                     isa = PBXGroup;
+                     children = (
+                            5FC0DA2156BB46A1988390C3 /* Sources */,
+                            9BB11968D14B4473B15D05A2 /* Resources */,
+                            66496992BD614BE694671C24 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              5FC0DA2156BB46A1988390C3 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            562495A1958144EC8A22F2DE /* ALL_BUILD */,
+                            C79A4B04618643879D1E04E0 /* ZERO_CHECK */,
+                            2604865CC1A54D83BBF519D6 /* 3rdparty */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              9BB11968D14B4473B15D05A2 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              562495A1958144EC8A22F2DE /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E3FC7FB3813F4F2CABC7CDFE /* CMake Rules */,
+                            BA6FDE8D9E36447194D41DC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              E3FC7FB3813F4F2CABC7CDFE /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C79A4B04618643879D1E04E0 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            266A7700D62A49A1AE83A7D1 /* CMake Rules */,
+                            BA6FDE8D9E36447194D41DC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              266A7700D62A49A1AE83A7D1 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              2604865CC1A54D83BBF519D6 /* 3rdparty */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1DD139D9F48E414881524293 /* zlib */,
+                     );
+                     name = 3rdparty;
+                     sourceTree = "<group>";
+              };
+              1DD139D9F48E414881524293 /* zlib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FD505FC05EB3416B9E080D2F /* Source Files */,
+                            1C852EE02BA041A2B2EC0D4F /* Header Files */,
+                            BA6FDE8D9E36447194D41DC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = zlib;
+                     sourceTree = "<group>";
+              };
+              FD505FC05EB3416B9E080D2F /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DD57552A26C4415F92FC0B90 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c */,
+                            A4700B8AB2BB48C4BAD6E9E7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c */,
+                            093BA088BF2F4691AD8FEC73 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c */,
+                            47E5E45288934EDAA7D5913B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c */,
+                            EC393E6FFEED4AC7946E5501 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c */,
+                            51EF400CCA8044B9A6CEF720 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c */,
+                            ABEB7FACDF97472E99D6767E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c */,
+                            8582FA4D943B48EBBBAB9D42 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c */,
+                            DC79CE28E1C341D4B28DAB78 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c */,
+                            EA86860E641A42A683794B92 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c */,
+                            517EE00BAA25407AB9543D00 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c */,
+                            312BB8A1F5854ED3BC3B7DF2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c */,
+                            94D44DF06B5647D88B886180 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c */,
+                            CC4667CEB0EC46F8AFF01EED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c */,
+                            101109D73B834E47A30AE9D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              1C852EE02BA041A2B2EC0D4F /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            758077D01476462C9BDF019A /* /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/zconf.h */,
+                            142330ACF2D24DDE9CA681AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zlib.h */,
+                            587E39A203124C82B726784B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.h */,
+                            959BBFC21219476DB32FA111 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.h */,
+                            AA4C810391634FE5BADEBBA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzguts.h */,
+                            E067D9A85CAD44AF9C593A81 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.h */,
+                            CB062676A7D24738AE37F51C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffixed.h */,
+                            93D04969D5FC41F3A31B8FD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.h */,
+                            29351BC8E5844E86B81536ED /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.h */,
+                            5FCED6467A524624806C51FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.h */,
+                            D010908A0D034E188AB746EE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              66496992BD614BE694671C24 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            531F40F3EE344CE38D94B32A /* zlib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              FA7CBAA89A5D4A3EA6359486 /* zlib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 88A124074769400CAAF9E1D8 /* Build configuration list for PBXNativeTarget "zlib" */;
+                     buildPhases = (
+                            4057BB670A294BE882DB75B8 /* Sources */,
+                            FEE09497453C4D04A775F5FF /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            9FCDC6050CF24E40B55CAE63 /* PBXTargetDependency */,
+                     );
+                     name = zlib;
+                     productName = zlib;
+                     productReference = 531F40F3EE344CE38D94B32A /* zlib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              87147AEB5F1A4151A74FAEC9 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = E5A578D436984AC2AE329C31 /* Build configuration list for PBXProject  "zlib" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            8C85CE38A01B4AE980B85CA5 /* Debug */,
+                            F385FF88D77341A49FD44D80 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 447A01695B314FA9811AA941;
+                     projectDirPath = /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib;
+                     projectRoot = "";
+                     targets = (
+                            0F15293ACE25411497479DF6 /* ALL_BUILD */,
+                            0AD0108976EF4ED5B707220E /* ZERO_CHECK */,
+                            F5FF561F66C246E8AA24C6C7 /* install */,
+                            FA7CBAA89A5D4A3EA6359486 /* zlib */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A31AE71975EE4A91AD678503 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5DE7958585384D338C406516 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7C33423F70AE4716B25FDA88 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              61C91264C1F14405880F0649 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              5E2E219048A64555B62EE010 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              645C7332FB4B4E79977FBE9E /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FEE09497453C4D04A775F5FF /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/CMakeScripts/zlib_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              4057BB670A294BE882DB75B8 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            D1C26EA88D234010BBFA4546 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c */,
+                            E8433ECB9ADA4F95AA6092FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c */,
+                            CF2EE5A245BB40BFBA68B2F7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c */,
+                            058742CFF15347558AD9454B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c */,
+                            00E469F8A769434E8889D642 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c */,
+                            B874C6DE5A11488F94BA82D0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c */,
+                            B729C483282747B3A3A56BC7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c */,
+                            92F094C816834F5AB81DE085 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c */,
+                            9B84C8E671774ED5B30B3E52 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c */,
+                            573E9E2857B54E2985B6C5D3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c */,
+                            6941F53F51E24B42A43F47E5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c */,
+                            5385F37B75C64C7CA033636A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c */,
+                            2EACD652505C4122892130D8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c */,
+                            4E83EFA395F643AAB8B09A96 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c */,
+                            26E9DC4B93B94267854F644F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              9FCDC6050CF24E40B55CAE63 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0AD0108976EF4ED5B707220E /* ZERO_CHECK */;
+                     targetProxy = 862C59980EE74530BDA49E06 /* PBXContainerItemProxy */;
+              };
+              881F0CB297824D70A609DF00 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FA7CBAA89A5D4A3EA6359486 /* zlib */;
+                     targetProxy = C08D92844C304D178ADE7862 /* PBXContainerItemProxy */;
+              };
+              B5769B7B22B049B09257EE13 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0F15293ACE25411497479DF6 /* ALL_BUILD */;
+                     targetProxy = B29EA8CD52AD4D56A19E4B5E /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              B6F1DF79B48D4DCFB4D75791 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/build;
+                     };
+                     name = Debug;
+              };
+              B25C4F2DE2644166BF5B263E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib/build;
+                     };
+                     name = Release;
+              };
+              8F43DF62EE0743A9AA5D9C57 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CEE1E4412A19448C87C44572 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D9732872FDFC41EFAEBE23DB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E4A84725FFF34A7191E6B9D1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              143BB1989BF944C6A4603198 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              48140F13E2B544FE8BCD2021 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4A121B167D47477782DA0611 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              35C03000CC464E55B23DB48A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              E5A578D436984AC2AE329C31 /* Build configuration list for PBXProject  "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B6F1DF79B48D4DCFB4D75791 /* Debug */,
+                            B25C4F2DE2644166BF5B263E /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              81963F88916A4C21B0E401D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8F43DF62EE0743A9AA5D9C57 /* Debug */,
+                            CEE1E4412A19448C87C44572 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              420D08A55E684E11843A405D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D9732872FDFC41EFAEBE23DB /* Debug */,
+                            E4A84725FFF34A7191E6B9D1 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DD3CF76BD4434B458FB7EDA1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            143BB1989BF944C6A4603198 /* Debug */,
+                            48140F13E2B544FE8BCD2021 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              88A124074769400CAAF9E1D8 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            4A121B167D47477782DA0611 /* Debug */,
+                            35C03000CC464E55B23DB48A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 87147AEB5F1A4151A74FAEC9;
+}

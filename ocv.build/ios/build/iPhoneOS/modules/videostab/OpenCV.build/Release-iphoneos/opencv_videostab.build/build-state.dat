@@ -1,0 +1,592 @@
+Topencv_videostab
+v5
+r1
+cCheck dependencies
+cSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh
+cStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+cSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+cSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h
+c000000004FD553A8000000000000137B
+t1339380648
+s4987
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a
+t1339380708
+s706704
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o
+t1339380703
+s20684
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o
+t1339380703
+s15312
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o
+t1339380704
+s11064
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o
+t1339380705
+s136092
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o
+t1339380706
+s156708
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o
+t1339380705
+s3184
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o
+t1339380706
+s65168
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/opencv_videostab.LinkFileList
+c000000004FD553DB00000000000007AF
+t1339380699
+s1967
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o
+t1339380705
+s5892
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o
+t1339380706
+s52184
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o
+t1339380705
+s1140
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o
+t1339380708
+s94264
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o
+t1339380707
+s24544
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh
+c000000004FD553DB00000000000000EF
+t1339380699
+s239
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/opencv2/opencv_modules.hpp
+c000000004FD553A80000000000000257
+t1339380648
+s599
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004FD5510500000000000092FA
+t1339379973
+s37626
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004FD550EC000000000002BA75
+t1339379948
+s178805
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004FD550EC00000000000132EB
+t1339379948
+s78571
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004FD550EC00000000000138D4
+t1339379948
+s80084
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004FD550EC000000000001E88E
+t1339379948
+s125070
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004FD550EC000000000000E09A
+t1339379948
+s57498
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004FD550EC00000000000009EA
+t1339379948
+s2538
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004FD5510E000000000000DA4D
+t1339379982
+s55885
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004FD550FA00000000000006FD
+t1339379962
+s1789
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004FD550FA0000000000001226
+t1339379962
+s4646
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004FD550FA00000000000016BE
+t1339379962
+s5822
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004FD550D7000000000000238C
+t1339379927
+s9100
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004FD550D70000000000006337
+t1339379927
+s25399
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004FD550FE000000000000CEAD
+t1339379966
+s52909
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004FD550FE0000000000003741
+t1339379966
+s14145
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include/opencv2/photo/photo.hpp
+c000000004FD550F10000000000000B24
+t1339379953
+s2852
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include/opencv2/photo/photo_c.h
+c000000004FD550F10000000000000A9C
+t1339379953
+s2716
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp
+c000000004FD5510F00000000000020D4
+t1339379983
+s8404
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp
+c000000004FD5510F0000000000004102
+t1339379983
+s16642
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp
+c000000004FD5510F0000000000000970
+t1339379983
+s2416
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp
+c000000004FD550D20000000000000F32
+t1339379922
+s3890
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp
+c000000004FD550D20000000000000E00
+t1339379922
+s3584
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp
+c000000004FD550D2000000000000155B
+t1339379922
+s5467
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp
+c000000004FD550D20000000000000CFF
+t1339379922
+s3327
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp
+c000000004FD550D200000000000020AC
+t1339379922
+s8364
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp
+c000000004FD550D20000000000001C16
+t1339379922
+s7190
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/log.hpp
+c000000004FD550D20000000000000A7F
+t1339379922
+s2687
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp
+c000000004FD550D20000000000000EF2
+t1339379922
+s3826
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp
+c000000004FD550D20000000000001641
+t1339379922
+s5697
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp
+c000000004FD550D200000000000013AD
+t1339379922
+s5037
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp
+c000000004FD550D20000000000000D7F
+t1339379922
+s3455
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp
+c000000004FD550D20000000000000ABA
+t1339379922
+s2746
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp
+c000000004FD550D20000000000001ADF
+t1339379922
+s6879
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp
+c000000004FD550D200000000000012F5
+t1339379922
+s4853
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/clp.hpp
+c000000004FD550D20000000000000B95
+t1339379922
+s2965
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp
+c000000004FD550D20000000000001375
+t1339379922
+s4981
+i"precomp.hpp"
+i"opencv2/videostab/deblurring.hpp"
+i"opencv2/videostab/global_motion.hpp"
+i"opencv2/videostab/ring_buffer.hpp"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp
+c000000004FD550D200000000000011EF
+t1339379922
+s4591
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp
+c000000004FD550D20000000000000AFE
+t1339379922
+s2814
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp
+c000000004FD550D200000000000057A1
+t1339379922
+s22433
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp
+c000000004FD550D2000000000000479F
+t1339379922
+s18335
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp
+c000000004FD550D200000000000009E0
+t1339379922
+s2528
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp
+c000000004FD550D20000000000005343
+t1339379922
+s21315
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp
+c000000004FD550D2000000000000136D
+t1339379922
+s4973
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp
+c000000004FD550D20000000000001A75
+t1339379922
+s6773
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp
+c000000004FD550D20000000000000889
+t1339379922
+s2185
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.hpp
+c000000004FD550D20000000000000AC4
+t1339379922
+s2756
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp
+c000000004FD550D20000000000003A89
+t1339379922
+s14985
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp
+c000000004FD550D200000000000014A3
+t1339379922
+s5283
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies19036f8b8b85b541^232f6f8b8b85b541^---0#1#0#--18"Check dependencies36"E634DD52-63E2-4294-9644-7D6D0DB0EB8B-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073501.876078
+e361073503.712041
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp997fe05d8b85b541^8d46b65f8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp0000000000000000^3597"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o modules/videostab/src/deblurring.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/deblurring.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/deblurring.o36"5303D800-DA7B-483E-A3C3-AEDC3CD89E1C-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073502.064288
+e361073503.809223
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp94a3105e8b85b541^c74bcf5f8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp0000000000000000^3615"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o modules/videostab/src/fast_marching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/fast_marching.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/fast_marching.o36"02E06542-E98D-4C34-83AF-A2314761C371-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073502.581374
+e361073504.232145
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp2d08955e8b85b541^016d3b608b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp0000000000000000^3609"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o modules/videostab/src/frame_source.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/frame_source.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/frame_source.o36"342A3536-DADD-4513-B00C-E275C43FE2A9-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073502.757767
+e361073505.892210
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cppe02bc25e8b85b541^6c76e4618b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp0000000000000000^3615"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o modules/videostab/src/global_motion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/global_motion.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/global_motion.o36"3C3D006F-EB2D-4C98-9856-E68C5AA3A9E6-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073503.479076
+e361073506.917474
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp00e67a5f8b85b541^44deea628b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp0000000000000000^3597"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o modules/videostab/src/inpainting.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/inpainting.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/inpainting.o36"BA62B20A-7D91-4BF3-AF71-812BB58FBE01-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073503.665329
+e361073505.324459
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp9083aa5f8b85b541^095053618b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp0000000000000000^3555"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o modules/videostab/src/log.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/log.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/log.o36"C5796672-8553-4D99-9704-24D591038692-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073503.713418
+e361073506.149451
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp7cd5b65f8b85b541^924126628b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp0000000000000000^3645"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o modules/videostab/src/motion_stabilizing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/motion_stabilizing.o36"1F705BFB-8B11-4708-AE5F-595806C226A0-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073503.810553
+e361073505.474643
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp25b2cf5f8b85b541^2fc37b618b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp0000000000000000^3609"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o modules/videostab/src/optical_flow.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/optical_flow.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/optical_flow.o36"A1AF0DEF-7906-4A2D-9929-1EA2A572016B-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073504.164586
+e361073506.336146
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp1a512a608b85b541^e50b56628b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp0000000000000000^3639"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o modules/videostab/src/outlier_rejection.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/outlier_rejection.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/outlier_rejection.o36"452873A4-8EC1-47A4-8AD4-7355F3099E11-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073504.233875
+e361073505.924555
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cppa20d3c608b85b541^86aeec618b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp0000000000000000^3579"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o modules/videostab/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/precomp.o36"A0D32A30-787A-4BD0-B42C-9ED3C0B0EAFA-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073505.325873
+e361073508.066992
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cppe99c53618b85b541^892511648b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp0000000000000000^3597"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o modules/videostab/src/stabilizer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/stabilizer.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/stabilizer.o36"0CFF4799-47B2-44C7-B622-1A4691381FD0-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073505.483589
+e361073507.418883
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp83f97b618b85b541^003b6b638b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp0000000000000000^3645"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o modules/videostab/src/wobble_suppression.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/photo/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/wobble_suppression.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/wobble_suppression.o36"AC4E0C56-CF4A-40BD-9028-01FB9387559E-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a normal armv7
+s361073508.250261
+e361073508.267543
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a normal armv7382d40648b85b541^397e44648b85b541^---0#0#0#--1033"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/opencv_videostab.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a36"E0C282E3-7F59-40F8-8CD9-B817B9C1A2FC-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a normal armv7
+s361073547.460793
+e361073547.477422
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a normal armv7ed0d768b8b85b541^76387a8b8b85b541^---0#0#0#--1085"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Objects-normal/armv7/opencv_videostab.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a36"CEF20C29-7461-4204-8CCD-9C128DEA4712-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh
+s361073547.486544
+e361073547.522816
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'62f47c8b8b85b541^77d7858b8b85b541^-822"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Releasemake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Releasemake[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073547#0#30#-0#-----2@23"Depend check for xcode-361073547#30#23#-0#-----2@261"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release-361073547#53#261#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.-361073547#314#70#-0#-----2@30"echo "Depend check for xcode"-361073547#384#30#-0#-----2@23"Depend check for xcode-361073547#414#23#-0#-----2@315"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_videostab.Release-361073547#437#315#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_videostab.Release'.-361073547#752#70#-0#-----0#0#0#--438"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/OpenCV.build/Release-iphoneos/opencv_videostab.build/Script-41CDF2D2E18C4034AC7AD941.sh36"2809B2F9-3E80-4355-BD77-4D7EEEB7D10E-
+
+CSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+s361073547.577092
+e361073547.581541
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a68cd938b8b85b541^f0df948b8b85b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a0000000000000000^576"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a36"E43EC4F6-5D03-4F48-8905-3CA70E49C8F7-
+
+CSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+s361073547.562846
+e361073547.567925
+r1
+xSetOwnerAndGroup
+xMSAlshair:staff
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"SetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.ac32c908b8b85b541^5663918b8b85b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a0000000000000000^598"SetOwnerAndGroup "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a36"0B812CF5-9C3C-4542-909F-0DE083A21B61-
+
+CStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+s361073547.531718
+e361073547.554621
+r1
+xStripping
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.acb2e888b8b85b541^3fff8d8b8b85b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a0000000000000000^631"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a36"BE2C361E-ED28-4785-8ADA-FF320FBC45F3-
+
+CSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+s361073547.437955
+e361073547.442288
+r1
+xSymLink
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Process /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a772e708b8b85b541^fc39718b8b85b541^---0#0#0#--727"SymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/videostab/UninstalledProducts/libopencv_videostab.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_videostab.a36"E7A59DBC-B972-4B8B-AB54-A54975F55C35-
+

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B555CE8315831A8700E0348A /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B555CE8215831A8700E0348A /* sample.jpg */; };
-		B555CE8615831C8100E0348A /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = B555CE8515831C8100E0348A /* haarcascade_frontalface_alt2.xml */; };
+		B5579DC21586506B00289C29 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5579DC11586506B00289C29 /* opencv2.framework */; };
 		B55AA2BE15825CB7000F65A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55AA2BD15825CB7000F65A4 /* UIKit.framework */; };
 		B55AA2C015825CB7000F65A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55AA2BF15825CB7000F65A4 /* Foundation.framework */; };
 		B55AA2C215825CB7000F65A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55AA2C115825CB7000F65A4 /* CoreGraphics.framework */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		B555CE8215831A8700E0348A /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
-		B555CE8515831C8100E0348A /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		B5579DC11586506B00289C29 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../ocv.build/ios/opencv2.framework; sourceTree = "<group>"; };
 		B55AA2B915825CB7000F65A4 /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55AA2BD15825CB7000F65A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B55AA2BF15825CB7000F65A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5579DC21586506B00289C29 /* opencv2.framework in Frameworks */,
 				B55AA2BE15825CB7000F65A4 /* UIKit.framework in Frameworks */,
 				B55AA2C015825CB7000F65A4 /* Foundation.framework in Frameworks */,
 				B55AA2C215825CB7000F65A4 /* CoreGraphics.framework in Frameworks */,
@@ -59,7 +60,6 @@
 		B55AA2AE15825CB7000F65A4 = {
 			isa = PBXGroup;
 			children = (
-				B555CE8515831C8100E0348A /* haarcascade_frontalface_alt2.xml */,
 				B55AA2C315825CB7000F65A4 /* FaceDetection */,
 				B55AA2BC15825CB7000F65A4 /* Frameworks */,
 				B55AA2BA15825CB7000F65A4 /* Products */,
@@ -77,6 +77,7 @@
 		B55AA2BC15825CB7000F65A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5579DC11586506B00289C29 /* opencv2.framework */,
 				B55AA2BD15825CB7000F65A4 /* UIKit.framework */,
 				B55AA2BF15825CB7000F65A4 /* Foundation.framework */,
 				B55AA2C115825CB7000F65A4 /* CoreGraphics.framework */,
@@ -167,7 +168,6 @@
 				B55AA2D115825CB7000F65A4 /* MainStoryboard.storyboard in Resources */,
 				B55AA2EF1582B402000F65A4 /* haarcascade_frontalface_default.xml in Resources */,
 				B555CE8315831A8700E0348A /* sample.jpg in Resources */,
-				B555CE8615831C8100E0348A /* haarcascade_frontalface_alt2.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,20 +255,16 @@
 		B55AA2D815825CB7000F65A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ocv.build/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/external/OpenCV_iPhoneSimulator/include;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/external/OpenCV_iPhoneSimulator/lib;
-				OTHER_LDFLAGS = (
-					"-lz",
-					"-lopencv_core",
-					"-lopencv_legacy",
-					"-lopencv_contrib",
-					"-lopencv_objdetect",
-					"-lopencv_imgproc",
-					"-lstdc++",
-				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_LDFLAGS = (
 					"-lz",
@@ -285,20 +281,16 @@
 		B55AA2D915825CB7000F65A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ocv.build/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceDetection/FaceDetection-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/external/OpenCV_iPhoneSimulator/include;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "FaceDetection/FaceDetection-Info.plist";
-				LIBRARY_SEARCH_PATHS = /Users/MSAlshair/Documents/projects/external/OpenCV_iPhoneSimulator/lib;
-				OTHER_LDFLAGS = (
-					"-lz",
-					"-lopencv_core",
-					"-lopencv_legacy",
-					"-lopencv_contrib",
-					"-lopencv_objdetect",
-					"-lopencv_imgproc",
-					"-lstdc++",
-				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WARNING_LDFLAGS = (
 					"-lz",

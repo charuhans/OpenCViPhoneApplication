@@ -1,0 +1,408 @@
+Tzlib
+v5
+r1
+cCheck dependencies
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zlib.LinkFileList
+c000000004FD55413000000000000091D
+t1339380755
+s2333
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh
+c000000004FD5541300000000000000E9
+t1339380755
+s233
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c
+c000000004FD5502E0000000000001368
+t1339379758
+s4968
+i"zutil.h"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c
+c000000004FD5502E00000000000009D8
+t1339379758
+s2520
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c
+c000000004FD5502E000000000000362A
+t1339379758
+s13866
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c
+c000000004FD5502E00000000000116E0
+t1339379758
+s71392
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c
+c000000004FD5502E00000000000002A6
+t1339379758
+s678
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c
+c000000004FD5502E00000000000039F1
+t1339379758
+s14833
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c
+c000000004FD5502E00000000000047B1
+t1339379758
+s18353
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c
+c000000004FD5502E0000000000003F8A
+t1339379758
+s16266
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c
+c000000004FD5502E00000000000058AD
+t1339379758
+s22701
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c
+c000000004FD5502E000000000000347F
+t1339379758
+s13439
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c
+c000000004FD5502E000000000000CF83
+t1339379758
+s53123
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c
+c000000004FD5502E00000000000032E9
+t1339379758
+s13033
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c
+c000000004FD5502E000000000000AC81
+t1339379758
+s44161
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c
+c000000004FD5502E00000000000007CA
+t1339379758
+s1994
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c
+c000000004FD5502E0000000000001B32
+t1339379758
+s6962
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.h
+c000000004FD5502E00000000000019ED
+t1339379758
+s6637
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc3d555938b85b541^d2e056938b85b541^---0#1#0#--18"Check dependencies36"FB7279D8-6830-41FD-B4FD-045163CC12B4-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349423
+e361073555.496783
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c74eb59938b85b541^37fe80938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o 3rdparty/zlib/adler32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/adler32.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o36"6B80BB2A-5F73-47DE-8B48-D983D6DAEC48-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349437
+e361073555.489647
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.ca22a5a938b85b541^79ca7e938b85b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c0000000000000000^2866"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o 3rdparty/zlib/compress.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/compress.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o36"C9B29AA1-E09C-4924-8762-86736089A5F7-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349428
+e361073555.496477
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c6ced59938b85b541^dcf380938b85b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c0000000000000000^2848"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o 3rdparty/zlib/crc32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/crc32.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o36"52E6F64F-2179-4278-9520-9AEA3E8E89F9-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349433
+e361073555.533439
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c1c0b5a938b85b541^7ff588938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o 3rdparty/zlib/deflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/deflate.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o36"D50A31A0-B95A-452D-BA4B-F22F5799E6CE-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349441
+e361073555.495615
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.cc6fb59938b85b541^06f47e938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o 3rdparty/zlib/gzclose.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzclose.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o36"F1FD4008-1DB1-4424-ADB8-9E91A175F634-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.349453
+e361073555.504316
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.cb1fc59938b85b541^174781938b85b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c0000000000000000^2848"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o 3rdparty/zlib/gzlib.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzlib.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o36"F5821D96-E90E-4F7A-9CA7-593021621FFA-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.351682
+e361073555.504667
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c1a325a938b85b541^a95081938b85b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c0000000000000000^2854"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o 3rdparty/zlib/gzread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzread.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o36"6FEC9CC6-B8F6-4814-A24F-7CD402A32862-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.352012
+e361073555.518419
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c42405a938b85b541^88d686938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o 3rdparty/zlib/gzwrite.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/gzwrite.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o36"AE00CECB-3329-4694-9F25-73A06E2DA784-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.499365
+e361073555.672068
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c6dfe7f938b85b541^ac1aac938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o 3rdparty/zlib/infback.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/infback.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o36"F081A62A-44BD-4485-93B0-C950B6C447AB-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.501029
+e361073555.642621
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c176780938b85b541^ccefa4938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o 3rdparty/zlib/inffast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inffast.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o36"D9D3F531-2AA2-43CF-9733-9DC624E5B8C5-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.497407
+e361073555.676289
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.cf8c37f938b85b541^c020ad938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o 3rdparty/zlib/inflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inflate.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o36"C3F59FA9-DDC2-4792-9619-E6D0C3923969-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.500182
+e361073555.644971
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c5d3480938b85b541^4c1ca5938b85b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c0000000000000000^2866"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o 3rdparty/zlib/inftrees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/inftrees.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o36"2B78D1CD-4CA4-4B89-B32A-BDD4DFA8482A-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.505635
+e361073555.680002
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.cb79a81938b85b541^d522ae938b85b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c0000000000000000^2848"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o 3rdparty/zlib/trees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/trees.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o36"6AC8F608-2C59-424B-9078-4D694EB4653F-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.506535
+e361073555.640816
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c0bd581938b85b541^04e7a4938b85b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c0000000000000000^2860"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o 3rdparty/zlib/uncompr.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/uncompr.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o36"43B0E2E9-274F-4324-9853-A71C9C577F9A-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s361073555.522846
+e361073555.669337
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c790586938b85b541^1d3cab938b85b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c0000000000000000^2848"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o 3rdparty/zlib/zutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.6 -Wno-conversion -Wno-sign-conversion -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib/zutil.c -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o36"00ABF495-8786-46EE-B8A5-B93265964A9C-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a normal i386
+s361073555.687491
+e361073555.695924
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a normal i3863716b0938b85b541^9928b2938b85b541^---0#0#0#--1060"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a normal i386    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zlib.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/lib/Release/libzlib.a36"82BACED3-9DD0-4D8A-A389-ED02B439C187-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh
+s361073555.704133
+e361073555.744707
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
+omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
+omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'65e4b4938b85b541^98a4be938b85b541^-804"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073555#0#30#-0#-----2@23"Depend check for xcode-361073555#30#23#-0#-----2@270"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-361073555#53#270#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-361073555#323#58#-0#-----2@30"echo "Depend check for xcode"-361073555#381#30#-0#-----2@23"Depend check for xcode-361073555#411#23#-0#-----2@312"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-361073555#434#312#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-361073555#746#58#-0#-----0#0#0#--434"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Script-CA0361CFAC95407CA075D06E.sh36"D7BB7913-56A2-41AF-A508-7D886003F310-
+

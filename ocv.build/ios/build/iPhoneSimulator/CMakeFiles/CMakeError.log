@@ -1,0 +1,171 @@
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3563376266 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3563376266 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:30.283 xcodebuild[2274:3617] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x4010d2ec0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:30.285 xcodebuild[2274:3617] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1139719912 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1139719912 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:30.724 xcodebuild[2279:3a03] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x400ea4cc0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:30.726 xcodebuild[2279:3a03] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3018704735 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec3018704735 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:31.161 xcodebuild[2284:390b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x400711820 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:31.163 xcodebuild[2284:390b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1103818778 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1103818778 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:31.598 xcodebuild[2289:3907] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x4004efe60 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:31.600 xcodebuild[2289:3907] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CheckTypeSize/OFF64_T.c:
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec939426994 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec939426994 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:32.030 xcodebuild[2294:3a07] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x4004d5e00 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:32.032 xcodebuild[2294:3a07] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1878349809 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1878349809 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:12:32.457 xcodebuild[2299:3a0b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x4004fdc00 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:12:32.458 xcodebuild[2299:3a0b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+

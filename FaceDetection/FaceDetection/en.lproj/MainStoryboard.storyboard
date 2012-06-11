@@ -23,7 +23,12 @@
                                 <rect key="frame" x="0.0" y="416" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="load" id="iJV-WU-U3Z">
+                                    <barButtonItem systemItem="camera" id="bUv-9i-bKg">
+                                        <connections>
+                                            <action selector="loadImageFromCamera:" destination="2" id="NBP-3R-eGk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="action" id="iJV-WU-U3Z">
                                         <connections>
                                             <action selector="loadImageFromPhotoLibrary:" destination="2" id="j9C-OD-DXk"/>
                                         </connections>
@@ -49,6 +54,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="bUv-9i-bKg" id="lP5-XJ-uCk"/>
                         <outlet property="faceButton" destination="3WE-rV-igo" id="Jfc-AA-ZMu"/>
                         <outlet property="imageView" destination="PPV-aK-xiC" id="len-PV-Rw5"/>
                         <outlet property="loadButton" destination="iJV-WU-U3Z" id="OoJ-4r-kcS"/>
@@ -63,7 +69,9 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="faceDetect:"/>
+                <relationship kind="action" name="loadImageFromCamera:"/>
                 <relationship kind="action" name="loadImageFromPhotoLibrary:"/>
+                <relationship kind="outlet" name="cameraButton" candidateClass="UIBarButtonItem"/>
                 <relationship kind="outlet" name="faceButton" candidateClass="UIBarButtonItem"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="loadButton" candidateClass="UIBarButtonItem"/>

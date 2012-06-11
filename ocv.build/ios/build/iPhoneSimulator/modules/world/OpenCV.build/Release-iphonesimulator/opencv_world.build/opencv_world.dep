@@ -1,0 +1,4 @@
+4fe3bb9ca20171ff4da995134e2afea0 eef1891aec9da6e0d80c87865464bb60 ffffffffffffffffffffffffffffffff 0 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/world/UninstalledProducts/libopencv_world.a
+00000000000000000000000000000000 ea70bfeb7d8b758b8d3823fec4105379 ffffffffffffffffffffffffffffffff 25550912 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release/libopencv_world.a
+000000004fd550ea00000000000009a1 4205f55261a9a68cb29734565c07687f ffffffffffffffffffffffffffffffff 1576 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/world/OpenCV.build/Release-iphonesimulator/opencv_world.build/Objects-normal/i386/world_init.o
+000000004fd550ea0000000000000000 0de64ece8cedeb60ff3ea145122f5355 ffffffffffffffffffffffffffffffff 152 /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/world/OpenCV.build/Release-iphonesimulator/opencv_world.build/Objects-normal/i386/precomp.o

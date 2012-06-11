@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              EAC6468D3164412CBA53CC24 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F6A7652E48424309BCE060F2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            118315D0CC2E483D9B952EA0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            FB70B9B2384B427FA6FD438D /* PBXTargetDependency */,
+                            A64B1913126D402AB149E170 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D7F5D118CBCE4464B206D677 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = FDFFCD6F4BC4418A9075B774 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            39D8975B9D404D09923F36E0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              8FF0C32AD9C64F8E88741277 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = B2D633C0E7FE48E18BFE0F7C /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            775B88A74016450EA1837025 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            82F078952D3D4337B1DF69E6 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+3C97A6FBC89643BC91783DC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp */ = {isa = PBXBuildFile; fileRef = A6BC5F1BB683469C91691505 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+690E3F3E9D5947198D20F25C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/compat.hpp */ = {isa = PBXBuildFile; fileRef = 7C0F0551A4D94827B9E057A4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/compat.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4C68A95EFC7C423BBEA785A8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp */ = {isa = PBXBuildFile; fileRef = B0F518E58575429FAEFB6A7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2C6FA3DEB2374C1589F0F8A2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/streams.hpp */ = {isa = PBXBuildFile; fileRef = 4B00CEEBAEA24344839AD541 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/streams.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6D10FF26E89D4FFFBAF69A47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/3dtracker.cpp */ = {isa = PBXBuildFile; fileRef = 16F0E9B5DFA349439051BA94 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/3dtracker.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+29980A208A2047DA9FF46773 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/auxutils.cpp */ = {isa = PBXBuildFile; fileRef = CBBB766A6647490E82C3B14B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/auxutils.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7696DB0256334FC0AF1908EE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_acmmm2003.cpp */ = {isa = PBXBuildFile; fileRef = 5C6671D9402F496499382847 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_acmmm2003.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B41237BFC3534A23B73D5136 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_codebook.cpp */ = {isa = PBXBuildFile; fileRef = 175A197BD5C240B0920B02F9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_codebook.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D5C42FA2824946D0A1EA5839 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_common.cpp */ = {isa = PBXBuildFile; fileRef = BAF5C1EAD935457AA6B3B3A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_common.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5D10B61A847C41FC8E5239A3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_estimation.cpp */ = {isa = PBXBuildFile; fileRef = 76D00D65632D4F189F63C6AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_estimation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3BFC425B017F4CF881D98FEA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_gaussmix.cpp */ = {isa = PBXBuildFile; fileRef = 4ED3900CADD5433DB07640B9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_gaussmix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A9201C4320C34AA8A4454791 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrack.cpp */ = {isa = PBXBuildFile; fileRef = BBC624B0A03844F2993FDB49 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrack.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A7C5228E04144294B5EC092E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysis.cpp */ = {isa = PBXBuildFile; fileRef = E8DDA6E0DB224E139EFED9CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysis.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B13A29D29E1745AE99026977 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysishist.cpp */ = {isa = PBXBuildFile; fileRef = 41E9F21CCB824F9A8F5DAF6E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysishist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CD3A56E8C95B403080EFC4E3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysisior.cpp */ = {isa = PBXBuildFile; fileRef = 4202685A48184D178E31805A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysisior.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FA0C4B2AB7BC478597F484A6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp */ = {isa = PBXBuildFile; fileRef = 763077FA33444F118328D0DC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+49FD8350BA4B4A598DB46056 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgen1.cpp */ = {isa = PBXBuildFile; fileRef = B8904D7435A54CED9929449E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgen1.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0B25A4D48BEB4E00B31E88FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgenyml.cpp */ = {isa = PBXBuildFile; fileRef = 47B75AFF681A4FC385CF49EB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgenyml.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0619634757EF47B9B8BB626E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingauto.cpp */ = {isa = PBXBuildFile; fileRef = 137BE15638F34BF39E3FC4CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingauto.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+677CC3A820D54893B1CE361D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingcc.cpp */ = {isa = PBXBuildFile; fileRef = F9900D38617F4D79B60ECCFA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingcc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D1E12D132CDB491E8CDC9DD5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingccwithcr.cpp */ = {isa = PBXBuildFile; fileRef = F2ABAE0D4F7A40E79DACD9B4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingccwithcr.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+206A811731944B04B12A80E8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingkalman.cpp */ = {isa = PBXBuildFile; fileRef = 17D1BBD2D0E04B53A3A46199 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingkalman.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8698F0E788A54C33B8EE77D1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackinglist.cpp */ = {isa = PBXBuildFile; fileRef = 81D9BDBE35234598B6375315 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackinglist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+86D9AE6B06FE4045926CD441 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfg.cpp */ = {isa = PBXBuildFile; fileRef = 02C6F3AD9F334493A873BA1C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfg.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A7B661C4CCE84AA3B0DE8928 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfgs.cpp */ = {isa = PBXBuildFile; fileRef = 2ECB460F52B04507AC617D39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfgs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C58A98D07CAB49B78EFCE7FA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostprockalman.cpp */ = {isa = PBXBuildFile; fileRef = AFB68CC03B71406ABBD43E7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostprockalman.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2DB7A92CBAA0451DB8C97792 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclinear.cpp */ = {isa = PBXBuildFile; fileRef = F1E76E2054154DBBA5C3308E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclinear.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+88617BED3E4141038181C4D7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclist.cpp */ = {isa = PBXBuildFile; fileRef = 40317AAF3077499C9CF7E232 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclist.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DD99478610FE477BB02BECE2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calcimagehomography.cpp */ = {isa = PBXBuildFile; fileRef = 67BBCD6A97A74AFBA6CB268D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calcimagehomography.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CF26BA4FF86C44F4A0BEC566 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calibfilter.cpp */ = {isa = PBXBuildFile; fileRef = AAB09BF702984A3797340E0A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calibfilter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0D472E133CA94687B4F0F80F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calonder.cpp */ = {isa = PBXBuildFile; fileRef = 919A83973029499D80E45F0C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calonder.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2DBA0B8A24174249B0A06C81 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/camshift.cpp */ = {isa = PBXBuildFile; fileRef = C17915ED524A495AB0575971 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/camshift.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DDB7CC36F68F47D49588A75D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/clique.cpp */ = {isa = PBXBuildFile; fileRef = 6782A0D0A1994C07BA624D4D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/clique.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+36D99CC50B114FA7A1FEB675 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/compat.cpp */ = {isa = PBXBuildFile; fileRef = FFBF6B03FE5C4D2497E84E89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/compat.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5B20D92D1FC24CD3AF1023F1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/condens.cpp */ = {isa = PBXBuildFile; fileRef = 60E19752EE994F868FCF4C47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/condens.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+20CFB3BEFBED4F4388C691BD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/contourtree.cpp */ = {isa = PBXBuildFile; fileRef = BA78316F09A3490CB8CB53A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/contourtree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E25A1F05EB884ECA8C18CE2E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/correspond.cpp */ = {isa = PBXBuildFile; fileRef = 48675989DBC040338C9A3303 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/correspond.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D34024B000274A7A87CC9E92 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/corrimages.cpp */ = {isa = PBXBuildFile; fileRef = 45F3F70BA5C84239873624A6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/corrimages.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6FE0834AA31046D2BBE85133 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/createhandmask.cpp */ = {isa = PBXBuildFile; fileRef = 787600216C194C61811384CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/createhandmask.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5E65C8A935ED43ACBB9F2E3B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/decomppoly.cpp */ = {isa = PBXBuildFile; fileRef = A085FB7359124D409D8F9D18 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/decomppoly.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+73390A967FD64F89826B624E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dominants.cpp */ = {isa = PBXBuildFile; fileRef = E73F55A3BD4E4EC48CFE785F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dominants.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+754D19F8EDEA4F709567AACF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dpstereo.cpp */ = {isa = PBXBuildFile; fileRef = F815546C4749447EB670F22A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dpstereo.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+ABE8CA52CAFC42ED98301F2A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/eigenobjects.cpp */ = {isa = PBXBuildFile; fileRef = 85952EAEF8B245E99F4049A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/eigenobjects.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F93B514FC7994468B0AD1F20 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/em.cpp */ = {isa = PBXBuildFile; fileRef = 8A6C2CF69CD140CCAB514BD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/em.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4DA509BAC7CD415E8A66368A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enmin.cpp */ = {isa = PBXBuildFile; fileRef = 52E52F3865BB47E08F2EEEB9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enmin.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2A16079585AF470B8DD8DAFE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetection.cpp */ = {isa = PBXBuildFile; fileRef = ED565B8097974D469483C809 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetection.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A593CEB7AA52492087979E79 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetectionreal.cpp */ = {isa = PBXBuildFile; fileRef = C3803D701F974F1580680443 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetectionreal.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1A1AFCA2E55A4DAE9E729EAB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/epilines.cpp */ = {isa = PBXBuildFile; fileRef = D927D8FB5E024BC3A2AE210C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/epilines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+505A8C757C594D2B80D11D47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/extendededges.cpp */ = {isa = PBXBuildFile; fileRef = 4A76F63A19994D139B4652D0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/extendededges.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2047C68E1B3F41478C8D053F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.cpp */ = {isa = PBXBuildFile; fileRef = DE1D3DC59EC843B6A423B9A0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+99FCBF1712D245CEA9FAD178 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.cpp */ = {isa = PBXBuildFile; fileRef = 74F6DFFFAB29464DBF0610C2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DEAC499728A346AA8391A0E6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.cpp */ = {isa = PBXBuildFile; fileRef = 25D1EF22E8714FCE9ED75DA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+08233FD15D6942B0AD4200DD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/features2d.cpp */ = {isa = PBXBuildFile; fileRef = 91732F93AE73462BA629EC37 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/features2d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C346B48F8A4543B587B57E64 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/featuretree.cpp */ = {isa = PBXBuildFile; fileRef = D57F57161118408FA190DF89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/featuretree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1D4B317124FB4B048F8D89FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findface.cpp */ = {isa = PBXBuildFile; fileRef = 8E448DD5E9F24D26A5912A9A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findface.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+173A052CDFD84E178F287F43 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findhandregion.cpp */ = {isa = PBXBuildFile; fileRef = 448EF4A9B22E420D8D103FE6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findhandregion.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6C19299E6EEA4838AD7CB808 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm.cpp */ = {isa = PBXBuildFile; fileRef = 8D1259FB2EC74677A10C7D25 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+96CDB3E237B34C47B862F7E8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm1d.cpp */ = {isa = PBXBuildFile; fileRef = 9500B2C0BB8842A38CFC6C45 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm1d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1C2E9FBD60A2470CA8BFD30D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmmobs.cpp */ = {isa = PBXBuildFile; fileRef = 1275818B95274F8F827F152A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmmobs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EDB022FC8C954C6D92731A98 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/image.cpp */ = {isa = PBXBuildFile; fileRef = C37B45C6FB5F4FDFB36C064E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/image.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F48FE703D07440D69B080975 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/kdtree.cpp */ = {isa = PBXBuildFile; fileRef = 89973372E7784A55A9E8002D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/kdtree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+61D392CBD4D2401283319E15 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lcm.cpp */ = {isa = PBXBuildFile; fileRef = 9AD12BC1470F43F48F133DB8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lcm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2A5F7E60EB52415E83EADC16 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lee.cpp */ = {isa = PBXBuildFile; fileRef = 2F9BDD90675743D3A68CDC89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lee.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6180BE3CFD2E442F9CBB40B7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmar.cpp */ = {isa = PBXBuildFile; fileRef = 686CE9A1DE854AFFB6D6D729 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmar.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1D670217129C4A9884D06824 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmarprojbandle.cpp */ = {isa = PBXBuildFile; fileRef = 0D564E6F12CF4B72B02EC4FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmarprojbandle.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F1AA2CBD171645DE9091E733 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmartrif.cpp */ = {isa = PBXBuildFile; fileRef = 8CCEC5CA402B41EC9FC4B576 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmartrif.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+555139A32A0A4922A2DDCED5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lines.cpp */ = {isa = PBXBuildFile; fileRef = 14BDA1AC845942CC92F32BE7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BE02F5FC605E4B6E956FA2EA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lmeds.cpp */ = {isa = PBXBuildFile; fileRef = 94EF9B01AB364605B278E54F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lmeds.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1E32DF3DEE6D41F18CEE77A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lsh.cpp */ = {isa = PBXBuildFile; fileRef = 6C1538446F014E8C8A25A2F1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lsh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4EC0CC70313A4E0FB32D1DFB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphcontours.cpp */ = {isa = PBXBuildFile; fileRef = 11D789ED3BA34ADC931D8627 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphcontours.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+82D5D877A64E43F39CBE4FB6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphing.cpp */ = {isa = PBXBuildFile; fileRef = AAD7FC7AD112420F9B22885B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphing.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+65B5DAD7E4444CB1BD3EEFCC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/oneway.cpp */ = {isa = PBXBuildFile; fileRef = 66AC659B7ED34ADA98E62FB3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/oneway.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+602CB703C5BE472BB588046C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowbm.cpp */ = {isa = PBXBuildFile; fileRef = E83345BC1770494B8C50B348 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowbm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EA9B1DC9B2B94723BE600879 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowhs.cpp */ = {isa = PBXBuildFile; fileRef = 90CFA2F148A04951898DD4D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowhs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D80569BAC5484DEAA8A393EA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowlk.cpp */ = {isa = PBXBuildFile; fileRef = 3215E80E42634F5A987009FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowlk.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+40860EA39C954A0B8A245AA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pgh.cpp */ = {isa = PBXBuildFile; fileRef = BE80874BEA664E0CB75E6ED6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pgh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3789B0F857A34D4D9B95DBCC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/planardetect.cpp */ = {isa = PBXBuildFile; fileRef = 1185608EFFAF42B58752C5C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/planardetect.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DD15233AD04340AE89132DBB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 8C0250A6298F4A78A95474B8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8FC5C207DC7B4BD882B2F923 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/prewarp.cpp */ = {isa = PBXBuildFile; fileRef = 9A4477EF89E24FE69085A1A3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/prewarp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B67DBE0B205049679CE4473C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pyrsegmentation.cpp */ = {isa = PBXBuildFile; fileRef = 27113244F4954558B79AEED3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pyrsegmentation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+50BB2804069E4E108E167749 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/scanlines.cpp */ = {isa = PBXBuildFile; fileRef = E38237D6140A428196B85EDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/scanlines.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+180FB7A7EDD14F09B0ACC318 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/segment.cpp */ = {isa = PBXBuildFile; fileRef = C3D874529E3C4C76ADE8C095 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/segment.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A91E2E70E0414EB8849EB429 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/snakes.cpp */ = {isa = PBXBuildFile; fileRef = 66CE7D03FCA1475FB24DDC17 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/snakes.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C679C58CF88E4853944DEE1E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/spilltree.cpp */ = {isa = PBXBuildFile; fileRef = 87355EA6590749BC9AB2174B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/spilltree.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B742621300E645ABBD59B793 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/stereogc.cpp */ = {isa = PBXBuildFile; fileRef = 66B7EB639D314EFF80EA7ACA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/stereogc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+78C94F6B01FF4E9B9599308C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/subdiv2.cpp */ = {isa = PBXBuildFile; fileRef = 8B553BB303BA48EC9E6C9BA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/subdiv2.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CFBF11AEAECB4E1DA09A5B4B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/testseq.cpp */ = {isa = PBXBuildFile; fileRef = 7D1C264BF5E041DD843B2022 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/testseq.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+60A5B966AC234FABB400917D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/texture.cpp */ = {isa = PBXBuildFile; fileRef = DC89F574DDB943228EF99377 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/texture.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+901E1A347B67405A9356A23D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/trifocal.cpp */ = {isa = PBXBuildFile; fileRef = 3BF39FBC5829454BA06F84C0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/trifocal.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DFB3DF4429D0418F87E1E509 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/vecfacetracking.cpp */ = {isa = PBXBuildFile; fileRef = 0B01D48BD7FE417A821BAF9E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/vecfacetracking.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CD92C39E47FE4C5C930BC623 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/video.cpp */ = {isa = PBXBuildFile; fileRef = B7DE24E4EC524B988A388887 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/video.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DB2A0D24461E44E192849AF2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_kdtree.hpp */ = {isa = PBXBuildFile; fileRef = 1CA725320F6A43999539C51F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_kdtree.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+BD8B1D227592406D95E766D1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = D1B04439201543029A599154 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+55F2A0965F5B48D480EE1EA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_facedetection.h */ = {isa = PBXBuildFile; fileRef = AD29FF62253D433EB1FA7012 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_facedetection.h */; settings = { COMPILER_FLAGS = ""; }; };
+119B3AA940124C169E98E7C3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_featuretree.h */ = {isa = PBXBuildFile; fileRef = 760E7450E565411BA4488417 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_featuretree.h */; settings = { COMPILER_FLAGS = ""; }; };
+AED7080C5AD148B0AAB9EC50 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_matrix.h */ = {isa = PBXBuildFile; fileRef = 542928E10BAC40398634B50E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_matrix.h */; settings = { COMPILER_FLAGS = ""; }; };
+1DA15BCD9D1449CE8AFC5BCC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vectrack.h */ = {isa = PBXBuildFile; fileRef = A44DB559C7C4488A8C9C0F1B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vectrack.h */; settings = { COMPILER_FLAGS = ""; }; };
+E8333D2D50C945109F654CBA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vm.h */ = {isa = PBXBuildFile; fileRef = 968E77A02060488A8DCDA2E0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vm.h */; settings = { COMPILER_FLAGS = ""; }; };
+C48D40493BC94E2481FF61F3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.h */ = {isa = PBXBuildFile; fileRef = D461CF9418044E88A47CF8D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.h */; settings = { COMPILER_FLAGS = ""; }; };
+7BE886542C684E3BA41AC299 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.h */ = {isa = PBXBuildFile; fileRef = 5DD1DC3D0AB94DA8997F7E22 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.h */; settings = { COMPILER_FLAGS = ""; }; };
+566479BE981147C6A83C2989 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.h */ = {isa = PBXBuildFile; fileRef = EDDD0EB573FB48CB9940A76A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.h */; settings = { COMPILER_FLAGS = ""; }; };
+C05EDD2A2CFD414B89E65908 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC967077BA644EA5B5467BCB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              2C0AD90739EE4EEBBCD777DA /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              1B4150B3E97D43229CED629C /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              A566DC36BADB4B4E81CABB4D /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              432BF6F41559401F81A4C89C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BB69D7936E9741CD95509BB1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D7F5D118CBCE4464B206D677;
+                     remoteInfo = ZERO_CHECK;
+              };
+              9209A17E4CA147859F11777A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BB69D7936E9741CD95509BB1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = DBBE1FC60B234CCBABC58499;
+                     remoteInfo = opencv_legacy;
+              };
+              C0ED4640D37A4A9DACE30D04 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = BB69D7936E9741CD95509BB1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EAC6468D3164412CBA53CC24;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+DC967077BA644EA5B5467BCB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+A6BC5F1BB683469C91691505 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "blobtrack.hpp"; path = "include/opencv2/legacy/blobtrack.hpp"; sourceTree = SOURCE_ROOT; };
+7C0F0551A4D94827B9E057A4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/compat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "compat.hpp"; path = "include/opencv2/legacy/compat.hpp"; sourceTree = SOURCE_ROOT; };
+B0F518E58575429FAEFB6A7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "legacy.hpp"; path = "include/opencv2/legacy/legacy.hpp"; sourceTree = SOURCE_ROOT; };
+4B00CEEBAEA24344839AD541 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/streams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "streams.hpp"; path = "include/opencv2/legacy/streams.hpp"; sourceTree = SOURCE_ROOT; };
+16F0E9B5DFA349439051BA94 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/3dtracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "3dtracker.cpp"; path = "src/3dtracker.cpp"; sourceTree = SOURCE_ROOT; };
+CBBB766A6647490E82C3B14B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/auxutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "auxutils.cpp"; path = "src/auxutils.cpp"; sourceTree = SOURCE_ROOT; };
+5C6671D9402F496499382847 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_acmmm2003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_acmmm2003.cpp"; path = "src/bgfg_acmmm2003.cpp"; sourceTree = SOURCE_ROOT; };
+175A197BD5C240B0920B02F9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_codebook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_codebook.cpp"; path = "src/bgfg_codebook.cpp"; sourceTree = SOURCE_ROOT; };
+BAF5C1EAD935457AA6B3B3A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_common.cpp"; path = "src/bgfg_common.cpp"; sourceTree = SOURCE_ROOT; };
+76D00D65632D4F189F63C6AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_estimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_estimation.cpp"; path = "src/bgfg_estimation.cpp"; sourceTree = SOURCE_ROOT; };
+4ED3900CADD5433DB07640B9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_gaussmix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "bgfg_gaussmix.cpp"; path = "src/bgfg_gaussmix.cpp"; sourceTree = SOURCE_ROOT; };
+BBC624B0A03844F2993FDB49 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrack.cpp"; path = "src/blobtrack.cpp"; sourceTree = SOURCE_ROOT; };
+E8DDA6E0DB224E139EFED9CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysis.cpp"; path = "src/blobtrackanalysis.cpp"; sourceTree = SOURCE_ROOT; };
+41E9F21CCB824F9A8F5DAF6E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysishist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysishist.cpp"; path = "src/blobtrackanalysishist.cpp"; sourceTree = SOURCE_ROOT; };
+4202685A48184D178E31805A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysisior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysisior.cpp"; path = "src/blobtrackanalysisior.cpp"; sourceTree = SOURCE_ROOT; };
+763077FA33444F118328D0DC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackanalysistrackdist.cpp"; path = "src/blobtrackanalysistrackdist.cpp"; sourceTree = SOURCE_ROOT; };
+B8904D7435A54CED9929449E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgen1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackgen1.cpp"; path = "src/blobtrackgen1.cpp"; sourceTree = SOURCE_ROOT; };
+47B75AFF681A4FC385CF49EB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgenyml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackgenyml.cpp"; path = "src/blobtrackgenyml.cpp"; sourceTree = SOURCE_ROOT; };
+137BE15638F34BF39E3FC4CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingauto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingauto.cpp"; path = "src/blobtrackingauto.cpp"; sourceTree = SOURCE_ROOT; };
+F9900D38617F4D79B60ECCFA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingcc.cpp"; path = "src/blobtrackingcc.cpp"; sourceTree = SOURCE_ROOT; };
+F2ABAE0D4F7A40E79DACD9B4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingccwithcr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingccwithcr.cpp"; path = "src/blobtrackingccwithcr.cpp"; sourceTree = SOURCE_ROOT; };
+17D1BBD2D0E04B53A3A46199 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingkalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingkalman.cpp"; path = "src/blobtrackingkalman.cpp"; sourceTree = SOURCE_ROOT; };
+81D9BDBE35234598B6375315 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackinglist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackinglist.cpp"; path = "src/blobtrackinglist.cpp"; sourceTree = SOURCE_ROOT; };
+02C6F3AD9F334493A873BA1C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingmsfg.cpp"; path = "src/blobtrackingmsfg.cpp"; sourceTree = SOURCE_ROOT; };
+2ECB460F52B04507AC617D39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackingmsfgs.cpp"; path = "src/blobtrackingmsfgs.cpp"; sourceTree = SOURCE_ROOT; };
+AFB68CC03B71406ABBD43E7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostprockalman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostprockalman.cpp"; path = "src/blobtrackpostprockalman.cpp"; sourceTree = SOURCE_ROOT; };
+F1E76E2054154DBBA5C3308E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclinear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostproclinear.cpp"; path = "src/blobtrackpostproclinear.cpp"; sourceTree = SOURCE_ROOT; };
+40317AAF3077499C9CF7E232 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blobtrackpostproclist.cpp"; path = "src/blobtrackpostproclist.cpp"; sourceTree = SOURCE_ROOT; };
+67BBCD6A97A74AFBA6CB268D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calcimagehomography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calcimagehomography.cpp"; path = "src/calcimagehomography.cpp"; sourceTree = SOURCE_ROOT; };
+AAB09BF702984A3797340E0A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calibfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calibfilter.cpp"; path = "src/calibfilter.cpp"; sourceTree = SOURCE_ROOT; };
+919A83973029499D80E45F0C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calonder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calonder.cpp"; path = "src/calonder.cpp"; sourceTree = SOURCE_ROOT; };
+C17915ED524A495AB0575971 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/camshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "camshift.cpp"; path = "src/camshift.cpp"; sourceTree = SOURCE_ROOT; };
+6782A0D0A1994C07BA624D4D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/clique.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "clique.cpp"; path = "src/clique.cpp"; sourceTree = SOURCE_ROOT; };
+FFBF6B03FE5C4D2497E84E89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/compat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "compat.cpp"; path = "src/compat.cpp"; sourceTree = SOURCE_ROOT; };
+60E19752EE994F868FCF4C47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/condens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "condens.cpp"; path = "src/condens.cpp"; sourceTree = SOURCE_ROOT; };
+BA78316F09A3490CB8CB53A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/contourtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "contourtree.cpp"; path = "src/contourtree.cpp"; sourceTree = SOURCE_ROOT; };
+48675989DBC040338C9A3303 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/correspond.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "correspond.cpp"; path = "src/correspond.cpp"; sourceTree = SOURCE_ROOT; };
+45F3F70BA5C84239873624A6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/corrimages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "corrimages.cpp"; path = "src/corrimages.cpp"; sourceTree = SOURCE_ROOT; };
+787600216C194C61811384CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/createhandmask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "createhandmask.cpp"; path = "src/createhandmask.cpp"; sourceTree = SOURCE_ROOT; };
+A085FB7359124D409D8F9D18 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/decomppoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "decomppoly.cpp"; path = "src/decomppoly.cpp"; sourceTree = SOURCE_ROOT; };
+E73F55A3BD4E4EC48CFE785F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dominants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dominants.cpp"; path = "src/dominants.cpp"; sourceTree = SOURCE_ROOT; };
+F815546C4749447EB670F22A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dpstereo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dpstereo.cpp"; path = "src/dpstereo.cpp"; sourceTree = SOURCE_ROOT; };
+85952EAEF8B245E99F4049A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/eigenobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "eigenobjects.cpp"; path = "src/eigenobjects.cpp"; sourceTree = SOURCE_ROOT; };
+8A6C2CF69CD140CCAB514BD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/em.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "em.cpp"; path = "src/em.cpp"; sourceTree = SOURCE_ROOT; };
+52E52F3865BB47E08F2EEEB9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enmin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enmin.cpp"; path = "src/enmin.cpp"; sourceTree = SOURCE_ROOT; };
+ED565B8097974D469483C809 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enteringblobdetection.cpp"; path = "src/enteringblobdetection.cpp"; sourceTree = SOURCE_ROOT; };
+C3803D701F974F1580680443 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetectionreal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "enteringblobdetectionreal.cpp"; path = "src/enteringblobdetectionreal.cpp"; sourceTree = SOURCE_ROOT; };
+D927D8FB5E024BC3A2AE210C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/epilines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "epilines.cpp"; path = "src/epilines.cpp"; sourceTree = SOURCE_ROOT; };
+4A76F63A19994D139B4652D0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/extendededges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "extendededges.cpp"; path = "src/extendededges.cpp"; sourceTree = SOURCE_ROOT; };
+DE1D3DC59EC843B6A423B9A0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "face.cpp"; path = "src/face.cpp"; sourceTree = SOURCE_ROOT; };
+74F6DFFFAB29464DBF0610C2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "facedetection.cpp"; path = "src/facedetection.cpp"; sourceTree = SOURCE_ROOT; };
+25D1EF22E8714FCE9ED75DA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "facetemplate.cpp"; path = "src/facetemplate.cpp"; sourceTree = SOURCE_ROOT; };
+91732F93AE73462BA629EC37 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/features2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "features2d.cpp"; path = "src/features2d.cpp"; sourceTree = SOURCE_ROOT; };
+D57F57161118408FA190DF89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/featuretree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "featuretree.cpp"; path = "src/featuretree.cpp"; sourceTree = SOURCE_ROOT; };
+8E448DD5E9F24D26A5912A9A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "findface.cpp"; path = "src/findface.cpp"; sourceTree = SOURCE_ROOT; };
+448EF4A9B22E420D8D103FE6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findhandregion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "findhandregion.cpp"; path = "src/findhandregion.cpp"; sourceTree = SOURCE_ROOT; };
+8D1259FB2EC74677A10C7D25 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmm.cpp"; path = "src/hmm.cpp"; sourceTree = SOURCE_ROOT; };
+9500B2C0BB8842A38CFC6C45 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm1d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmm1d.cpp"; path = "src/hmm1d.cpp"; sourceTree = SOURCE_ROOT; };
+1275818B95274F8F827F152A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmmobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hmmobs.cpp"; path = "src/hmmobs.cpp"; sourceTree = SOURCE_ROOT; };
+C37B45C6FB5F4FDFB36C064E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "image.cpp"; path = "src/image.cpp"; sourceTree = SOURCE_ROOT; };
+89973372E7784A55A9E8002D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "kdtree.cpp"; path = "src/kdtree.cpp"; sourceTree = SOURCE_ROOT; };
+9AD12BC1470F43F48F133DB8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lcm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lcm.cpp"; path = "src/lcm.cpp"; sourceTree = SOURCE_ROOT; };
+2F9BDD90675743D3A68CDC89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lee.cpp"; path = "src/lee.cpp"; sourceTree = SOURCE_ROOT; };
+686CE9A1DE854AFFB6D6D729 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmar.cpp"; path = "src/levmar.cpp"; sourceTree = SOURCE_ROOT; };
+0D564E6F12CF4B72B02EC4FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmarprojbandle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmarprojbandle.cpp"; path = "src/levmarprojbandle.cpp"; sourceTree = SOURCE_ROOT; };
+8CCEC5CA402B41EC9FC4B576 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmartrif.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "levmartrif.cpp"; path = "src/levmartrif.cpp"; sourceTree = SOURCE_ROOT; };
+14BDA1AC845942CC92F32BE7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lines.cpp"; path = "src/lines.cpp"; sourceTree = SOURCE_ROOT; };
+94EF9B01AB364605B278E54F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lmeds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lmeds.cpp"; path = "src/lmeds.cpp"; sourceTree = SOURCE_ROOT; };
+6C1538446F014E8C8A25A2F1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lsh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lsh.cpp"; path = "src/lsh.cpp"; sourceTree = SOURCE_ROOT; };
+11D789ED3BA34ADC931D8627 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphcontours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "morphcontours.cpp"; path = "src/morphcontours.cpp"; sourceTree = SOURCE_ROOT; };
+AAD7FC7AD112420F9B22885B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "morphing.cpp"; path = "src/morphing.cpp"; sourceTree = SOURCE_ROOT; };
+66AC659B7ED34ADA98E62FB3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/oneway.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "oneway.cpp"; path = "src/oneway.cpp"; sourceTree = SOURCE_ROOT; };
+E83345BC1770494B8C50B348 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowbm.cpp"; path = "src/optflowbm.cpp"; sourceTree = SOURCE_ROOT; };
+90CFA2F148A04951898DD4D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowhs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowhs.cpp"; path = "src/optflowhs.cpp"; sourceTree = SOURCE_ROOT; };
+3215E80E42634F5A987009FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowlk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optflowlk.cpp"; path = "src/optflowlk.cpp"; sourceTree = SOURCE_ROOT; };
+BE80874BEA664E0CB75E6ED6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pgh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "pgh.cpp"; path = "src/pgh.cpp"; sourceTree = SOURCE_ROOT; };
+1185608EFFAF42B58752C5C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/planardetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "planardetect.cpp"; path = "src/planardetect.cpp"; sourceTree = SOURCE_ROOT; };
+8C0250A6298F4A78A95474B8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+9A4477EF89E24FE69085A1A3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/prewarp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "prewarp.cpp"; path = "src/prewarp.cpp"; sourceTree = SOURCE_ROOT; };
+27113244F4954558B79AEED3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pyrsegmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "pyrsegmentation.cpp"; path = "src/pyrsegmentation.cpp"; sourceTree = SOURCE_ROOT; };
+E38237D6140A428196B85EDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/scanlines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "scanlines.cpp"; path = "src/scanlines.cpp"; sourceTree = SOURCE_ROOT; };
+C3D874529E3C4C76ADE8C095 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "segment.cpp"; path = "src/segment.cpp"; sourceTree = SOURCE_ROOT; };
+66CE7D03FCA1475FB24DDC17 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/snakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "snakes.cpp"; path = "src/snakes.cpp"; sourceTree = SOURCE_ROOT; };
+87355EA6590749BC9AB2174B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/spilltree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "spilltree.cpp"; path = "src/spilltree.cpp"; sourceTree = SOURCE_ROOT; };
+66B7EB639D314EFF80EA7ACA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/stereogc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stereogc.cpp"; path = "src/stereogc.cpp"; sourceTree = SOURCE_ROOT; };
+8B553BB303BA48EC9E6C9BA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/subdiv2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "subdiv2.cpp"; path = "src/subdiv2.cpp"; sourceTree = SOURCE_ROOT; };
+7D1C264BF5E041DD843B2022 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/testseq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "testseq.cpp"; path = "src/testseq.cpp"; sourceTree = SOURCE_ROOT; };
+DC89F574DDB943228EF99377 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "texture.cpp"; path = "src/texture.cpp"; sourceTree = SOURCE_ROOT; };
+3BF39FBC5829454BA06F84C0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/trifocal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "trifocal.cpp"; path = "src/trifocal.cpp"; sourceTree = SOURCE_ROOT; };
+0B01D48BD7FE417A821BAF9E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/vecfacetracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "vecfacetracking.cpp"; path = "src/vecfacetracking.cpp"; sourceTree = SOURCE_ROOT; };
+B7DE24E4EC524B988A388887 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "video.cpp"; path = "src/video.cpp"; sourceTree = SOURCE_ROOT; };
+1CA725320F6A43999539C51F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_kdtree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "_kdtree.hpp"; path = "src/_kdtree.hpp"; sourceTree = SOURCE_ROOT; };
+D1B04439201543029A599154 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+AD29FF62253D433EB1FA7012 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_facedetection.h"; path = "src/_facedetection.h"; sourceTree = SOURCE_ROOT; };
+760E7450E565411BA4488417 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_featuretree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_featuretree.h"; path = "src/_featuretree.h"; sourceTree = SOURCE_ROOT; };
+542928E10BAC40398634B50E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_matrix.h"; path = "src/_matrix.h"; sourceTree = SOURCE_ROOT; };
+A44DB559C7C4488A8C9C0F1B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vectrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_vectrack.h"; path = "src/_vectrack.h"; sourceTree = SOURCE_ROOT; };
+968E77A02060488A8DCDA2E0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_vm.h"; path = "src/_vm.h"; sourceTree = SOURCE_ROOT; };
+D461CF9418044E88A47CF8D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "face.h"; path = "src/face.h"; sourceTree = SOURCE_ROOT; };
+5DD1DC3D0AB94DA8997F7E22 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "facedetection.h"; path = "src/facedetection.h"; sourceTree = SOURCE_ROOT; };
+EDDD0EB573FB48CB9940A76A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "facetemplate.h"; path = "src/facetemplate.h"; sourceTree = SOURCE_ROOT; };
+A3D672C29CCF4308893547C9 /* opencv_legacy */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_legacy.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              8E1241EE37D543E2ABDCB52C  = {
+                     isa = PBXGroup;
+                     children = (
+                            13E6107FE88D4B06A5469BA0 /* Sources */,
+                            DDABA4A203B14D8D92F31454 /* Resources */,
+                            41DE5AB27AB746CD9769978A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              13E6107FE88D4B06A5469BA0 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CE8843DC7828480489812E55 /* ALL_BUILD */,
+                            25CA064925464994B7250432 /* ZERO_CHECK */,
+                            45BC5709E1DD4884ADD775E3 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              DDABA4A203B14D8D92F31454 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              CE8843DC7828480489812E55 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8D03C9EDC1CF4149B2C2ECE9 /* CMake Rules */,
+                            DC967077BA644EA5B5467BCB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              8D03C9EDC1CF4149B2C2ECE9 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              25CA064925464994B7250432 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B24C0B63F52C4B91A5FF18BA /* CMake Rules */,
+                            DC967077BA644EA5B5467BCB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              B24C0B63F52C4B91A5FF18BA /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              45BC5709E1DD4884ADD775E3 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BDAC5CA3CCCD49428766F394 /* opencv_legacy */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              BDAC5CA3CCCD49428766F394 /* opencv_legacy */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DBAEC4E2848E42DDAD40991B /* Include */,
+                            006C8ACA9CA9465F9EEEE423 /* Src */,
+                            DC967077BA644EA5B5467BCB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/CMakeLists.txt */,
+                     );
+                     name = opencv_legacy;
+                     sourceTree = "<group>";
+              };
+              DBAEC4E2848E42DDAD40991B /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A6BC5F1BB683469C91691505 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/blobtrack.hpp */,
+                            7C0F0551A4D94827B9E057A4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/compat.hpp */,
+                            B0F518E58575429FAEFB6A7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/legacy.hpp */,
+                            4B00CEEBAEA24344839AD541 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include/opencv2/legacy/streams.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              006C8ACA9CA9465F9EEEE423 /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            16F0E9B5DFA349439051BA94 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/3dtracker.cpp */,
+                            CBBB766A6647490E82C3B14B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/auxutils.cpp */,
+                            5C6671D9402F496499382847 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_acmmm2003.cpp */,
+                            175A197BD5C240B0920B02F9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_codebook.cpp */,
+                            BAF5C1EAD935457AA6B3B3A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_common.cpp */,
+                            76D00D65632D4F189F63C6AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_estimation.cpp */,
+                            4ED3900CADD5433DB07640B9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_gaussmix.cpp */,
+                            BBC624B0A03844F2993FDB49 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrack.cpp */,
+                            E8DDA6E0DB224E139EFED9CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysis.cpp */,
+                            41E9F21CCB824F9A8F5DAF6E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysishist.cpp */,
+                            4202685A48184D178E31805A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysisior.cpp */,
+                            763077FA33444F118328D0DC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp */,
+                            B8904D7435A54CED9929449E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgen1.cpp */,
+                            47B75AFF681A4FC385CF49EB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgenyml.cpp */,
+                            137BE15638F34BF39E3FC4CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingauto.cpp */,
+                            F9900D38617F4D79B60ECCFA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingcc.cpp */,
+                            F2ABAE0D4F7A40E79DACD9B4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingccwithcr.cpp */,
+                            17D1BBD2D0E04B53A3A46199 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingkalman.cpp */,
+                            81D9BDBE35234598B6375315 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackinglist.cpp */,
+                            02C6F3AD9F334493A873BA1C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfg.cpp */,
+                            2ECB460F52B04507AC617D39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfgs.cpp */,
+                            AFB68CC03B71406ABBD43E7A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostprockalman.cpp */,
+                            F1E76E2054154DBBA5C3308E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclinear.cpp */,
+                            40317AAF3077499C9CF7E232 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclist.cpp */,
+                            67BBCD6A97A74AFBA6CB268D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calcimagehomography.cpp */,
+                            AAB09BF702984A3797340E0A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calibfilter.cpp */,
+                            919A83973029499D80E45F0C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calonder.cpp */,
+                            C17915ED524A495AB0575971 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/camshift.cpp */,
+                            6782A0D0A1994C07BA624D4D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/clique.cpp */,
+                            FFBF6B03FE5C4D2497E84E89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/compat.cpp */,
+                            60E19752EE994F868FCF4C47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/condens.cpp */,
+                            BA78316F09A3490CB8CB53A7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/contourtree.cpp */,
+                            48675989DBC040338C9A3303 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/correspond.cpp */,
+                            45F3F70BA5C84239873624A6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/corrimages.cpp */,
+                            787600216C194C61811384CB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/createhandmask.cpp */,
+                            A085FB7359124D409D8F9D18 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/decomppoly.cpp */,
+                            E73F55A3BD4E4EC48CFE785F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dominants.cpp */,
+                            F815546C4749447EB670F22A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dpstereo.cpp */,
+                            85952EAEF8B245E99F4049A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/eigenobjects.cpp */,
+                            8A6C2CF69CD140CCAB514BD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/em.cpp */,
+                            52E52F3865BB47E08F2EEEB9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enmin.cpp */,
+                            ED565B8097974D469483C809 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetection.cpp */,
+                            C3803D701F974F1580680443 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetectionreal.cpp */,
+                            D927D8FB5E024BC3A2AE210C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/epilines.cpp */,
+                            4A76F63A19994D139B4652D0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/extendededges.cpp */,
+                            DE1D3DC59EC843B6A423B9A0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.cpp */,
+                            74F6DFFFAB29464DBF0610C2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.cpp */,
+                            25D1EF22E8714FCE9ED75DA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.cpp */,
+                            91732F93AE73462BA629EC37 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/features2d.cpp */,
+                            D57F57161118408FA190DF89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/featuretree.cpp */,
+                            8E448DD5E9F24D26A5912A9A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findface.cpp */,
+                            448EF4A9B22E420D8D103FE6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findhandregion.cpp */,
+                            8D1259FB2EC74677A10C7D25 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm.cpp */,
+                            9500B2C0BB8842A38CFC6C45 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm1d.cpp */,
+                            1275818B95274F8F827F152A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmmobs.cpp */,
+                            C37B45C6FB5F4FDFB36C064E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/image.cpp */,
+                            89973372E7784A55A9E8002D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/kdtree.cpp */,
+                            9AD12BC1470F43F48F133DB8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lcm.cpp */,
+                            2F9BDD90675743D3A68CDC89 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lee.cpp */,
+                            686CE9A1DE854AFFB6D6D729 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmar.cpp */,
+                            0D564E6F12CF4B72B02EC4FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmarprojbandle.cpp */,
+                            8CCEC5CA402B41EC9FC4B576 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmartrif.cpp */,
+                            14BDA1AC845942CC92F32BE7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lines.cpp */,
+                            94EF9B01AB364605B278E54F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lmeds.cpp */,
+                            6C1538446F014E8C8A25A2F1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lsh.cpp */,
+                            11D789ED3BA34ADC931D8627 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphcontours.cpp */,
+                            AAD7FC7AD112420F9B22885B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphing.cpp */,
+                            66AC659B7ED34ADA98E62FB3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/oneway.cpp */,
+                            E83345BC1770494B8C50B348 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowbm.cpp */,
+                            90CFA2F148A04951898DD4D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowhs.cpp */,
+                            3215E80E42634F5A987009FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowlk.cpp */,
+                            BE80874BEA664E0CB75E6ED6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pgh.cpp */,
+                            1185608EFFAF42B58752C5C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/planardetect.cpp */,
+                            8C0250A6298F4A78A95474B8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.cpp */,
+                            9A4477EF89E24FE69085A1A3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/prewarp.cpp */,
+                            27113244F4954558B79AEED3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pyrsegmentation.cpp */,
+                            E38237D6140A428196B85EDA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/scanlines.cpp */,
+                            C3D874529E3C4C76ADE8C095 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/segment.cpp */,
+                            66CE7D03FCA1475FB24DDC17 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/snakes.cpp */,
+                            87355EA6590749BC9AB2174B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/spilltree.cpp */,
+                            66B7EB639D314EFF80EA7ACA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/stereogc.cpp */,
+                            8B553BB303BA48EC9E6C9BA5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/subdiv2.cpp */,
+                            7D1C264BF5E041DD843B2022 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/testseq.cpp */,
+                            DC89F574DDB943228EF99377 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/texture.cpp */,
+                            3BF39FBC5829454BA06F84C0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/trifocal.cpp */,
+                            0B01D48BD7FE417A821BAF9E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/vecfacetracking.cpp */,
+                            B7DE24E4EC524B988A388887 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/video.cpp */,
+                            1CA725320F6A43999539C51F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_kdtree.hpp */,
+                            D1B04439201543029A599154 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.hpp */,
+                            AD29FF62253D433EB1FA7012 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_facedetection.h */,
+                            760E7450E565411BA4488417 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_featuretree.h */,
+                            542928E10BAC40398634B50E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_matrix.h */,
+                            A44DB559C7C4488A8C9C0F1B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vectrack.h */,
+                            968E77A02060488A8DCDA2E0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/_vm.h */,
+                            D461CF9418044E88A47CF8D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.h */,
+                            5DD1DC3D0AB94DA8997F7E22 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.h */,
+                            EDDD0EB573FB48CB9940A76A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.h */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              41DE5AB27AB746CD9769978A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A3D672C29CCF4308893547C9 /* opencv_legacy */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              DBBE1FC60B234CCBABC58499 /* opencv_legacy */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 42B2096A43424DD19E5F2BD6 /* Build configuration list for PBXNativeTarget "opencv_legacy" */;
+                     buildPhases = (
+                            6E70CBEB1611476FACF086DC /* Sources */,
+                            CB7D814AEE094CAAA125F841 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            FB70B9B2384B427FA6FD438D /* PBXTargetDependency */,
+                     );
+                     name = opencv_legacy;
+                     productName = opencv_legacy;
+                     productReference = A3D672C29CCF4308893547C9 /* opencv_legacy */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              BB69D7936E9741CD95509BB1 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 055C9431BF4F48DBA6B93B56 /* Build configuration list for PBXProject  "opencv_legacy" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            1B4150B3E97D43229CED629C /* Debug */,
+                            A566DC36BADB4B4E81CABB4D /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 8E1241EE37D543E2ABDCB52C;
+                     projectDirPath = /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy;
+                     projectRoot = "";
+                     targets = (
+                            EAC6468D3164412CBA53CC24 /* ALL_BUILD */,
+                            D7F5D118CBCE4464B206D677 /* ZERO_CHECK */,
+                            8FF0C32AD9C64F8E88741277 /* install */,
+                            DBBE1FC60B234CCBABC58499 /* opencv_legacy */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              DAFAD480F34746A8966EAB7A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              118315D0CC2E483D9B952EA0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C4FF65516B894E6A951AB61D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              39D8975B9D404D09923F36E0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              9E11E0620D464C7D96C25872 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              775B88A74016450EA1837025 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CB7D814AEE094CAAA125F841 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/CMakeScripts/opencv_legacy_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              6E70CBEB1611476FACF086DC /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            6D10FF26E89D4FFFBAF69A47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/3dtracker.cpp */,
+                            29980A208A2047DA9FF46773 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/auxutils.cpp */,
+                            7696DB0256334FC0AF1908EE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_acmmm2003.cpp */,
+                            B41237BFC3534A23B73D5136 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_codebook.cpp */,
+                            D5C42FA2824946D0A1EA5839 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_common.cpp */,
+                            5D10B61A847C41FC8E5239A3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_estimation.cpp */,
+                            3BFC425B017F4CF881D98FEA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/bgfg_gaussmix.cpp */,
+                            A9201C4320C34AA8A4454791 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrack.cpp */,
+                            A7C5228E04144294B5EC092E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysis.cpp */,
+                            B13A29D29E1745AE99026977 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysishist.cpp */,
+                            CD3A56E8C95B403080EFC4E3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysisior.cpp */,
+                            FA0C4B2AB7BC478597F484A6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackanalysistrackdist.cpp */,
+                            49FD8350BA4B4A598DB46056 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgen1.cpp */,
+                            0B25A4D48BEB4E00B31E88FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackgenyml.cpp */,
+                            0619634757EF47B9B8BB626E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingauto.cpp */,
+                            677CC3A820D54893B1CE361D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingcc.cpp */,
+                            D1E12D132CDB491E8CDC9DD5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingccwithcr.cpp */,
+                            206A811731944B04B12A80E8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingkalman.cpp */,
+                            8698F0E788A54C33B8EE77D1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackinglist.cpp */,
+                            86D9AE6B06FE4045926CD441 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfg.cpp */,
+                            A7B661C4CCE84AA3B0DE8928 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackingmsfgs.cpp */,
+                            C58A98D07CAB49B78EFCE7FA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostprockalman.cpp */,
+                            2DB7A92CBAA0451DB8C97792 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclinear.cpp */,
+                            88617BED3E4141038181C4D7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/blobtrackpostproclist.cpp */,
+                            DD99478610FE477BB02BECE2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calcimagehomography.cpp */,
+                            CF26BA4FF86C44F4A0BEC566 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calibfilter.cpp */,
+                            0D472E133CA94687B4F0F80F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/calonder.cpp */,
+                            2DBA0B8A24174249B0A06C81 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/camshift.cpp */,
+                            DDB7CC36F68F47D49588A75D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/clique.cpp */,
+                            36D99CC50B114FA7A1FEB675 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/compat.cpp */,
+                            5B20D92D1FC24CD3AF1023F1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/condens.cpp */,
+                            20CFB3BEFBED4F4388C691BD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/contourtree.cpp */,
+                            E25A1F05EB884ECA8C18CE2E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/correspond.cpp */,
+                            D34024B000274A7A87CC9E92 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/corrimages.cpp */,
+                            6FE0834AA31046D2BBE85133 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/createhandmask.cpp */,
+                            5E65C8A935ED43ACBB9F2E3B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/decomppoly.cpp */,
+                            73390A967FD64F89826B624E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dominants.cpp */,
+                            754D19F8EDEA4F709567AACF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/dpstereo.cpp */,
+                            ABE8CA52CAFC42ED98301F2A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/eigenobjects.cpp */,
+                            F93B514FC7994468B0AD1F20 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/em.cpp */,
+                            4DA509BAC7CD415E8A66368A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enmin.cpp */,
+                            2A16079585AF470B8DD8DAFE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetection.cpp */,
+                            A593CEB7AA52492087979E79 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/enteringblobdetectionreal.cpp */,
+                            1A1AFCA2E55A4DAE9E729EAB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/epilines.cpp */,
+                            505A8C757C594D2B80D11D47 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/extendededges.cpp */,
+                            2047C68E1B3F41478C8D053F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/face.cpp */,
+                            99FCBF1712D245CEA9FAD178 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facedetection.cpp */,
+                            DEAC499728A346AA8391A0E6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/facetemplate.cpp */,
+                            08233FD15D6942B0AD4200DD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/features2d.cpp */,
+                            C346B48F8A4543B587B57E64 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/featuretree.cpp */,
+                            1D4B317124FB4B048F8D89FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findface.cpp */,
+                            173A052CDFD84E178F287F43 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/findhandregion.cpp */,
+                            6C19299E6EEA4838AD7CB808 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm.cpp */,
+                            96CDB3E237B34C47B862F7E8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmm1d.cpp */,
+                            1C2E9FBD60A2470CA8BFD30D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/hmmobs.cpp */,
+                            EDB022FC8C954C6D92731A98 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/image.cpp */,
+                            F48FE703D07440D69B080975 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/kdtree.cpp */,
+                            61D392CBD4D2401283319E15 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lcm.cpp */,
+                            2A5F7E60EB52415E83EADC16 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lee.cpp */,
+                            6180BE3CFD2E442F9CBB40B7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmar.cpp */,
+                            1D670217129C4A9884D06824 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmarprojbandle.cpp */,
+                            F1AA2CBD171645DE9091E733 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/levmartrif.cpp */,
+                            555139A32A0A4922A2DDCED5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lines.cpp */,
+                            BE02F5FC605E4B6E956FA2EA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lmeds.cpp */,
+                            1E32DF3DEE6D41F18CEE77A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/lsh.cpp */,
+                            4EC0CC70313A4E0FB32D1DFB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphcontours.cpp */,
+                            82D5D877A64E43F39CBE4FB6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/morphing.cpp */,
+                            65B5DAD7E4444CB1BD3EEFCC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/oneway.cpp */,
+                            602CB703C5BE472BB588046C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowbm.cpp */,
+                            EA9B1DC9B2B94723BE600879 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowhs.cpp */,
+                            D80569BAC5484DEAA8A393EA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/optflowlk.cpp */,
+                            40860EA39C954A0B8A245AA9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pgh.cpp */,
+                            3789B0F857A34D4D9B95DBCC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/planardetect.cpp */,
+                            DD15233AD04340AE89132DBB /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/precomp.cpp */,
+                            8FC5C207DC7B4BD882B2F923 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/prewarp.cpp */,
+                            B67DBE0B205049679CE4473C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/pyrsegmentation.cpp */,
+                            50BB2804069E4E108E167749 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/scanlines.cpp */,
+                            180FB7A7EDD14F09B0ACC318 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/segment.cpp */,
+                            A91E2E70E0414EB8849EB429 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/snakes.cpp */,
+                            C679C58CF88E4853944DEE1E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/spilltree.cpp */,
+                            B742621300E645ABBD59B793 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/stereogc.cpp */,
+                            78C94F6B01FF4E9B9599308C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/subdiv2.cpp */,
+                            CFBF11AEAECB4E1DA09A5B4B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/testseq.cpp */,
+                            60A5B966AC234FABB400917D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/texture.cpp */,
+                            901E1A347B67405A9356A23D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/trifocal.cpp */,
+                            DFB3DF4429D0418F87E1E509 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/vecfacetracking.cpp */,
+                            CD92C39E47FE4C5C930BC623 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src/video.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              FB70B9B2384B427FA6FD438D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D7F5D118CBCE4464B206D677 /* ZERO_CHECK */;
+                     targetProxy = 432BF6F41559401F81A4C89C /* PBXContainerItemProxy */;
+              };
+              A64B1913126D402AB149E170 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = DBBE1FC60B234CCBABC58499 /* opencv_legacy */;
+                     targetProxy = 9209A17E4CA147859F11777A /* PBXContainerItemProxy */;
+              };
+              82F078952D3D4337B1DF69E6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EAC6468D3164412CBA53CC24 /* ALL_BUILD */;
+                     targetProxy = C0ED4640D37A4A9DACE30D04 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              DFB1372E063D428DA0BD1F3B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/build;
+                     };
+                     name = Debug;
+              };
+              0186833789F24EDCAAECA2CF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy/build;
+                     };
+                     name = Release;
+              };
+              C37F7E59CC8D4FFAB4AD178D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FD4649C13DC94B75BA1E2738 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              CC0E233B552A4B1FB9B0DD7E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F60DEFE1570F47F4994A772F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E5B4B088D177410C8068CBD5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6971A8A5959D4740BE246B66 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              CDB01D6BD0D642CD8FACE0BB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_legacy;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9FBA497268A64122B5B1CBBC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/legacy/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_legacy;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/legacy;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              055C9431BF4F48DBA6B93B56 /* Build configuration list for PBXProject  "opencv_legacy" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            DFB1372E063D428DA0BD1F3B /* Debug */,
+                            0186833789F24EDCAAECA2CF /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F6A7652E48424309BCE060F2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C37F7E59CC8D4FFAB4AD178D /* Debug */,
+                            FD4649C13DC94B75BA1E2738 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FDFFCD6F4BC4418A9075B774 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CC0E233B552A4B1FB9B0DD7E /* Debug */,
+                            F60DEFE1570F47F4994A772F /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B2D633C0E7FE48E18BFE0F7C /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E5B4B088D177410C8068CBD5 /* Debug */,
+                            6971A8A5959D4740BE246B66 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              42B2096A43424DD19E5F2BD6 /* Build configuration list for PBXNativeTarget "opencv_legacy" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CDB01D6BD0D642CD8FACE0BB /* Debug */,
+                            9FBA497268A64122B5B1CBBC /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = BB69D7936E9741CD95509BB1;
+}

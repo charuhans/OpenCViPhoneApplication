@@ -12,10 +12,12 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *loadButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *faceButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cameraButton;
 
 @property (weak, nonatomic) NSString *fileName;
 
 - (IBAction)loadImageFromPhotoLibrary:(id)sender;
+- (IBAction)loadImageFromCamera:(id)sender;
 - (IBAction)faceDetect:(id)sender;
 -(UIImage*)detect_and_draw:(UIImage* )inputImage;
 @end

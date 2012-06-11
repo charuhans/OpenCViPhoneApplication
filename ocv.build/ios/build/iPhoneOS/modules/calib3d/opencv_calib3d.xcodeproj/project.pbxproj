@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              0F15293ACE25411497479DF6 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2115AA073C9B4431A99BA7F5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            C52FC017DA194F64A4DA175F /* CMake Rules */,
+                     );
+                     dependencies = (
+                            31DD0252C749453F984DE812 /* PBXTargetDependency */,
+                            F5E683F217FA4CF0AF1B9B17 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              0AD0108976EF4ED5B707220E /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 070791FDDF9C4F9D992FA40D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            56B33E46E84B4C3CA3ED4C34 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              F5FF561F66C246E8AA24C6C7 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1E1F01CE34FA4C2EBF159CCD /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            AD9DAB12B9A44A028D994359 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            06E018411CE74484971849C2 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+323728CAB7104FA388CB4BB2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 7016AB90DDEA4BD49743D9A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4FF2D8FC9BD24EB7BB2CB8FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 596E793E00F34CA18419869F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+19C3F0E37FE540449C159E85 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = F43DA65D0BF64E6CA090DCD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2FA1542B46294D14A737C518 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = FAA80A701EF14A3594CD44D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+180056CD16414EA68EAF6D93 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = CC5547FE4C4C438B89DE101A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+44D615E9108A43C3BCD78A6E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = 1ACD7BB1C7A540F0946D53DF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5B8CA71E88114323B3445275 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = E6375AEC1A484EB096078D69 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0CF744F0D607411EB1581CD2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp */ = {isa = PBXBuildFile; fileRef = 02AF28CA56834ADBAEB9BD66 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+AB713A0C0DD14ADBA779DCE2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = 7B8CC4225A784A4D8B913775 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EEC5096D0DD74474BE04D4FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = C58268A96A724C0CB5FA58D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+11E486EEC0C342C097AAC50A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = 1A634CC4D47C4A5CB841415C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+82349C4C11594D9BBCE9145C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = CFCF5A9CE953495B811D34AD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0ADF24D118C74DF7B3F93216 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = C7FB495AF1DD41A092F337F0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1B77129F2A554958B42BA792 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 217771EDA187424D958645F7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E8C3FB623277482A8C69A167 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 4CF247FE04774D7BA3C39859 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3D8A7A9B7C0B4B949753ADC1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = ED265CCD6D264DD2B8BB581D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2D0A063E92C54D6288229DC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = CF8AA0F7CFC44D51BBD7CD39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DC81DE14B5D54B22AB21161C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = 14A0F8CB71824BCCAD8EF4C9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+56C1C40C92F542CE87FA3FE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = D9371840222E4D99BA2389DE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+BAEB8EC9F3E24518AE119D38 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/_modelest.h */ = {isa = PBXBuildFile; fileRef = CA0DA496731042C48CB6F58B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/_modelest.h */; settings = { COMPILER_FLAGS = ""; }; };
+06CF01B717CB4D7B946CA68B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = C8AB81A7033A426886525291 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.h */; settings = { COMPILER_FLAGS = ""; }; };
+FF91C3C276E2423ABEFA478E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = A6C47B4CD0CA4193BD945A74 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.h */; settings = { COMPILER_FLAGS = ""; }; };
+40929590F0DD4ABA93FC127D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = 4A83DD480E904DCCBB9AE858 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.h */; settings = { COMPILER_FLAGS = ""; }; };
+7CE6FAC258424682BD9A8653 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4809270F0AE84D99AD5A41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              8127C31C65D346E2AB4F1654 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              48B5D0DA951B4CEE8787C1CF /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              056AD23EFF374F60B65595B5 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              89DC61802F154E9081B58CFD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 27B33399433F4B5997983221 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0AD0108976EF4ED5B707220E;
+                     remoteInfo = ZERO_CHECK;
+              };
+              F0E0D4611C94438CB26B0407 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 27B33399433F4B5997983221 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EAD802F5DCE74F5393BC99F9;
+                     remoteInfo = opencv_calib3d;
+              };
+              20F6B2E124FE4405A12D0933 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 27B33399433F4B5997983221 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 0F15293ACE25411497479DF6;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+4809270F0AE84D99AD5A41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+7016AB90DDEA4BD49743D9A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "calib3d.hpp"; path = "include/opencv2/calib3d/calib3d.hpp"; sourceTree = SOURCE_ROOT; };
+596E793E00F34CA18419869F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calibinit.cpp"; path = "src/calibinit.cpp"; sourceTree = SOURCE_ROOT; };
+F43DA65D0BF64E6CA090DCD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "calibration.cpp"; path = "src/calibration.cpp"; sourceTree = SOURCE_ROOT; };
+FAA80A701EF14A3594CD44D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "checkchessboard.cpp"; path = "src/checkchessboard.cpp"; sourceTree = SOURCE_ROOT; };
+CC5547FE4C4C438B89DE101A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "circlesgrid.cpp"; path = "src/circlesgrid.cpp"; sourceTree = SOURCE_ROOT; };
+1ACD7BB1C7A540F0946D53DF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "epnp.cpp"; path = "src/epnp.cpp"; sourceTree = SOURCE_ROOT; };
+E6375AEC1A484EB096078D69 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fundam.cpp"; path = "src/fundam.cpp"; sourceTree = SOURCE_ROOT; };
+02AF28CA56834ADBAEB9BD66 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "modelest.cpp"; path = "src/modelest.cpp"; sourceTree = SOURCE_ROOT; };
+7B8CC4225A784A4D8B913775 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "p3p.cpp"; path = "src/p3p.cpp"; sourceTree = SOURCE_ROOT; };
+C58268A96A724C0CB5FA58D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "polynom_solver.cpp"; path = "src/polynom_solver.cpp"; sourceTree = SOURCE_ROOT; };
+1A634CC4D47C4A5CB841415C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "posit.cpp"; path = "src/posit.cpp"; sourceTree = SOURCE_ROOT; };
+CFCF5A9CE953495B811D34AD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+C7FB495AF1DD41A092F337F0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "quadsubpix.cpp"; path = "src/quadsubpix.cpp"; sourceTree = SOURCE_ROOT; };
+217771EDA187424D958645F7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "solvepnp.cpp"; path = "src/solvepnp.cpp"; sourceTree = SOURCE_ROOT; };
+4CF247FE04774D7BA3C39859 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stereobm.cpp"; path = "src/stereobm.cpp"; sourceTree = SOURCE_ROOT; };
+ED265CCD6D264DD2B8BB581D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stereosgbm.cpp"; path = "src/stereosgbm.cpp"; sourceTree = SOURCE_ROOT; };
+CF8AA0F7CFC44D51BBD7CD39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "triangulate.cpp"; path = "src/triangulate.cpp"; sourceTree = SOURCE_ROOT; };
+14A0F8CB71824BCCAD8EF4C9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "circlesgrid.hpp"; path = "src/circlesgrid.hpp"; sourceTree = SOURCE_ROOT; };
+D9371840222E4D99BA2389DE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+CA0DA496731042C48CB6F58B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/_modelest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_modelest.h"; path = "src/_modelest.h"; sourceTree = SOURCE_ROOT; };
+C8AB81A7033A426886525291 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "epnp.h"; path = "src/epnp.h"; sourceTree = SOURCE_ROOT; };
+A6C47B4CD0CA4193BD945A74 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "p3p.h"; path = "src/p3p.h"; sourceTree = SOURCE_ROOT; };
+4A83DD480E904DCCBB9AE858 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "polynom_solver.h"; path = "src/polynom_solver.h"; sourceTree = SOURCE_ROOT; };
+6166A4741C83498ABCB60026 /* opencv_calib3d */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_calib3d.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              23DC95F7DDCB413D942B036A  = {
+                     isa = PBXGroup;
+                     children = (
+                            DB4CD87C909D47D2A682098E /* Sources */,
+                            8AB6DDC7B90E4233B5E9D974 /* Resources */,
+                            1879FC368E96453A87E7024B /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              DB4CD87C909D47D2A682098E /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            82C056393EF14777B852CBE4 /* ALL_BUILD */,
+                            ED8C58958980468C8AD6DBC1 /* ZERO_CHECK */,
+                            BCD26AC392AF4BED844C758A /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              8AB6DDC7B90E4233B5E9D974 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              82C056393EF14777B852CBE4 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BFFA4E35192A458195AE0AB3 /* CMake Rules */,
+                            4809270F0AE84D99AD5A41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              BFFA4E35192A458195AE0AB3 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              ED8C58958980468C8AD6DBC1 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4917D1A81BD44182AD50D095 /* CMake Rules */,
+                            4809270F0AE84D99AD5A41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              4917D1A81BD44182AD50D095 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              BCD26AC392AF4BED844C758A /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0C9595435BCB4E86B0BCBEDF /* opencv_calib3d */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              0C9595435BCB4E86B0BCBEDF /* opencv_calib3d */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C89EAA7B6BC04955B3FC1C46 /* Include */,
+                            514BBAF77F71415DBC04099F /* Src */,
+                            4809270F0AE84D99AD5A41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/CMakeLists.txt */,
+                     );
+                     name = opencv_calib3d;
+                     sourceTree = "<group>";
+              };
+              C89EAA7B6BC04955B3FC1C46 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7016AB90DDEA4BD49743D9A1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              514BBAF77F71415DBC04099F /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            596E793E00F34CA18419869F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp */,
+                            F43DA65D0BF64E6CA090DCD0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp */,
+                            FAA80A701EF14A3594CD44D5 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp */,
+                            CC5547FE4C4C438B89DE101A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp */,
+                            1ACD7BB1C7A540F0946D53DF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp */,
+                            E6375AEC1A484EB096078D69 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp */,
+                            02AF28CA56834ADBAEB9BD66 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp */,
+                            7B8CC4225A784A4D8B913775 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp */,
+                            C58268A96A724C0CB5FA58D6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp */,
+                            1A634CC4D47C4A5CB841415C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp */,
+                            CFCF5A9CE953495B811D34AD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp */,
+                            C7FB495AF1DD41A092F337F0 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp */,
+                            217771EDA187424D958645F7 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp */,
+                            4CF247FE04774D7BA3C39859 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp */,
+                            ED265CCD6D264DD2B8BB581D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp */,
+                            CF8AA0F7CFC44D51BBD7CD39 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp */,
+                            14A0F8CB71824BCCAD8EF4C9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.hpp */,
+                            D9371840222E4D99BA2389DE /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.hpp */,
+                            CA0DA496731042C48CB6F58B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/_modelest.h */,
+                            C8AB81A7033A426886525291 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.h */,
+                            A6C47B4CD0CA4193BD945A74 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.h */,
+                            4A83DD480E904DCCBB9AE858 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.h */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              1879FC368E96453A87E7024B /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6166A4741C83498ABCB60026 /* opencv_calib3d */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              EAD802F5DCE74F5393BC99F9 /* opencv_calib3d */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 179376875DCF4FAFBB367DE7 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
+                     buildPhases = (
+                            D362D7D801084055A4D5F9F8 /* Sources */,
+                            CA784788DBBF435C91CD02B1 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            31DD0252C749453F984DE812 /* PBXTargetDependency */,
+                     );
+                     name = opencv_calib3d;
+                     productName = opencv_calib3d;
+                     productReference = 6166A4741C83498ABCB60026 /* opencv_calib3d */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              27B33399433F4B5997983221 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 290F4939923B445AB81055F5 /* Build configuration list for PBXProject  "opencv_calib3d" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            48B5D0DA951B4CEE8787C1CF /* Debug */,
+                            056AD23EFF374F60B65595B5 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 23DC95F7DDCB413D942B036A;
+                     projectDirPath = /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d;
+                     projectRoot = "";
+                     targets = (
+                            0F15293ACE25411497479DF6 /* ALL_BUILD */,
+                            0AD0108976EF4ED5B707220E /* ZERO_CHECK */,
+                            F5FF561F66C246E8AA24C6C7 /* install */,
+                            EAD802F5DCE74F5393BC99F9 /* opencv_calib3d */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              44CB259159BB4839BF7CF8FF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C52FC017DA194F64A4DA175F /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1B41A76B7B4145A8A13FBED2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              56B33E46E84B4C3CA3ED4C34 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              DD31F5341B604A9598D15458 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              AD9DAB12B9A44A028D994359 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CA784788DBBF435C91CD02B1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/opencv_calib3d_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              D362D7D801084055A4D5F9F8 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4FF2D8FC9BD24EB7BB2CB8FF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp */,
+                            19C3F0E37FE540449C159E85 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp */,
+                            2FA1542B46294D14A737C518 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp */,
+                            180056CD16414EA68EAF6D93 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp */,
+                            44D615E9108A43C3BCD78A6E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp */,
+                            5B8CA71E88114323B3445275 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp */,
+                            0CF744F0D607411EB1581CD2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp */,
+                            AB713A0C0DD14ADBA779DCE2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp */,
+                            EEC5096D0DD74474BE04D4FD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp */,
+                            11E486EEC0C342C097AAC50A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp */,
+                            82349C4C11594D9BBCE9145C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp */,
+                            0ADF24D118C74DF7B3F93216 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp */,
+                            1B77129F2A554958B42BA792 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp */,
+                            E8C3FB623277482A8C69A167 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp */,
+                            3D8A7A9B7C0B4B949753ADC1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp */,
+                            2D0A063E92C54D6288229DC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              31DD0252C749453F984DE812 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0AD0108976EF4ED5B707220E /* ZERO_CHECK */;
+                     targetProxy = 89DC61802F154E9081B58CFD /* PBXContainerItemProxy */;
+              };
+              F5E683F217FA4CF0AF1B9B17 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EAD802F5DCE74F5393BC99F9 /* opencv_calib3d */;
+                     targetProxy = F0E0D4611C94438CB26B0407 /* PBXContainerItemProxy */;
+              };
+              06E018411CE74484971849C2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 0F15293ACE25411497479DF6 /* ALL_BUILD */;
+                     targetProxy = 20F6B2E124FE4405A12D0933 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              056C790458034951B70571C0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/build;
+                     };
+                     name = Debug;
+              };
+              D90B90D229444122ADAFCEB7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/build;
+                     };
+                     name = Release;
+              };
+              930B6AAE924E4038AFBA694D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0D87F4352F7A4A11B7CF0A10 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F227BA1E84294BBFBF2E6A18 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D36DF0EC44F44A08A7517D30 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A190FD0843694E908AAC28DA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              97B7B04598CC4107B117695F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C8B19CDC4D154AC0A8AF5CC0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_calib3d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              37BFBDA764E04F4DB84670C5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_calib3d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              290F4939923B445AB81055F5 /* Build configuration list for PBXProject  "opencv_calib3d" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            056C790458034951B70571C0 /* Debug */,
+                            D90B90D229444122ADAFCEB7 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2115AA073C9B4431A99BA7F5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            930B6AAE924E4038AFBA694D /* Debug */,
+                            0D87F4352F7A4A11B7CF0A10 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              070791FDDF9C4F9D992FA40D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F227BA1E84294BBFBF2E6A18 /* Debug */,
+                            D36DF0EC44F44A08A7517D30 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1E1F01CE34FA4C2EBF159CCD /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A190FD0843694E908AAC28DA /* Debug */,
+                            97B7B04598CC4107B117695F /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              179376875DCF4FAFBB367DE7 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C8B19CDC4D154AC0A8AF5CC0 /* Debug */,
+                            37BFBDA764E04F4DB84670C5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 27B33399433F4B5997983221;
+}

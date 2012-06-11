@@ -1,0 +1,622 @@
+Topencv_calib3d
+v5
+r1
+cCheck dependencies
+cSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh
+cStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/3.1/include/stdarg.h
+c000000004FCABFA90000000000000810
+t1338687401
+s2064
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h
+c000000004FD553A8000000000000137B
+t1339380648
+s4987
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a
+t1339380699
+s1428992
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
+t1339380696
+s108348
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
+t1339380698
+s299796
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
+t1339380695
+s30740
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
+t1339380698
+s335356
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
+t1339380696
+s35200
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
+t1339380697
+s82000
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
+t1339380697
+s34844
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList
+c000000004FD553D500000000000009CC
+t1339380693
+s2508
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
+t1339380697
+s29208
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
+t1339380697
+s4384
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
+t1339380697
+s9036
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
+t1339380698
+s424
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
+t1339380698
+s62412
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
+t1339380699
+s81148
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
+t1339380698
+s42292
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
+t1339380698
+s31792
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
+t1339380699
+s59840
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh
+c000000004FD553D500000000000000E9
+t1339380693
+s233
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/opencv2/opencv_modules.hpp
+c000000004FD553A80000000000000257
+t1339380648
+s599
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004FD5510500000000000092FA
+t1339379973
+s37626
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/_modelest.h
+c000000004FD551070000000000000DFE
+t1339379975
+s3582
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp
+c000000004FD551070000000000010BBE
+t1339379975
+s68542
+i"precomp.hpp"
+i"circlesgrid.hpp"
+i<stdarg.h>
+i"opencv2/opencv_modules.hpp"
+i"opencv2/highgui/highgui.hpp"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp
+c000000004FD551070000000000020F17
+t1339379975
+s134935
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp
+c000000004FD551070000000000001BA7
+t1339379975
+s7079
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp
+c000000004FD55107000000000000BC4D
+t1339379975
+s48205
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.hpp
+c000000004FD551070000000000002466
+t1339379975
+s9318
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp
+c000000004FD5510700000000000042B6
+t1339379975
+s17078
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.h
+c000000004FD551070000000000000A2B
+t1339379975
+s2603
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp
+c000000004FD551070000000000009774
+t1339379975
+s38772
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp
+c000000004FD551070000000000003967
+t1339379975
+s14695
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp
+c000000004FD551070000000000003710
+t1339379975
+s14096
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.h
+c000000004FD551070000000000000817
+t1339379975
+s2071
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp
+c000000004FD551070000000000000F1D
+t1339379975
+s3869
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.h
+c000000004FD55107000000000000018D
+t1339379975
+s397
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp
+c000000004FD5510700000000000030FC
+t1339379975
+s12540
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp
+c000000004FD551070000000000000852
+t1339379975
+s2130
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.hpp
+c000000004FD551070000000000000A9F
+t1339379975
+s2719
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp
+c000000004FD5510700000000000030F8
+t1339379975
+s12536
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp
+c000000004FD55107000000000000375B
+t1339379975
+s14171
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp
+c000000004FD551070000000000009233
+t1339379975
+s37427
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp
+c000000004FD55107000000000000B0CB
+t1339379975
+s45259
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp
+c000000004FD55107000000000000485F
+t1339379975
+s18527
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004FD550EC000000000002BA75
+t1339379948
+s178805
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004FD550EC00000000000132EB
+t1339379948
+s78571
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004FD550EC00000000000083BE
+t1339379948
+s33726
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004FD550EC00000000000138D4
+t1339379948
+s80084
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004FD550EC000000000001E88E
+t1339379948
+s125070
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004FD550EC000000000000E09A
+t1339379948
+s57498
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004FD550EC00000000000009EA
+t1339379948
+s2538
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004FD5510E000000000000DA4D
+t1339379982
+s55885
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004FD550FA00000000000006FD
+t1339379962
+s1789
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004FD550FA0000000000001226
+t1339379962
+s4646
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004FD550FA00000000000016BE
+t1339379962
+s5822
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004FD550FE000000000000CEAD
+t1339379966
+s52909
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004FD550FE0000000000007683
+t1339379966
+s30339
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004FD550FE0000000000003741
+t1339379966
+s14145
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies790493898b85b541^483693898b85b541^---0#1#0#--18"Check dependencies36"699569AE-AED5-4A33-83D6-2F10EE41EAD3-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073493.430732
+e361073496.070736
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp52636e558b85b541^763412588b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp0000000000000000^3277"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibinit.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o36"A85BF456-26C6-4F4B-8B42-52DDCB51A7A7-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073493.431003
+e361073498.534539
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp29786e558b85b541^95d5885a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp0000000000000000^3289"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/calibration.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o36"C3F56094-95F8-47A7-AD35-4F159527FD98-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073493.431034
+e361073495.270196
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cppb37b6e558b85b541^b72a45578b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp0000000000000000^3313"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/checkchessboard.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o36"9DD350D7-D92C-46AE-A83E-968376A1F9ED-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073493.431695
+e361073498.512240
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp42996e558b85b541^9620835a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp0000000000000000^3289"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/circlesgrid.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o36"C4F617A2-3B2A-4AC8-9A97-04D1020CD171-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073494.930903
+e361073496.753433
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cppb77eee568b85b541^22e0c0588b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp0000000000000000^3247"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/epnp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o36"FD7FA8FB-3E00-4A82-999F-2302132E5D42-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073495.016319
+e361073497.353650
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cppc05b04578b85b541^c8995a598b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp0000000000000000^3259"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/fundam.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o36"A0F4797E-3A27-4FD3-A659-0B6E79CA9869-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073495.271559
+e361073497.133197
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp6cb345578b85b541^161822598b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp0000000000000000^3271"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/modelest.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o36"E60F0CAC-0215-4E01-B2F3-639F9DB867B2-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073495.600356
+e361073497.283701
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp65df99578b85b541^f99f48598b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp0000000000000000^3241"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/p3p.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o36"C283CD4D-8E79-4780-97A4-85BFE309BB95-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073496.011383
+e361073497.564798
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp651803588b85b541^f79490598b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp0000000000000000^3307"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/polynom_solver.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o36"092EE07D-ECF5-46A1-9807-13ECBC8A3746-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073496.097162
+e361073497.709600
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cppe90f19588b85b541^b5a6b5598b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp0000000000000000^3253"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/posit.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o36"6A2F8F44-4017-4E41-A057-B20AFF3E5228-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073496.756035
+e361073498.293316
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cppc7bdc1588b85b541^a8564b5a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp0000000000000000^3265"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/precomp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o36"16AA89D0-26F7-41B7-AB2E-D891DEF7F3F1-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073497.134596
+e361073498.926605
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp27a322598b85b541^a14aed5a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp0000000000000000^3283"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/quadsubpix.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o36"CB172D7C-7E5F-40AE-8BA4-D0A05AA8AE51-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073497.285043
+e361073499.084386
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cppa62649598b85b541^8d98155b8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp0000000000000000^3271"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/solvepnp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o36"D11FDDB2-D450-405E-AFCD-1AAF0B300DB9-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073497.355000
+e361073498.962235
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp49135b598b85b541^5871f65a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp0000000000000000^3271"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereobm.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o36"560C3D2D-DBDB-4186-8343-8BB9F3D6B3E9-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073497.566160
+e361073498.997113
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cppa31f91598b85b541^7d41ff5a8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp0000000000000000^3283"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/stereosgbm.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o36"C331C972-CA32-4EDF-AA24-32BEBC5DD3D8-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073497.710940
+e361073499.137711
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cppa52db6598b85b541^b83f235b8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp0000000000000000^3289"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/src/triangulate.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o36"0C246414-5315-4C12-AE78-A08D2EAD05EB-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a normal armv7
+s361073499.145603
+e361073499.168922
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a normal armv7ac57255b8b85b541^753f2b5b8b85b541^-272"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1023"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a36"FA7B0BF6-4058-4C03-B4E4-7ADFEA0F78ED-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
+s361073545.603366
+e361073545.627421
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7408a9a898b85b541^849fa0898b85b541^-272"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1071"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"DA7CC603-0244-4753-98D1-DAC1782273A9-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh
+s361073545.636335
+e361073545.670330
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'554ea3898b85b541^bf9aab898b85b541^-808"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073545#0#30#-0#-----2@23"Depend check for xcode-361073545#30#23#-0#-----2@259"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-361073545#53#259#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-361073545#312#68#-0#-----2@30"echo "Depend check for xcode"-361073545#380#30#-0#-----2@23"Depend check for xcode-361073545#410#23#-0#-----2@307"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-361073545#433#307#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-361073545#740#68#-0#-----0#0#0#--430"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-EDCE3F733F2E412E8EED8055.sh36"C59156FE-8E2F-4758-8478-3ACC5609B3C2-
+
+CSetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s361073545.754683
+e361073545.758682
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.acb4cc1898b85b541^8239c2898b85b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^568"SetMode u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"81A41AA7-E871-4931-BC90-87A2DF3C60EB-
+
+CSetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s361073545.739602
+e361073545.746137
+r1
+xSetOwnerAndGroup
+xMSAlshair:staff
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"SetOwnerAndGroup MSAlshair:staff /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.ad271bd898b85b541^c502bf898b85b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^590"SetOwnerAndGroup "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/sbin/chown -RH "MSAlshair:staff" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"5EAF9386-3B2E-44A5-97EB-E8E80E935AB4-
+
+CStripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s361073545.678095
+e361073545.730630
+r1
+xStripping
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.acaa9ad898b85b541^700abb898b85b541^-246"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^623"Stripping /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"4A037F75-9CBB-42AF-846B-292FEC0E647D-
+
+CSymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s361073545.578764
+e361073545.583220
+r1
+xSymLink
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Process /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a464194898b85b541^b64d95898b85b541^---0#0#0#--715"SymLink /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /bin/ln -sf /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/calib3d/UninstalledProducts/libopencv_calib3d.a /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_calib3d.a36"FFC8CB01-D463-45B6-A138-E40CAAC13EAA-
+

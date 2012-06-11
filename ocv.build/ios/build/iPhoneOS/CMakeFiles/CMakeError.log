@@ -1,0 +1,171 @@
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1055214436 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1055214436 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:44.700 xcodebuild[523:3a0b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x400a14fa0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:44.703 xcodebuild[523:3a0b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1900850844 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1900850844 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:45.320 xcodebuild[528:3a0b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x40073e140 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:45.321 xcodebuild[528:3a0b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1202874596 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1202874596 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:45.975 xcodebuild[533:360b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x4009bbe80 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:45.976 xcodebuild[533:360b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1338603525 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec1338603525 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:46.641 xcodebuild[538:3a0b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x40073eb40 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:46.642 xcodebuild[538:3a0b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CheckTypeSize/OFF64_T.c:
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec4043314379 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec4043314379 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:47.133 xcodebuild[543:370b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x40040e9a0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:47.135 xcodebuild[543:370b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-8.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2608343620 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2608343620 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+2012-06-10 21:10:47.584 xcodebuild[548:360b] error: Error Domain=NSPOSIXErrorDomain Code=2 "Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1" UserInfo=0x400e413c0 {NSLocalizedDescription=Non-zero exit code 127 returned from shell command: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1, NSLocalizedFailureReason=No such file or directory}
+2012-06-10 21:10:47.585 xcodebuild[548:360b] Warning:  Couldn't discover the 'gcc-4.2' compiler's built-in search paths and preprocessor definitions for language dialect 'c'.
+Compiler: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2
+Reason:   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -v -E -dM -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -x c -c /dev/null 2>&1
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+Unsupported compiler 'GCC 4.2' selected for architecture 'armv7'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+

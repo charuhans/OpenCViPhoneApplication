@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh
+c000000004FD553A900000000000000CB
+t1339380649
+s203
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies28b8a0298b85b541^d465a1298b85b541^---0#1#0#--18"Check dependencies36"D193D848-20AB-44F7-97EF-B61E044FE7D1-
+
+CPhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh
+s361073449.667999
+e361073449.908949
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh
+oecho ""
+o
+omake -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'dba7ab298b85b541^60afe8298b85b541^-158"echo ""make -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361073449#0#8#-0#-----2@94"make -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/ReRunCMake.make-361073449#9#94#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361073449#103#55#-0#-----0#0#0#--380"PhaseScriptExecution "CMake Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-36255FDDCC5F4AE8A7BDB706.sh36"F02D0AFA-57D3-4F8B-A47D-2847FB82D10A-
+

@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              EAC6468D3164412CBA53CC24 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = E62CA6C7ABDA48EDB8DD9317 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            9A72550613BE466EAC0C1DDA /* CMake Rules */,
+                     );
+                     dependencies = (
+                            42B4EB8AD75648DFBC23CBE3 /* PBXTargetDependency */,
+                            9229E390A8A44CD092B2C80C /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D7F5D118CBCE4464B206D677 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 95D3A5723A48494D8FB95B39 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            22E9BE227E514E46A72A6BEA /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              8FF0C32AD9C64F8E88741277 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 49F2FDEBD62347DABE6D0284 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            B33F3F8615B34DBB931A69CE /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            7E514369A6CF4D1198BB73A4 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+A845926ADBE44E3896F33D83 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp */ = {isa = PBXBuildFile; fileRef = C02ADE1E005F4D42BEF8D5C1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B098EB4407384B08AF767927 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.cpp */ = {isa = PBXBuildFile; fileRef = FC938789A38647319AE0733B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+18AE2BAD61A04FE0BE7A0104 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/datamatrix.cpp */ = {isa = PBXBuildFile; fileRef = 3932233A276647C289F3F2F2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/datamatrix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A59ABB0BCF994683A8DAA471 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/distancetransform.cpp */ = {isa = PBXBuildFile; fileRef = EEBE07043EC540B3B9D4DFE3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/distancetransform.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+351AC98F952246AC903AD884 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/featurepyramid.cpp */ = {isa = PBXBuildFile; fileRef = 01AC081EBDF24E1A9327F634 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/featurepyramid.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6289DE619AB14094A38DAE46 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/fft.cpp */ = {isa = PBXBuildFile; fileRef = C69F4AECF164455EB65B0805 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/fft.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C9AE958AD2FC4821A98362AA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/haar.cpp */ = {isa = PBXBuildFile; fileRef = 6923A7CC61B84764A26ADFC8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/haar.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9F2F189812D647BEB54C8A24 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/hog.cpp */ = {isa = PBXBuildFile; fileRef = A15AAFECA05A4954AC7A2C87 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/hog.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+84E95B6A6CD144D99DDCE104 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvm.cpp */ = {isa = PBXBuildFile; fileRef = ACE4B8DBA7EB4EE69500422F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+76C0810EF95F42339BB6A49F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvmdetector.cpp */ = {isa = PBXBuildFile; fileRef = C65929F240D141A5917BC0C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvmdetector.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7472D0AA86B14514BC368149 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/linemod.cpp */ = {isa = PBXBuildFile; fileRef = C4B00259064A4F428395DB43 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/linemod.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+212F6EC7A3EC48F6814C617A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmparser.cpp */ = {isa = PBXBuildFile; fileRef = 6E81040EB99F4D7FAFB0AA04 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmparser.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B1E386CB18334A7F83EA337C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmtbbversion.cpp */ = {isa = PBXBuildFile; fileRef = 0782D626CAA04F9892EF2048 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmtbbversion.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7487C3CD215D4DF99A46E10F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/matching.cpp */ = {isa = PBXBuildFile; fileRef = 9DBCAE9A70264DBFA1761AC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/matching.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7AB88CA747BF4002857F7AAD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/objdetect_init.cpp */ = {isa = PBXBuildFile; fileRef = CADC89D9F7C947B99CC051C8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/objdetect_init.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3AE29C27334844E993B6A266 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = E915AFF0CBB1408FBBAE41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+14CB2B373C514956B6CD31AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/resizeimg.cpp */ = {isa = PBXBuildFile; fileRef = C4FF4CB80C3D441D9BFCBB0F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/resizeimg.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+25473DE7B81E43ADB8348283 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/routine.cpp */ = {isa = PBXBuildFile; fileRef = 55F43770C7254DF9BCCE9ABD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/routine.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9FD9FFDD5A8A4BC0A05D53B2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.hpp */ = {isa = PBXBuildFile; fileRef = 57B43B5901584C01B2ED6467 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C38062E036F84F1986BCE63F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 655F6966E05D41369923EAE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E59A8B1CDE184E47BC8E2C8D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_latentsvm.h */ = {isa = PBXBuildFile; fileRef = 6A3731631F0D4D1A94DE3C70 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_latentsvm.h */; settings = { COMPILER_FLAGS = ""; }; };
+20417097DCF9486885A0D8D3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_distancetransform.h */ = {isa = PBXBuildFile; fileRef = 09D4BCF5809B4CDC82D1D83E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_distancetransform.h */; settings = { COMPILER_FLAGS = ""; }; };
+B8E42024F9D0401686D37C17 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_error.h */ = {isa = PBXBuildFile; fileRef = A371C5E99FF641E2B23EF9A9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_error.h */; settings = { COMPILER_FLAGS = ""; }; };
+D22E6245E43B43D987D06621 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_fft.h */ = {isa = PBXBuildFile; fileRef = 2F8D5C0F95AF4BE4BBAE1778 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_fft.h */; settings = { COMPILER_FLAGS = ""; }; };
+9BA7742C32B04493AD54AC99 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_matching.h */ = {isa = PBXBuildFile; fileRef = FE51024AA46F423DB925A2A8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_matching.h */; settings = { COMPILER_FLAGS = ""; }; };
+5A4AAFF1E97F4BE7B198E23E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_resizeimg.h */ = {isa = PBXBuildFile; fileRef = C1587DE26CAF474CBF6D3ED9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_resizeimg.h */; settings = { COMPILER_FLAGS = ""; }; };
+D172F8596C9544C2A1C54A96 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_routine.h */ = {isa = PBXBuildFile; fileRef = 9EB76520223140D28EFE01B1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_routine.h */; settings = { COMPILER_FLAGS = ""; }; };
+08ADC4202CDF4DF986399F87 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_tbbversion.h */ = {isa = PBXBuildFile; fileRef = D4B38E7008224D718B99E898 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_tbbversion.h */; settings = { COMPILER_FLAGS = ""; }; };
+7CEE78E98C7C4AA69EFEF82E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_types.h */ = {isa = PBXBuildFile; fileRef = FCF66E388CEF40A7B65FE7BF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_types.h */; settings = { COMPILER_FLAGS = ""; }; };
+AECEE4B270334AFABBABDA72 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvmparser.h */ = {isa = PBXBuildFile; fileRef = 2F5FC7B33C7046399D90EF0D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvmparser.h */; settings = { COMPILER_FLAGS = ""; }; };
+E42337A287F747F0B0DF4F4B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E1E6431961314A82998F74C6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D28AEFAB995748129F7BF547 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              4F610A6DFAB441E3B9A68995 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              535D2F5B59B14EF2B9897532 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              71906CDF96CB4A16A28E3E11 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 903C10DEB19145E4B642F0EF /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D7F5D118CBCE4464B206D677;
+                     remoteInfo = ZERO_CHECK;
+              };
+              F8DA51D550E946EAA290F6A5 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 903C10DEB19145E4B642F0EF /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E5144198752143F8BCB80BA9;
+                     remoteInfo = opencv_objdetect;
+              };
+              A1D8849E45A0485A8D0A4062 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 903C10DEB19145E4B642F0EF /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = EAC6468D3164412CBA53CC24;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+E1E6431961314A82998F74C6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+C02ADE1E005F4D42BEF8D5C1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "objdetect.hpp"; path = "include/opencv2/objdetect/objdetect.hpp"; sourceTree = SOURCE_ROOT; };
+FC938789A38647319AE0733B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cascadedetect.cpp"; path = "src/cascadedetect.cpp"; sourceTree = SOURCE_ROOT; };
+3932233A276647C289F3F2F2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/datamatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "datamatrix.cpp"; path = "src/datamatrix.cpp"; sourceTree = SOURCE_ROOT; };
+EEBE07043EC540B3B9D4DFE3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/distancetransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "distancetransform.cpp"; path = "src/distancetransform.cpp"; sourceTree = SOURCE_ROOT; };
+01AC081EBDF24E1A9327F634 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/featurepyramid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "featurepyramid.cpp"; path = "src/featurepyramid.cpp"; sourceTree = SOURCE_ROOT; };
+C69F4AECF164455EB65B0805 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fft.cpp"; path = "src/fft.cpp"; sourceTree = SOURCE_ROOT; };
+6923A7CC61B84764A26ADFC8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/haar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "haar.cpp"; path = "src/haar.cpp"; sourceTree = SOURCE_ROOT; };
+A15AAFECA05A4954AC7A2C87 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/hog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hog.cpp"; path = "src/hog.cpp"; sourceTree = SOURCE_ROOT; };
+ACE4B8DBA7EB4EE69500422F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "latentsvm.cpp"; path = "src/latentsvm.cpp"; sourceTree = SOURCE_ROOT; };
+C65929F240D141A5917BC0C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvmdetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "latentsvmdetector.cpp"; path = "src/latentsvmdetector.cpp"; sourceTree = SOURCE_ROOT; };
+C4B00259064A4F428395DB43 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/linemod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "linemod.cpp"; path = "src/linemod.cpp"; sourceTree = SOURCE_ROOT; };
+6E81040EB99F4D7FAFB0AA04 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lsvmparser.cpp"; path = "src/lsvmparser.cpp"; sourceTree = SOURCE_ROOT; };
+0782D626CAA04F9892EF2048 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmtbbversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lsvmtbbversion.cpp"; path = "src/lsvmtbbversion.cpp"; sourceTree = SOURCE_ROOT; };
+9DBCAE9A70264DBFA1761AC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matching.cpp"; path = "src/matching.cpp"; sourceTree = SOURCE_ROOT; };
+CADC89D9F7C947B99CC051C8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/objdetect_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "objdetect_init.cpp"; path = "src/objdetect_init.cpp"; sourceTree = SOURCE_ROOT; };
+E915AFF0CBB1408FBBAE41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+C4FF4CB80C3D441D9BFCBB0F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/resizeimg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "resizeimg.cpp"; path = "src/resizeimg.cpp"; sourceTree = SOURCE_ROOT; };
+55F43770C7254DF9BCCE9ABD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/routine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "routine.cpp"; path = "src/routine.cpp"; sourceTree = SOURCE_ROOT; };
+57B43B5901584C01B2ED6467 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "cascadedetect.hpp"; path = "src/cascadedetect.hpp"; sourceTree = SOURCE_ROOT; };
+655F6966E05D41369923EAE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+6A3731631F0D4D1A94DE3C70 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_latentsvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_latentsvm.h"; path = "src/_latentsvm.h"; sourceTree = SOURCE_ROOT; };
+09D4BCF5809B4CDC82D1D83E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_distancetransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_distancetransform.h"; path = "src/_lsvm_distancetransform.h"; sourceTree = SOURCE_ROOT; };
+A371C5E99FF641E2B23EF9A9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_error.h"; path = "src/_lsvm_error.h"; sourceTree = SOURCE_ROOT; };
+2F8D5C0F95AF4BE4BBAE1778 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_fft.h"; path = "src/_lsvm_fft.h"; sourceTree = SOURCE_ROOT; };
+FE51024AA46F423DB925A2A8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_matching.h"; path = "src/_lsvm_matching.h"; sourceTree = SOURCE_ROOT; };
+C1587DE26CAF474CBF6D3ED9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_resizeimg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_resizeimg.h"; path = "src/_lsvm_resizeimg.h"; sourceTree = SOURCE_ROOT; };
+9EB76520223140D28EFE01B1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_routine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_routine.h"; path = "src/_lsvm_routine.h"; sourceTree = SOURCE_ROOT; };
+D4B38E7008224D718B99E898 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_tbbversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_tbbversion.h"; path = "src/_lsvm_tbbversion.h"; sourceTree = SOURCE_ROOT; };
+FCF66E388CEF40A7B65FE7BF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvm_types.h"; path = "src/_lsvm_types.h"; sourceTree = SOURCE_ROOT; };
+2F5FC7B33C7046399D90EF0D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvmparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_lsvmparser.h"; path = "src/_lsvmparser.h"; sourceTree = SOURCE_ROOT; };
+C7A46D4B81F544DF9F588984 /* opencv_objdetect */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_objdetect.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              153D68991518439CA97B77D7  = {
+                     isa = PBXGroup;
+                     children = (
+                            4BA167A3400B46978FE80445 /* Sources */,
+                            7B25101DD38449BFA9EE8B44 /* Resources */,
+                            7FE57EC9C9F849E7958F52F9 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              4BA167A3400B46978FE80445 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6DA7AF865B3B42CE967CAF1B /* ALL_BUILD */,
+                            DD5D87D66ABD4317A0EC275A /* ZERO_CHECK */,
+                            3F66BB2447ED4988B0CA38AF /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              7B25101DD38449BFA9EE8B44 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              6DA7AF865B3B42CE967CAF1B /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            D551F1AD467C41BDBD8DFE71 /* CMake Rules */,
+                            E1E6431961314A82998F74C6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              D551F1AD467C41BDBD8DFE71 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              DD5D87D66ABD4317A0EC275A /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            68333BD9AC0B4855B4BAF351 /* CMake Rules */,
+                            E1E6431961314A82998F74C6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              68333BD9AC0B4855B4BAF351 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              3F66BB2447ED4988B0CA38AF /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            829C9D1E56254D0C93CD79AE /* opencv_objdetect */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              829C9D1E56254D0C93CD79AE /* opencv_objdetect */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3738C450AFCA4728B848ECBB /* Include */,
+                            7F6F0F8A85B1457E9AE444D1 /* Src */,
+                            E1E6431961314A82998F74C6 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/CMakeLists.txt */,
+                     );
+                     name = opencv_objdetect;
+                     sourceTree = "<group>";
+              };
+              3738C450AFCA4728B848ECBB /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C02ADE1E005F4D42BEF8D5C1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              7F6F0F8A85B1457E9AE444D1 /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FC938789A38647319AE0733B /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.cpp */,
+                            3932233A276647C289F3F2F2 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/datamatrix.cpp */,
+                            EEBE07043EC540B3B9D4DFE3 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/distancetransform.cpp */,
+                            01AC081EBDF24E1A9327F634 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/featurepyramid.cpp */,
+                            C69F4AECF164455EB65B0805 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/fft.cpp */,
+                            6923A7CC61B84764A26ADFC8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/haar.cpp */,
+                            A15AAFECA05A4954AC7A2C87 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/hog.cpp */,
+                            ACE4B8DBA7EB4EE69500422F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvm.cpp */,
+                            C65929F240D141A5917BC0C4 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvmdetector.cpp */,
+                            C4B00259064A4F428395DB43 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/linemod.cpp */,
+                            6E81040EB99F4D7FAFB0AA04 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmparser.cpp */,
+                            0782D626CAA04F9892EF2048 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmtbbversion.cpp */,
+                            9DBCAE9A70264DBFA1761AC9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/matching.cpp */,
+                            CADC89D9F7C947B99CC051C8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/objdetect_init.cpp */,
+                            E915AFF0CBB1408FBBAE41FC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.cpp */,
+                            C4FF4CB80C3D441D9BFCBB0F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/resizeimg.cpp */,
+                            55F43770C7254DF9BCCE9ABD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/routine.cpp */,
+                            57B43B5901584C01B2ED6467 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.hpp */,
+                            655F6966E05D41369923EAE9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.hpp */,
+                            6A3731631F0D4D1A94DE3C70 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_latentsvm.h */,
+                            09D4BCF5809B4CDC82D1D83E /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_distancetransform.h */,
+                            A371C5E99FF641E2B23EF9A9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_error.h */,
+                            2F8D5C0F95AF4BE4BBAE1778 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_fft.h */,
+                            FE51024AA46F423DB925A2A8 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_matching.h */,
+                            C1587DE26CAF474CBF6D3ED9 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_resizeimg.h */,
+                            9EB76520223140D28EFE01B1 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_routine.h */,
+                            D4B38E7008224D718B99E898 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_tbbversion.h */,
+                            FCF66E388CEF40A7B65FE7BF /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvm_types.h */,
+                            2F5FC7B33C7046399D90EF0D /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/_lsvmparser.h */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              7FE57EC9C9F849E7958F52F9 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C7A46D4B81F544DF9F588984 /* opencv_objdetect */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E5144198752143F8BCB80BA9 /* opencv_objdetect */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 67CA5E50FAD84C638172ABEB /* Build configuration list for PBXNativeTarget "opencv_objdetect" */;
+                     buildPhases = (
+                            2AFB7238AE15471FB63F5603 /* Sources */,
+                            E0A5EC4F71044912B6200E54 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            42B4EB8AD75648DFBC23CBE3 /* PBXTargetDependency */,
+                     );
+                     name = opencv_objdetect;
+                     productName = opencv_objdetect;
+                     productReference = C7A46D4B81F544DF9F588984 /* opencv_objdetect */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              903C10DEB19145E4B642F0EF /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 53195E3C0F2D430CAB51604E /* Build configuration list for PBXProject  "opencv_objdetect" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            4F610A6DFAB441E3B9A68995 /* Debug */,
+                            535D2F5B59B14EF2B9897532 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 153D68991518439CA97B77D7;
+                     projectDirPath = /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect;
+                     projectRoot = "";
+                     targets = (
+                            EAC6468D3164412CBA53CC24 /* ALL_BUILD */,
+                            D7F5D118CBCE4464B206D677 /* ZERO_CHECK */,
+                            8FF0C32AD9C64F8E88741277 /* install */,
+                            E5144198752143F8BCB80BA9 /* opencv_objdetect */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              FD74809E861A428CA0CA0C62 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              9A72550613BE466EAC0C1DDA /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FBB637E36D674BBF8C963EA5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              22E9BE227E514E46A72A6BEA /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8ECABCCACE56437CACDED0CA /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              B33F3F8615B34DBB931A69CE /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E0A5EC4F71044912B6200E54 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/CMakeScripts/opencv_objdetect_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2AFB7238AE15471FB63F5603 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B098EB4407384B08AF767927 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/cascadedetect.cpp */,
+                            18AE2BAD61A04FE0BE7A0104 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/datamatrix.cpp */,
+                            A59ABB0BCF994683A8DAA471 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/distancetransform.cpp */,
+                            351AC98F952246AC903AD884 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/featurepyramid.cpp */,
+                            6289DE619AB14094A38DAE46 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/fft.cpp */,
+                            C9AE958AD2FC4821A98362AA /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/haar.cpp */,
+                            9F2F189812D647BEB54C8A24 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/hog.cpp */,
+                            84E95B6A6CD144D99DDCE104 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvm.cpp */,
+                            76C0810EF95F42339BB6A49F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/latentsvmdetector.cpp */,
+                            7472D0AA86B14514BC368149 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/linemod.cpp */,
+                            212F6EC7A3EC48F6814C617A /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmparser.cpp */,
+                            B1E386CB18334A7F83EA337C /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/lsvmtbbversion.cpp */,
+                            7487C3CD215D4DF99A46E10F /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/matching.cpp */,
+                            7AB88CA747BF4002857F7AAD /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/objdetect_init.cpp */,
+                            3AE29C27334844E993B6A266 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/precomp.cpp */,
+                            14CB2B373C514956B6CD31AC /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/resizeimg.cpp */,
+                            25473DE7B81E43ADB8348283 /* /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src/routine.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              42B4EB8AD75648DFBC23CBE3 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D7F5D118CBCE4464B206D677 /* ZERO_CHECK */;
+                     targetProxy = 71906CDF96CB4A16A28E3E11 /* PBXContainerItemProxy */;
+              };
+              9229E390A8A44CD092B2C80C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E5144198752143F8BCB80BA9 /* opencv_objdetect */;
+                     targetProxy = F8DA51D550E946EAA290F6A5 /* PBXContainerItemProxy */;
+              };
+              7E514369A6CF4D1198BB73A4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = EAC6468D3164412CBA53CC24 /* ALL_BUILD */;
+                     targetProxy = A1D8849E45A0485A8D0A4062 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              E39791B652304F20B6765B4D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/build;
+                     };
+                     name = Debug;
+              };
+              C3AFBDCE8C034C7B946175BB /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect/build;
+                     };
+                     name = Release;
+              };
+              7B16F4D6015344EF81E884F2 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EA0B7308C686468B883201AA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A66DEBC76750427A9EA41F1B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              70B83AF1EF7B42D0983AC420 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3B6F3EDF391C43128329A84E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6C896D9A299141469C099B58 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2BFE279160784A1FBEC92B96 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Debug;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_objdetect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              48F90D3DE5FB4B73AF1877EC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/lib/Release;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/src, /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/objdetect/include, /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "      ";
+                            OTHER_CPLUSPLUSFLAGS = "-headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_objdetect;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneSimulator/modules/objdetect;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              53195E3C0F2D430CAB51604E /* Build configuration list for PBXProject  "opencv_objdetect" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E39791B652304F20B6765B4D /* Debug */,
+                            C3AFBDCE8C034C7B946175BB /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E62CA6C7ABDA48EDB8DD9317 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7B16F4D6015344EF81E884F2 /* Debug */,
+                            EA0B7308C686468B883201AA /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              95D3A5723A48494D8FB95B39 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A66DEBC76750427A9EA41F1B /* Debug */,
+                            70B83AF1EF7B42D0983AC420 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              49F2FDEBD62347DABE6D0284 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3B6F3EDF391C43128329A84E /* Debug */,
+                            6C896D9A299141469C099B58 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              67CA5E50FAD84C638172ABEB /* Build configuration list for PBXNativeTarget "opencv_objdetect" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2BFE279160784A1FBEC92B96 /* Debug */,
+                            48F90D3DE5FB4B73AF1877EC /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 903C10DEB19145E4B642F0EF;
+}

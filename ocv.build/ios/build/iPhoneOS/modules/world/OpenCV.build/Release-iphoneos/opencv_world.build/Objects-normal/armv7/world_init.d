@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/world/src/world_init.cpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/world/src/precomp.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/opencv2/opencv_modules.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/nonfree/include/opencv2/nonfree/nonfree.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/nonfree/include/opencv2/nonfree/features2d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/ml/include/opencv2/ml/ml.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/world/include/opencv2/world/world.hpp

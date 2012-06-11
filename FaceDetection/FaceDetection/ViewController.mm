@@ -16,11 +16,18 @@
 @end
 
 @implementation ViewController
+
+#pragma mark - 
+#pragma mark Properties
 @synthesize imageView;
 @synthesize loadButton;
 @synthesize faceButton;
+@synthesize cameraButton;
 @synthesize fileName;
 
+
+#pragma mark - 
+#pragma mark Managing Views
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -32,35 +39,41 @@
     [self setImageView:nil];
     [self setLoadButton:nil];
     [self setFaceButton:nil];
+    [self setCameraButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
 
--(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)image editingInfo:(NSDictionary *)editingInfo
-{
-    [picker dismissModalViewControllerAnimated:YES];
+#pragma mark - 
+#pragma mark Picker View
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+	[picker dismissModalViewControllerAnimated:YES];
+	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"]; 
+    // image = [UIImageCVMatConverter scaleAndRotateImage:image];
     imageView.image = image;
-
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     [picker dismissModalViewControllerAnimated:YES];
 }
+#pragma mark - 
+#pragma mark Face Detection
 -(UIImage*)detect_and_draw:(UIImage* )inputImage
 {
     int scale = 2;
-    cv::Size minSize = cvSize(20, 20);
+    cv::Size minSize = cvSize(30, 30);
     float haarScale = 1.2f;
     int minNeighbors = 2;
     int haarFlags = CV_HAAR_DO_CANNY_PRUNING;
     cv::Mat cvMat =[UIImageCVMatConverter cvMatFromUIImage:inputImage];
     cv::Mat grayMat;
+    
     if(cvMat.channels() == 1)
         grayMat = cvMat;
     else{
@@ -98,6 +111,7 @@
     
     CGContextDrawImage(contextRef, CGRectMake(0, 0, cols, rows), imageView.image.CGImage);
     CGContextSetRGBStrokeColor(contextRef, 1, 0, 0, 1);
+     CGContextSetLineWidth(contextRef, 5.0);
     
     // for each face found, draw a box
     for(int i = 0 ; i < ( faces ? faces->total : 0 ) ; i++ )
@@ -120,10 +134,15 @@
     return faceImage;
 
 }
+#pragma mark - 
+#pragma mark Button Action
 - (IBAction)loadImageFromPhotoLibrary:(id)sender
 {
     UIImagePickerController * picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
+    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypePhotoLibrary]) {
+        return;
+    }
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     [self presentModalViewController:picker animated:YES]; 
      
@@ -134,6 +153,17 @@
     if (face != nil) {
         imageView.image = face;
     }
+}
+- (IBAction)loadImageFromCamera:(id)sender
+{
+    UIImagePickerController * picker = [[UIImagePickerController alloc] init];
+	picker.delegate = self;
+    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        return;
+    }
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [self presentModalViewController:picker animated:YES];
+    
 }
 
 @end

@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/motion_stabilizing.cpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/precomp.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/cvconfig.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/version.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/operations.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/mat.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include/opencv2/core/core_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/video.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/tracking.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/video/include/opencv2/video/background_segm.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/miniflann.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/defines.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/flann/include/opencv2/flann/config.h \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/opencv2/opencv_modules.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp \
+  /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/videostab/src/clp.hpp

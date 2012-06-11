@@ -1,0 +1,648 @@
+Topencv_core
+v5
+r1
+cCheck dependencies
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opencv_core.LinkFileList
+c000000004FD553AA0000000000000DEF
+t1339380650
+s3567
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o
+t2
+s0
+
+N/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh
+c000000004FD553AA00000000000000E0
+t1339380650
+s224
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp
+c000000004FD550F000000000000057AC
+t1339379952
+s22444
+i"precomp.hpp"
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp
+c000000004FD550F00000000000004B7C
+t1339379952
+s19324
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp
+c000000004FD550F00000000000018CD7
+t1339379952
+s101591
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp
+c000000004FD550F00000000000014FFF
+t1339379952
+s86015
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp
+c000000004FD550F00000000000002D5F
+t1339379952
+s11615
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp
+c000000004FD550F0000000000000A82E
+t1339379952
+s43054
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp
+c000000004FD550F00000000000004084
+t1339379952
+s16516
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp
+c000000004FD550F0000000000001BEC2
+t1339379952
+s114370
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp
+c000000004FD550F00000000000013FC4
+t1339379952
+s81860
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp
+c000000004FD550F0000000000001757B
+t1339379952
+s95611
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp
+c000000004FD550F0000000000000E3DA
+t1339379952
+s58330
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp
+c000000004FD550F0000000000000D6FF
+t1339379952
+s55039
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp
+c000000004FD550F00000000000017CEE
+t1339379952
+s97518
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp
+c000000004FD550F0000000000001B2C0
+t1339379952
+s111296
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp
+c000000004FD550F00000000000009B68
+t1339379952
+s39784
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp
+c000000004FD550F0000000000001C036
+t1339379952
+s114742
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp
+c000000004FD550F00000000000009A76
+t1339379952
+s39542
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp
+c000000004FD550F00000000000002436
+t1339379952
+s9270
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp
+c000000004FD550F000000000000283E0
+t1339379952
+s164832
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp
+c000000004FD550F00000000000000898
+t1339379952
+s2200
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.hpp
+c000000004FD550F00000000000001B49
+t1339379952
+s6985
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp
+c000000004FD550F000000000000084D7
+t1339379952
+s34007
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp
+c000000004FD550F0000000000000F831
+t1339379952
+s63537
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp
+c000000004FD550F00000000000005C32
+t1339379952
+s23602
+
+N/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp
+c000000004FD550F0000000000001B36B
+t1339379952
+s111467
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6519762a8b85b541^cec6762a8b85b541^---0#1#0#--18"Check dependencies36"27627EEB-8FF2-44B4-BFFB-6B27BACF63D1-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.468377
+e361073453.185366
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cppd029782a8b85b541^3f722f2d8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp0000000000000000^3078"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o modules/core/src/algorithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/algorithm.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/algorithm.o36"80DA3067-45B3-43C5-8F34-78723183DCA8-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.468384
+e361073452.118395
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp9832782a8b85b541^904d1e2c8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp0000000000000000^3054"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o modules/core/src/alloc.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/alloc.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/alloc.o36"DE2EB6A4-0A0C-4C74-A509-D026AB4D4DF8-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.468399
+e361073454.233760
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cppf609782a8b85b541^40333c2e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o modules/core/src/arithm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/arithm.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/arithm.o36"4120CB3A-2272-40A3-9FA5-94500ABE8E2A-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.469062
+e361073454.207434
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp2e3b782a8b85b541^d218352e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp0000000000000000^3054"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o modules/core/src/array.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/array.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/array.o36"C06E92D2-64C8-4F6A-B0FD-6AE1EBD0BE76-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.469081
+e361073452.829911
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+o/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp:10:6: warning: unused function 'helpParser' [-Wunused-function]
+ovoid helpParser()
+o     ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cppd13c782a8b85b541^de73d42c8b85b541^-269"clang: warning: argument unused during compilation: '-headerpad_max_install_names'/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp:10:6: warning: unused function 'helpParser' [-Wunused-function]void helpParser()     ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"Unused function 'helpParser'-361073452#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp0000000000000000^9#5#9#5#123#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp0000000000000000^3078"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o modules/core/src/cmdparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/cmdparser.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/cmdparser.o36"1C683E69-D7BA-4404-AC72-AEE5B8DB4DB8-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.469806
+e361073453.718769
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp0b62782a8b85b541^7affb72d8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp0000000000000000^3066"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o modules/core/src/convert.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/convert.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/convert.o36"6F320092-64BE-4F06-BCF1-820C2850E251-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.470237
+e361073452.586900
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp4c89782a8b85b541^ea3c962c8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp0000000000000000^3048"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o modules/core/src/copy.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/copy.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/copy.o36"A5BD121C-8E78-4AB4-846D-AD90E854BC66-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073450.470401
+e361073454.413796
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cppff92782a8b85b541^18086a2e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp0000000000000000^3090"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o modules/core/src/datastructs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/datastructs.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/datastructs.o36"112DC7C8-CAFC-4876-9515-E07FE9461C8F-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073452.119772
+e361073455.146841
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp24d61e2c8b85b541^efa8252f8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp0000000000000000^3066"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o modules/core/src/drawing.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/drawing.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/drawing.o36"1B0EA74F-9DB8-41FA-A6F2-4EFFC2051E5E-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073452.588246
+e361073454.759399
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cppb5c4962c8b85b541^dc66c22e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp0000000000000000^3042"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o modules/core/src/dxt.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/dxt.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/dxt.o36"8396CF6F-9954-4BD0-AB99-119CCF6A81D1-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073452.831263
+e361073454.701770
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cppc1fdd42c8b85b541^37a6b32e8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o modules/core/src/gpumat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/gpumat.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/gpumat.o36"96086825-A376-4F5E-974E-8965CDF3DD0B-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073453.186761
+e361073455.943213
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp8600302d8b85b541^5d88f12f8b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o modules/core/src/lapack.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/lapack.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/lapack.o36"08983956-6B50-417F-B370-1D6F1B0AEFCB-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073453.720119
+e361073456.179949
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cppba83b82d8b85b541^172b2e308b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp0000000000000000^3078"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o modules/core/src/mathfuncs.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/mathfuncs.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/mathfuncs.o36"B0E4EF8D-14CC-4218-BE65-B6201CF28F19-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073454.208992
+e361073458.682256
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cppfab9352e8b85b541^51c0ae328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o modules/core/src/matmul.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matmul.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matmul.o36"88428BE8-A2B7-492C-9504-39F9E545CFE7-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073454.235278
+e361073457.276557
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cppaa7f3c2e8b85b541^96cb46318b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp0000000000000000^3054"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o modules/core/src/matop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matop.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matop.o36"8A545D80-0C4B-4220-9E72-0F64E6E3FF7A-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073454.416220
+e361073460.103197
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cppf5bd6a2e8b85b541^776a1a348b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o modules/core/src/matrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/matrix.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/matrix.o36"32F1F46C-AD4C-4EBB-B727-A1B6A8A54B21-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073454.703122
+e361073456.715611
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+o/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp:117:28: warning: unused function 'glFuncTab' [-Wunused-function]
+o    const CvOpenGlFuncTab* glFuncTab()
+o                           ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cppba2eb42e8b85b541^2849b7308b85b541^-318"clang: warning: argument unused during compilation: '-headerpad_max_install_names'/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp:117:28: warning: unused function 'glFuncTab' [-Wunused-function]    const CvOpenGlFuncTab* glFuncTab()                           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@27"Unused function 'glFuncTab'-361073456#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@96"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp0000000000000000^116#27#116#27#4737#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp0000000000000000^3108"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o modules/core/src/opengl_interop.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/opengl_interop.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opengl_interop.o36"308A36A4-9C1C-4926-A808-E3B8A9CB9CEC-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073454.760747
+e361073456.440801
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp95eec22e8b85b541^56d870308b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp0000000000000000^3042"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o modules/core/src/out.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/out.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/out.o36"559EFB12-6F9A-4986-B3FC-9B456653F6B6-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073455.148231
+e361073458.922181
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp1e6b262f8b85b541^0322ec328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp0000000000000000^3090"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o modules/core/src/persistence.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/persistence.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/persistence.o36"958AA6BD-08B7-451C-84B3-31AB27EA560E-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073455.944488
+e361073457.404749
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cppaef5f12f8b85b541^209c67318b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp0000000000000000^3066"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o modules/core/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/precomp.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o36"79F050F8-A7FE-4CA1-A27F-B07CF77CF756-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073456.181148
+e361073458.264310
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp378c2e308b85b541^2fa843328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp0000000000000000^3048"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o modules/core/src/rand.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/rand.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/rand.o36"B9BCC255-E157-45AE-A1FF-745A1B114CD9-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073456.442237
+e361073458.877587
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp9d6671308b85b541^bfb8e0328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp0000000000000000^3048"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o modules/core/src/stat.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/stat.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/stat.o36"186B53B9-43CB-47F9-A454-D246268B68F1-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073456.716913
+e361073458.405469
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cppbbb6b7308b85b541^60cb67328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o modules/core/src/system.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/system.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/system.o36"9C80BFD4-D532-4FC8-8518-C4B79BCA6A7A-
+
+CCompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361073457.277905
+e361073458.550346
+r1
+xCompileC
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o
+x/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp195447318b85b541^7ee28c328b85b541^-83"clang: warning: argument unused during compilation: '-headerpad_max_install_names'-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp0000000000000000^3060"CompileC /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o modules/core/src/tables.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/3rdparty/zlib -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src -I/Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/include -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources/armv7 -I/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -MMD -MT dependencies -MF /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.d --serialize-diagnostics /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.dia -c /Users/MSAlshair/Documents/Charu_GSoC/opencv/modules/core/src/tables.cpp -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/tables.o36"2D69EE83-326D-4156-B51A-86DD07803E48-
+
+CLibtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a normal armv7
+s361073460.110733
+e361073460.158780
+r1
+xLibtool
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a normal armv7596b1c348b85b541^f4a828348b85b541^-266"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1008"Libtool /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a normal armv7    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release -filelist /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Objects-normal/armv7/opencv_core.LinkFileList -o /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/lib/Release/libopencv_core.a36"CFEB4C3D-6637-41DA-8A8C-EE4F8AAA9358-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh
+s361073460.167878
+e361073460.206221
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_core.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_core.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'f6992b348b85b541^4fca34348b85b541^-787"echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Releasemake[1]: Nothing to be done for `PostBuild.opencv_core.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Releasemake[1]: Nothing to be done for `PostBuild.opencv_core.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361073460#0#30#-0#-----2@23"Depend check for xcode-361073460#30#23#-0#-----2@256"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Release-361073460#53#256#-0#-----2@65"make[1]: Nothing to be done for `PostBuild.opencv_core.Release'.-361073460#309#65#-0#-----2@30"echo "Depend check for xcode"-361073460#374#30#-0#-----2@23"Depend check for xcode-361073460#404#23#-0#-----2@295"cd /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core && make -C /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core -f /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_core.Release-361073460#427#295#-0#-----2@65"make[1]: Nothing to be done for `PostBuild.opencv_core.Release'.-361073460#722#65#-0#-----0#0#0#--418"PhaseScriptExecution "CMake PostBuild Rules" /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh    cd /Users/MSAlshair/Documents/Charu_GSoC/opencv    /bin/sh -c /Users/MSAlshair/Documents/Charu_GSoC/ios/build/iPhoneOS/modules/core/OpenCV.build/Release-iphoneos/opencv_core.build/Script-C3ACC375A97B4C1F8CED676F.sh36"93AF890C-7C59-4EB9-B499-03A161AEC8A9-
+
